@@ -20,25 +20,25 @@
       }
     },
     {   "from": [0, -16, -0.01],
-      "to": [16, 0, -0.01],
+      "to": [16, 0.02, -0.01],
       "faces": {
         "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "north" }
       }
     },
     {   "from": [0, -16, 16.01],
-      "to": [16, 0, 16.01],
+      "to": [16, 0.02, 16.01],
       "faces": {
         "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "south" }
       }
     },
     {   "from": [-0.01, -16, 0],
-      "to": [-0.01, 0, 16],
+      "to": [-0.01, 0.02, 16],
       "faces": {
         "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "west" }
       }
     },
     {   "from": [16.01, -16, 0],
-      "to": [16.01, 0, 16],
+      "to": [16.01, 0.02, 16],
       "faces": {
         "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "east" }
       }
