@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "thrivingblocks",
+	"version": "${version}",
+	"name": "Thriving Blocks",
+	"description": "Adds in practical blocks for terraforming and building. Red Mossy block textures by Ark. Dimensional Stone block textures by Wowew",
+	"authors": [
+		"Happy1speed",
+		"Wowew",
+		"Ark"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/thrivingblocks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.happyspeed.thrivingblocks.ThrivingBlocksMod"
+		],
+		"client": [
+			"net.happyspeed.thrivingblocks.ThrivingBlocksModClient"
+		],
+		"fabric-datagen": [
+			"net.happyspeed.thrivingblocks.ThrivingBlocksModDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.8",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

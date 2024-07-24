@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "thrivingblocks:block/blue_dimensional_stone_block"
+  }
+}

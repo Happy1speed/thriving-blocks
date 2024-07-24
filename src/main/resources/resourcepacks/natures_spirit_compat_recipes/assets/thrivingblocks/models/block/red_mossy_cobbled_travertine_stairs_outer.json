@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "thrivingblocks:block/red_mossy_cobbled_travertine_block",
+    "side": "thrivingblocks:block/red_mossy_cobbled_travertine_block",
+    "top": "thrivingblocks:block/red_mossy_cobbled_travertine_block"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thrivingblocks:pure_sandy_soil_block",
+    "thrivingblocks:rocky_sandy_soil_block",
+    "thrivingblocks:red_moss_grass_block",
+    "thrivingblocks:grassy_sandy_soil_block"
+  ]
+}

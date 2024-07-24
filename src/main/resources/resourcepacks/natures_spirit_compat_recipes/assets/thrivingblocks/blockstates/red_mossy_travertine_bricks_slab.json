@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thrivingblocks:block/red_mossy_travertine_bricks_slab"
+    },
+    "type=double": {
+      "model": "thrivingblocks:block/red_mossy_travertine_bricks_block"
+    },
+    "type=top": {
+      "model": "thrivingblocks:block/red_mossy_travertine_bricks_slab_top"
+    }
+  }
+}

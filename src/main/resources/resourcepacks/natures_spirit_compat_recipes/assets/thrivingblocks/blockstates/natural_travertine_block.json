@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thrivingblocks:block/natural_travertine_block"
+      },
+      {
+        "model": "thrivingblocks:block/natural_travertine_block",
+        "y": 90,
+        "x": 180
+      },
+      {
+        "model": "thrivingblocks:block/natural_travertine_block",
+        "y": 180
+      },
+      {
+        "model": "thrivingblocks:block/natural_travertine_block",
+        "y": 270,
+        "x": 180
+      }
+    ]
+  }
+}

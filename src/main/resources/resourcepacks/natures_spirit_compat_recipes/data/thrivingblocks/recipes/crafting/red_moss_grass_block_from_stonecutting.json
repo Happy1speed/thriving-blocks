@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "natures_spirit:red_moss_block"
+  },
+  "result": "thrivingblocks:red_moss_grass_block"
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thrivingblocks:block/red_moss_grass_block",
+        "y": 180
+      },
+      {
+        "model": "thrivingblocks:block/red_moss_grass_block",
+        "y": 90
+      },
+      {
+        "model": "thrivingblocks:block/red_moss_grass_block",
+        "y": 270
+      },
+      {
+        "model": "thrivingblocks:block/red_moss_grass_block"
+      }
+    ]
+  }
+}

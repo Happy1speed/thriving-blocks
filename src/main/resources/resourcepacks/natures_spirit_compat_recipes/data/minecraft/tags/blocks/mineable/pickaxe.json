@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "thrivingblocks:red_mossy_travertine_bricks_block",
+    "thrivingblocks:red_mossy_travertine_bricks_stairs",
+    "thrivingblocks:red_mossy_travertine_bricks_slab",
+    "thrivingblocks:red_mossy_travertine_bricks_wall",
+    "thrivingblocks:red_mossy_cobbled_travertine_block",
+    "thrivingblocks:red_mossy_cobbled_travertine_stairs",
+    "thrivingblocks:red_mossy_cobbled_travertine_slab",
+    "thrivingblocks:red_mossy_cobbled_travertine_wall",
+    "thrivingblocks:red_mossy_cobblestone_block",
+    "thrivingblocks:red_mossy_cobblestone_slab",
+    "thrivingblocks:red_mossy_cobblestone_stairs",
+    "thrivingblocks:red_mossy_cobblestone_wall",
+    "thrivingblocks:red_mossy_stone_bricks_block",
+    "thrivingblocks:red_mossy_stone_bricks_slab",
+    "thrivingblocks:red_mossy_stone_bricks_stairs",
+    "thrivingblocks:red_mossy_stone_bricks_wall",
+    "thrivingblocks:natural_travertine_block"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "thrivingblocks:block/red_mossy_travertine_bricks_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thrivingblocks:block/cracked_mossy_stone_bricks_slab"
+    },
+    "type=double": {
+      "model": "thrivingblocks:block/cracked_mossy_stone_bricks_block"
+    },
+    "type=top": {
+      "model": "thrivingblocks:block/cracked_mossy_stone_bricks_slab_top"
+    }
+  }
+}

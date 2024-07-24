@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thrivingblocks:block/grassy_granite",
+        "y": 180
+      },
+      {
+        "model": "thrivingblocks:block/grassy_granite",
+        "y": 90
+      },
+      {
+        "model": "thrivingblocks:block/grassy_granite",
+        "y": 270
+      },
+      {
+        "model": "thrivingblocks:block/grassy_granite"
+      }
+    ]
+  }
+}

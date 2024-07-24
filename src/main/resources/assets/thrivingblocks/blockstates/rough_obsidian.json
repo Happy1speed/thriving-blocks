@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thrivingblocks:block/rough_obsidian"
+      },
+      {
+        "model": "thrivingblocks:block/rough_obsidian",
+        "y": 90,
+        "z": 90,
+        "x": 180
+      },
+      {
+        "model": "thrivingblocks:block/rough_obsidian",
+        "y": 180,
+        "z": 180,
+        "x": 270
+      },
+      {
+        "model": "thrivingblocks:block/rough_obsidian",
+        "y": 270,
+        "z": 270,
+        "x": 90
+      }
+    ]
+  }
+}

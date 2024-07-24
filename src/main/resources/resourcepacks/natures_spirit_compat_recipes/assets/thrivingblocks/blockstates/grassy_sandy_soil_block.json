@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thrivingblocks:block/grassy_sandy_soil_block"
+      },
+      {
+        "model": "thrivingblocks:block/grassy_sandy_soil_block",
+        "y": 90
+      },
+      {
+        "model": "thrivingblocks:block/grassy_sandy_soil_block",
+        "y": 180
+      },
+      {
+        "model": "thrivingblocks:block/grassy_sandy_soil_block",
+        "y": 270
+      },
+      {
+        "model": "thrivingblocks:block/grassy_sandy_soil_block_rocks"
+      },
+      {
+        "model": "thrivingblocks:block/grassy_sandy_soil_block_rocks",
+        "y": 90
+      },
+      {
+        "model": "thrivingblocks:block/grassy_sandy_soil_block_rocks",
+        "y": 180
+      },
+      {
+        "model": "thrivingblocks:block/grassy_sandy_soil_block_rocks",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thrivingblocks:block/azure_dimensional_stone_block"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thrivingblocks:red_mossy_travertine_bricks_wall",
+    "thrivingblocks:red_mossy_stone_bricks_wall",
+    "thrivingblocks:red_mossy_cobblestone_wall",
+    "thrivingblocks:red_mossy_cobbled_travertine_wall"
+  ]
+}

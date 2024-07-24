@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "thrivingblocks:block/red_mossy_cobbled_travertine_block"
+  }
+}

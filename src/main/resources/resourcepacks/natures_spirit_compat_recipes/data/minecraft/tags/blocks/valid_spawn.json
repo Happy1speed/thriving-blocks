@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thrivingblocks:flat_red_moss_carpet",
+    "thrivingblocks:rocky_sandy_soil_block",
+    "thrivingblocks:pure_sandy_soil_block",
+    "thrivingblocks:red_moss_grass_block",
+    "thrivingblocks:grassy_sandy_soil_block"
+  ]
+}

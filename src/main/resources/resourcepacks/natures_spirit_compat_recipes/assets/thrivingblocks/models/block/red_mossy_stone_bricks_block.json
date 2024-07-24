@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "thrivingblocks:block/red_mossy_stone_bricks_block"
+  }
+}

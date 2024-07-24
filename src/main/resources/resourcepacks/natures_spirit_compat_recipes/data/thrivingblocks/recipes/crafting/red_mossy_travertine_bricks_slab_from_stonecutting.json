@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "thrivingblocks:red_mossy_travertine_bricks_block"
+  },
+  "result": "thrivingblocks:red_mossy_travertine_bricks_slab"
+}

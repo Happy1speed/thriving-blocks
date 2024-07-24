@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "thrivingblocks:rocky_sandy_soil_block",
+    "thrivingblocks:pure_sandy_soil_block",
+    "thrivingblocks:red_moss_grass_block",
+    "thrivingblocks:red_mossy_cobblestone_block",
+    "thrivingblocks:red_mossy_stone_bricks_block",
+    "thrivingblocks:red_mossy_cobbled_travertine_block",
+    "thrivingblocks:red_mossy_travertine_bricks_block",
+    "thrivingblocks:grassy_sandy_soil_block"
+  ]
+}

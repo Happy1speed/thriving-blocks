@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/bricks"
+      },
+      {
+        "model": "minecraft:block/bricks",
+        "y": 90,
+        "x": 180
+      },
+      {
+        "model": "minecraft:block/bricks",
+        "y": 180,
+        "z": 180,
+        "x": 180
+      },
+      {
+        "model": "minecraft:block/bricks",
+        "y": 270,
+        "z": 180
+      }
+    ]
+  }
+}

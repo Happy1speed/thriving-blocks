@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "thrivingblocks:block/cracked_mossy_stone_bricks_block",
+    "side": "thrivingblocks:block/cracked_mossy_stone_bricks_block",
+    "top": "thrivingblocks:block/cracked_mossy_stone_bricks_block"
+  }
+}

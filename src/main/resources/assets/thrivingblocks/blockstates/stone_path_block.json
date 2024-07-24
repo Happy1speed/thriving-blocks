@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "thrivingblocks:block/stone_path_block"
+    }
+  }
+}

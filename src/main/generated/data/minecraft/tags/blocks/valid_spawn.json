@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "thrivingblocks:full_grass_block",
+    "thrivingblocks:full_podzol_block",
+    "thrivingblocks:grassy_clay",
+    "thrivingblocks:grassy_mud",
+    "thrivingblocks:grassy_coarse_dirt",
+    "thrivingblocks:grassy_moss",
+    "thrivingblocks:sand_path",
+    "thrivingblocks:coarse_sand",
+    "thrivingblocks:grass_carpet",
+    "thrivingblocks:flat_moss_carpet",
+    "thrivingblocks:cracked_stone",
+    "thrivingblocks:crushed_deepslate",
+    "thrivingblocks:crushed_basalt",
+    "thrivingblocks:moss_grass_block",
+    "thrivingblocks:smooth_sand"
+  ]
+}

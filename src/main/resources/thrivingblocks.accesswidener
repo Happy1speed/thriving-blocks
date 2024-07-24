@@ -1,0 +1,3 @@
+accessWidener	v1	named
+accessible field net/minecraft/block/SlabBlock TOP_SHAPE Lnet/minecraft/util/shape/VoxelShape;
+accessible method net/minecraft/block/StairsBlock composeShapes (Lnet/minecraft/util/shape/VoxelShape;Lnet/minecraft/util/shape/VoxelShape;Lnet/minecraft/util/shape/VoxelShape;Lnet/minecraft/util/shape/VoxelShape;Lnet/minecraft/util/shape/VoxelShape;)[Lnet/minecraft/util/shape/VoxelShape;

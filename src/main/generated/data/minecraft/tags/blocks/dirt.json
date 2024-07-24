@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "thrivingblocks:full_grass_block",
+    "thrivingblocks:full_podzol_block",
+    "thrivingblocks:grassy_moss",
+    "thrivingblocks:grassy_stone",
+    "thrivingblocks:grassy_andesite",
+    "thrivingblocks:grassy_granite",
+    "thrivingblocks:grassy_deepslate",
+    "thrivingblocks:grassy_clay",
+    "thrivingblocks:grassy_coarse_dirt",
+    "thrivingblocks:grassy_mud",
+    "thrivingblocks:grassy_diorite",
+    "thrivingblocks:grassy_mossy_cobblestone",
+    "minecraft:cracked_deepslate_bricks",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:cracked_nether_bricks",
+    "minecraft:infested_cracked_stone_bricks",
+    "minecraft:cracked_deepslate_tiles",
+    "minecraft:cracked_polished_blackstone_bricks",
+    "minecraft:mossy_cobblestone",
+    "minecraft:mossy_stone_bricks",
+    "thrivingblocks:dynamic_mossy_cobblestone_block",
+    "thrivingblocks:dynamic_mossy_stone_bricks_block",
+    "thrivingblocks:dynamic_cracked_mossy_stone_bricks_block",
+    "thrivingblocks:cracked_mossy_stone_bricks_block",
+    "thrivingblocks:moss_grass_block",
+    "thrivingblocks:short_grass_block"
+  ]
+}
