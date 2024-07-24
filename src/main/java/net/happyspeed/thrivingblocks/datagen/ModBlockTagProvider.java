@@ -96,6 +96,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DYNAMIC_CRACKED_MOSSY_STONE_BRICKS_BLOCK)
                 .add(ModBlocks.CRACKED_MOSSY_STONE_BRICKS_BLOCK)
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
+                .add(ModBlocks.CRACKED_STONE_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)

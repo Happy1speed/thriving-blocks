@@ -1,15 +1,15 @@
-// 1.20.1	2024-07-21T21:40:21.3575761	Thriving Blocks/Tags for minecraft:block
-6ceeb7409cf0ca8b6c40fad64b023e03746d4458 data\minecraft\tags\blocks\walls.json
-56c288f3b5b356bab8bd93e446bec3efd1dbec5b data\minecraft\tags\blocks\dirt.json
-cde89b17e34de5061f027f225537a7e6474d2ff4 data\minecraft\tags\blocks\bamboo_plantable_on.json
-f994ffdd839056f5f0d2b416bece5845ccf3a250 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2024-07-23T21:36:35.186152	Thriving Blocks/Tags for minecraft:block
+7c0f46f3201b280fb501a47938bc8ec4fe30999d data\minecraft\tags\blocks\walls.json
+26849273347142f8811bd8af9a1208549bdb5b30 data\minecraft\tags\blocks\dirt.json
+dc59aa738ba9ff98fa9051fcc48ac3c5762317e4 data\minecraft\tags\blocks\bamboo_plantable_on.json
+ce8f929b98d26f9c8579551c197b4a78ed8cfc29 data\minecraft\tags\blocks\mineable\pickaxe.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\sniffer_diggable_block.json
 91a05e37a428427698c5973bafdde556346dddd0 data\minecraft\tags\blocks\buttons.json
-2807bab62bc72cdf2dbefe1e4851a4e30efc937c data\minecraft\tags\blocks\valid_spawn.json
-0f579ea10840fb82b570d2b35f06d014375b9b50 data\minecraft\tags\blocks\mineable\hoe.json
+5da2d7d70fe257758d213180a986300ceb41022a data\minecraft\tags\blocks\mineable\hoe.json
+18fdc3af3bae9329c349698746330e13cfe26dd3 data\minecraft\tags\blocks\valid_spawn.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\lush_ground_replaceable.json
 bfd9e2aea8c16c13f809f460c9359042d5b6f959 data\minecraft\tags\blocks\sand.json
+e6d8569714786b5e0a0d1f665a091aac2cdee69b data\minecraft\tags\blocks\animals_spawnable_on.json
 a08287d6b9538e99413da8476194e82309788b6f data\minecraft\tags\blocks\leaves.json
-87b7689bf24c38fe5cfb56766f9ccf2c05f7750b data\minecraft\tags\blocks\animals_spawnable_on.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\moss_replaceable.json
-9361767107e51b95f31d40181fcbbf023d8731cf data\minecraft\tags\blocks\mineable\shovel.json
+171014c203727876a4d05aba67bf7ad13aad8089 data\minecraft\tags\blocks\mineable\shovel.json
