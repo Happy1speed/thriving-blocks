@@ -33,6 +33,7 @@ public class ThrivingBlocksMod implements ModInitializer {
         ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModSounds.registerSounds();
         if (NaturesSpiritModLoaded) {
             NaturesSpiritModBlocks.registerModBlocks();
             NatureModItemGroups.registerItemGroups();

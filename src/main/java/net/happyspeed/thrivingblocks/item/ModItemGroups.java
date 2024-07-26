@@ -66,6 +66,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRACKED_STONE_BLOCK);
                         entries.add(ModBlocks.MAGMA_STONE_BLOCK);
                         entries.add(ModBlocks.MOSS_GRASS_BLOCK);
+                        entries.add(ModBlocks.ALERT_BLOCK);
                     }).build());
     public static void registerItemGroups() {
         ThrivingBlocksMod.LOGGER.info("Registering Item Groups for " + ThrivingBlocksMod.MOD_ID);

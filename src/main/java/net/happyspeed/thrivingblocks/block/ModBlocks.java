@@ -2,10 +2,13 @@ package net.happyspeed.thrivingblocks.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.happyspeed.thrivingblocks.ThrivingBlocksMod;
 import net.happyspeed.thrivingblocks.block.custom.*;
 import net.happyspeed.thrivingblocks.sound.ModSounds;
 import net.minecraft.block.*;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -147,6 +150,11 @@ public class ModBlocks {
     public static final Block MOSS_GRASS_BLOCK = registerBlock("moss_grass_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
 
+    public static final Block ALERT_BLOCK = registerBlock("alert_block",
+            new AlertBlock(FabricBlockSettings.copyOf(Blocks.DIRT).hardness(0.3f).sounds(BlockSoundGroup.NETHERITE)));
+    public static final BlockEntityType<AlertBlockEntity> ALERT_BLOCK_ENTITY_BLOCK_ENTITY_TYPE = registerBlockEntity("alarm_block_entity", FabricBlockEntityTypeBuilder.create(AlertBlockEntity::new, ALERT_BLOCK));
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);
@@ -159,5 +167,13 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         ThrivingBlocksMod.LOGGER.info("Registering ModBlocks for " + ThrivingBlocksMod.MOD_ID);
+    }
+
+    public static <T extends BlockEntity> BlockEntityType<T> registerBlockEntity(String name, FabricBlockEntityTypeBuilder<T> factory) {
+        return Registry.register(
+                Registries.BLOCK_ENTITY_TYPE,
+                new Identifier(ThrivingBlocksMod.MOD_ID, name),
+                factory.build()
+        );
     }
 }

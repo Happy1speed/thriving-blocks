@@ -25,6 +25,8 @@ public class ModSounds {
             BlockSoundGroup.MUD.getBreakSound(), BlockSoundGroup.GRASS.getStepSound(), BlockSoundGroup.MUD.getPlaceSound(),
             BlockSoundGroup.MUD.getHitSound(), BlockSoundGroup.GRASS.getFallSound());
 
+    public static final SoundEvent ALARM_ONE_SOUND = registerSoundEvent("alarm_one_sound");
+
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(ThrivingBlocksMod.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

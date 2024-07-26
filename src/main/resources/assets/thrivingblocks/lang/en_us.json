@@ -73,6 +73,9 @@
   "block.thrivingblocks.cracked_mossy_stone_bricks_slab": "Cracked Mossy Stone Bricks Slab",
   "block.thrivingblocks.cracked_mossy_stone_bricks_wall": "Cracked Mossy Stone Bricks Wall",
   "block.thrivingblocks.grassy_sandy_soil_block": "Grassy Sandy Soil",
+  "block.thrivingblocks.alert_block": "Alert Block",
+
+  "thrivingblocks.alarm_sound_sub": "Warning!",
 
   "itemgroup.thrivingblocks": "Thriving Blocks",
   "itemgroup.thrivingblocksnaturespirit": "Thriving Blocks Natures Spirit",
