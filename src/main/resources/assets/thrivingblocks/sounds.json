@@ -1,0 +1,8 @@
+{
+  "alarm_one_sound": {
+    "subtitle": "thrivingblocks.alarm_sound_sub",
+    "sounds": [
+       "thrivingblocks:alarm_sfx"
+    ]
+  }
+}
