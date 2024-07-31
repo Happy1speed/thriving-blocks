@@ -71,6 +71,9 @@ public class NaturesSpiritModBlocks {
     public static final Block GRASSY_SANDY_SOIL_BLOCK = registerBlock("grassy_sandy_soil_block",
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(ModSounds.GRASSY_CLAY_BLOCK_SOUNDS)));
 
+    public static final Block DIRECTIONAL_TRAVERTINE_TILES = registerBlock("directional_travertine_tiles",
+            new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.BRICKS)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

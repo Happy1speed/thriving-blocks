@@ -28,6 +28,9 @@
     "thrivingblocks:crushed_basalt",
     "thrivingblocks:crushed_deepslate",
     "thrivingblocks:cracked_stone",
+    "thrivingblocks:directional_deepslate_tiles",
+    "thrivingblocks:cracked_directional_deepslate_tiles",
+    "thrivingblocks:directional_bricks",
     "thrivingblocks:golden_button"
   ]
 }

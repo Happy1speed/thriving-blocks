@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "natures_spirit:block/travertine_tiles",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "natures_spirit:block/travertine_tiles",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "natures_spirit:block/travertine_tiles"
+    },
+    "facing=west": {
+      "model": "natures_spirit:block/travertine_tiles",
+      "y": 90
+    }
+  }
+}

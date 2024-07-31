@@ -78,6 +78,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGMA_STONE_BLOCK, Blocks.MAGMA_BLOCK);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSS_GRASS_BLOCK, Blocks.MOSS_BLOCK);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OLD_GLOWSTONE_BLOCK, Blocks.GLOWSTONE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIRECTIONAL_DEEPSLATE_TILES, Blocks.DEEPSLATE_TILES);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_DIRECTIONAL_DEEPSLATE_TILES, Blocks.CRACKED_DEEPSLATE_TILES);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIRECTIONAL_BRICKS, Blocks.BRICKS);
 
         //Natures spirit compat
 //        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_BLOCK, Blocks.MOSSY_COBBLESTONE);

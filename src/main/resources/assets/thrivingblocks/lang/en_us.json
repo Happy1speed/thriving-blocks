@@ -74,6 +74,10 @@
   "block.thrivingblocks.cracked_mossy_stone_bricks_wall": "Cracked Mossy Stone Bricks Wall",
   "block.thrivingblocks.grassy_sandy_soil_block": "Grassy Sandy Soil",
   "block.thrivingblocks.alert_block": "Alert Block",
+  "block.thrivingblocks.directional_deepslate_tiles": "Directional Deepslate Tiles",
+  "block.thrivingblocks.cracked_directional_deepslate_tiles": "Cracked Directional Deepslate Tiles",
+  "block.thrivingblocks.directional_bricks": "Directional Bricks",
+  "block.thrivingblocks.directional_travertine_tiles": "Directional Travertine Tiles",
 
   "thrivingblocks.alarm_sound_sub": "Warning!",
 

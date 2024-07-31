@@ -74,6 +74,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CRUSHED_DEEPSLATE_BLOCK);
         addDrop(ModBlocks.CRACKED_STONE_BLOCK);
         addDrop(ModBlocks.MAGMA_STONE_BLOCK);
+        addDrop(ModBlocks.DIRECTIONAL_DEEPSLATE_TILES);
+        addDrop(ModBlocks.CRACKED_DIRECTIONAL_DEEPSLATE_TILES);
+        addDrop(ModBlocks.DIRECTIONAL_BRICKS);
         addDrop(ModBlocks.SMALL_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.TINY_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.OLD_GROWTH_GRASS, this::grassDrops);

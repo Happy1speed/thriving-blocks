@@ -40,6 +40,8 @@ public class ModModelProvider extends FabricModelProvider {
 //        redMossyCobblestonePool.slab(NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_SLAB);
 //        redMossyCobblestonePool.stairs(NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_STAIRS);
 //        redMossyCobblestonePool.wall(NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_WALL);
+
+
     }
 
     @Override

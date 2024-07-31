@@ -38,6 +38,7 @@ public class NatureModItemGroups {
                         entries.add(NaturesSpiritModBlocks.RED_MOSSY_STONE_BRICKS_STAIRS);
                         entries.add(NaturesSpiritModBlocks.RED_MOSSY_STONE_BRICKS_WALL);
                         entries.add(NaturesSpiritModBlocks.GRASSY_SANDY_SOIL_BLOCK);
+                        entries.add(NaturesSpiritModBlocks.DIRECTIONAL_TRAVERTINE_TILES);
                     }).build());
     public static void registerItemGroups() {
         ThrivingBlocksMod.LOGGER.info("Registering Item Groups for " + ThrivingBlocksMod.MOD_ID);

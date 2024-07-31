@@ -9,6 +9,7 @@ import net.happyspeed.thrivingblocks.sound.ModSounds;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
+import net.minecraft.block.enums.Instrument;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -153,6 +154,15 @@ public class ModBlocks {
     public static final Block ALERT_BLOCK = registerBlock("alert_block",
             new AlertBlock(FabricBlockSettings.copyOf(Blocks.DIRT).hardness(0.3f).sounds(BlockSoundGroup.NETHERITE)));
     public static final BlockEntityType<AlertBlockEntity> ALERT_BLOCK_ENTITY_BLOCK_ENTITY_TYPE = registerBlockEntity("alarm_block_entity", FabricBlockEntityTypeBuilder.create(AlertBlockEntity::new, ALERT_BLOCK));
+
+    public static final Block DIRECTIONAL_DEEPSLATE_TILES = registerBlock("directional_deepslate_tiles",
+            new GlazedTerracottaBlock(FabricBlockSettings.copyOf(DEEPSLATE_TILES)));
+
+    public static final Block CRACKED_DIRECTIONAL_DEEPSLATE_TILES = registerBlock("cracked_directional_deepslate_tiles",
+            new GlazedTerracottaBlock(FabricBlockSettings.copyOf(DEEPSLATE_TILES)));
+
+    public static final Block DIRECTIONAL_BRICKS = registerBlock("directional_bricks",
+            new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.BRICKS)));
 
 
     private static Block registerBlock(String name, Block block) {
