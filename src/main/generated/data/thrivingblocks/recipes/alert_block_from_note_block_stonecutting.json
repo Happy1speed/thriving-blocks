@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:note_block"
+  },
+  "result": "thrivingblocks:alert_block"
+}

@@ -10,6 +10,7 @@ import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.enums.Instrument;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -25,12 +26,14 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.GRASS)));
     public static final Block COBBLED_SANDSTONE = registerBlock("cobbled_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+    public static final Block COBBLED_RED_SANDSTONE = registerBlock("cobbled_red_sandstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
     public static final Block FULL_PODZOL_BLOCK = registerBlock("full_podzol_block",
             new Block(FabricBlockSettings.copyOf(Blocks.PODZOL)));
     public static final Block OLD_OAK_LEAVES = registerBlock("old_oak_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
     public static final Block FLOWERING_JUNGLE_LEAVES = registerBlock("flowering_jungle_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
+            new CherryLeavesBlock(FabricBlockSettings.copyOf(Blocks.JUNGLE_LEAVES)));
     public static final Block GRASSY_MOSS_BLOCK = registerBlock("grassy_moss",
             new Block(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
     public static final Block GRASSY_STONE_BLOCK = registerBlock("grassy_stone",
@@ -78,19 +81,24 @@ public class ModBlocks {
             new PathStairsBlock(STONE.getDefaultState(), AbstractBlock.Settings.copy(STONE)));
 
     public static final Block OLD_GROWTH_FERN = registerBlock("old_growth_fern",
-            new PlantBlock(FabricBlockSettings.copyOf(Blocks.FERN).noCollision()));
+            new OldGrowthFernBlock(FabricBlockSettings.copyOf(Blocks.FERN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offset(AbstractBlock.OffsetType.XZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block POTTED_OLD_GROWTH_FERN = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_old_growth_fern"),
             new FlowerPotBlock(OLD_GROWTH_FERN, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     public static final Block OLD_GROWTH_GRASS = registerBlock("old_growth_grass",
-            new PlantBlock(FabricBlockSettings.copyOf(Blocks.GRASS).noCollision()));
+            new OldGrowthGrassBlock(FabricBlockSettings.copyOf(Blocks.GRASS).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offset(AbstractBlock.OffsetType.XYZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block POTTED_OLD_GROWTH_GRASS = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_old_growth_grass"),
             new FlowerPotBlock(OLD_GROWTH_GRASS, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     public static final Block TINY_SHARP_GRASS = registerBlock("tiny_sharp_grass",
-            new SmallerGrassBlock(FabricBlockSettings.copyOf(Blocks.GRASS).noCollision()));
+            new SmallerGrassBlock(FabricBlockSettings.copyOf(Blocks.GRASS).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offset(AbstractBlock.OffsetType.XZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block POTTED_TINY_SHARP_GRASS = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_tiny_sharp_grass"),
+            new FlowerPotBlock(TINY_SHARP_GRASS, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
     public static final Block SMALL_SHARP_GRASS = registerBlock("small_sharp_grass",
-            new SmallerGrassBlock(FabricBlockSettings.copyOf(Blocks.GRASS).noCollision()));
+            new SmallerGrassBlock(FabricBlockSettings.copyOf(Blocks.GRASS).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offset(AbstractBlock.OffsetType.XZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block POTTED_SMALL_SHARP_GRASS = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_small_sharp_grass"),
+            new FlowerPotBlock(SMALL_SHARP_GRASS, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     public static final Block POTTED_GRASS = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_grass"),
             new FlowerPotBlock(Blocks.GRASS, FabricBlockSettings.copyOf(Blocks.POTTED_FERN).nonOpaque()));
@@ -164,9 +172,27 @@ public class ModBlocks {
     public static final Block DIRECTIONAL_BRICKS = registerBlock("directional_bricks",
             new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.BRICKS)));
 
+    public static final Block DIRECTIONAL_QUARTZ_BRICKS = registerBlock("directional_quartz_bricks",
+            new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.QUARTZ_BRICKS)));
+
+    public static final Block DRIPLEAF_PAD = registerJustBlock("dripleaf_pad",
+            new LilyPadBlock(FabricBlockSettings.copyOf(LILY_PAD)));
+
+    public static final Block NEAT_FERN = registerBlock("neat_fern",
+            new OldGrowthFernBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block NEAT_LARGE_FERN = registerBlock("neat_large_fern",
+            new TallPlantBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block NEAT_OLD_GROWTH_FERN = registerBlock("neat_old_growth_fern",
+            new OldGrowthFernBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);
+    }
+
+    private static Block registerJustBlock(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);
     }
 

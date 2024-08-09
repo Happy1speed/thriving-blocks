@@ -31,6 +31,9 @@
     "thrivingblocks:directional_deepslate_tiles",
     "thrivingblocks:cracked_directional_deepslate_tiles",
     "thrivingblocks:directional_bricks",
+    "thrivingblocks:cobbled_red_sandstone",
+    "thrivingblocks:directional_quartz_bricks",
+    "thrivingblocks:alert_block",
     "thrivingblocks:golden_button"
   ]
 }

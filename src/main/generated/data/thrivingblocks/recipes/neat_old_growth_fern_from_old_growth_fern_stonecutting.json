@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:old_growth_fern"
+  },
+  "result": "thrivingblocks:neat_old_growth_fern"
+}

@@ -53,6 +53,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
         addDrop(ModBlocks.ROUGH_OBSIDIAN);
         addDrop(ModBlocks.COARSE_SAND);
+        addDrop(ModBlocks.DIRECTIONAL_QUARTZ_BRICKS);
         addDrop(ModBlocks.STONE_PATH_BLOCK);
         addDrop(ModBlocks.STONE_PATH_STAIRS);
         addDrop(ModBlocks.DYNAMIC_MOSSY_STONE_BRICKS_BLOCK);
@@ -77,13 +78,21 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DIRECTIONAL_DEEPSLATE_TILES);
         addDrop(ModBlocks.CRACKED_DIRECTIONAL_DEEPSLATE_TILES);
         addDrop(ModBlocks.DIRECTIONAL_BRICKS);
+        addDrop(ModBlocks.COBBLED_RED_SANDSTONE);
+        addDrop(ModBlocks.DRIPLEAF_PAD);
+        addDrop(ModBlocks.ALERT_BLOCK);
         addDrop(ModBlocks.SMALL_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.TINY_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.OLD_GROWTH_GRASS, this::grassDrops);
         addDrop(ModBlocks.OLD_GROWTH_FERN, this::grassDrops);
+        addDrop(ModBlocks.NEAT_FERN, this::grassDrops);
+        addDrop(ModBlocks.NEAT_LARGE_FERN, this::grassDrops);
+        addDrop(ModBlocks.NEAT_OLD_GROWTH_FERN, this::grassDrops);
         addPottedPlantDrops(ModBlocks.POTTED_GRASS);
         addPottedPlantDrops(ModBlocks.POTTED_OLD_GROWTH_GRASS);
         addPottedPlantDrops(ModBlocks.POTTED_OLD_GROWTH_FERN);
+        addPottedPlantDrops(ModBlocks.POTTED_TINY_SHARP_GRASS);
+        addPottedPlantDrops(ModBlocks.POTTED_SMALL_SHARP_GRASS);
 
 
         //Nature's spirit compat

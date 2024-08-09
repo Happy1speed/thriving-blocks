@@ -55,6 +55,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIRECTIONAL_DEEPSLATE_TILES)
                 .add(ModBlocks.CRACKED_DIRECTIONAL_DEEPSLATE_TILES)
                 .add(ModBlocks.DIRECTIONAL_BRICKS)
+                .add(ModBlocks.COBBLED_RED_SANDSTONE)
+                .add(ModBlocks.DIRECTIONAL_QUARTZ_BRICKS)
+                .add(ModBlocks.ALERT_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_STAIRS)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_SLAB)
@@ -101,6 +104,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
                 .add(ModBlocks.CRACKED_STONE_BLOCK)
                 .add(ModBlocks.CRACKED_DIRECTIONAL_DEEPSLATE_TILES)
+                .add(ModBlocks.COBBLED_RED_SANDSTONE)
+                .add(ModBlocks.COBBLED_SANDSTONE)
+                .add(ModBlocks.CRUSHED_BASALT_BLOCK)
+                .add(ModBlocks.CRUSHED_DEEPSLATE_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)
@@ -220,5 +227,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_STONE_BRICKS_WALL)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_WALL)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_COBBLED_TRAVERTINE_WALL);
+        getOrCreateTagBuilder(BlockTags.INSIDE_STEP_SOUND_BLOCKS)
+                .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK)
+                .add(ModBlocks.GRASS_CARPET_BLOCK)
+                .add(ModBlocks.DRIPLEAF_PAD);
     }
 }

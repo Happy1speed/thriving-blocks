@@ -4,13 +4,19 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.happyspeed.thrivingblocks.ThrivingBlocksMod;
+import net.happyspeed.thrivingblocks.block.ModBlocks;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
+import net.minecraft.item.PlaceableOnWaterItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+
+    public static final Item DRIPLEAF_PAD = registerItem("dripleaf_pad", new PlaceableOnWaterItem(ModBlocks.DRIPLEAF_PAD, new Item.Settings()));
 
     public static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
     }

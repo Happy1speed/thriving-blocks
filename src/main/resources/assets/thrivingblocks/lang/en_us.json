@@ -77,11 +77,24 @@
   "block.thrivingblocks.directional_deepslate_tiles": "Directional Deepslate Tiles",
   "block.thrivingblocks.cracked_directional_deepslate_tiles": "Cracked Directional Deepslate Tiles",
   "block.thrivingblocks.directional_bricks": "Directional Bricks",
+  "block.thrivingblocks.directional_quartz_bricks": "Directional Quartz Bricks",
   "block.thrivingblocks.directional_travertine_tiles": "Directional Travertine Tiles",
+  "block.thrivingblocks.cobbled_red_sandstone": "Cobbled Red Sandstone",
+  "block.thrivingblocks.cobbled_pink_sandstone": "Cobbled Pink Sandstone",
+  "block.thrivingblocks.dripleaf_pad": "Dripleaf Pad",
+  "block.thrivingblocks.neat_fern": "Neat Fern",
+  "block.thrivingblocks.neat_large_fern": "Neat Large Fern",
+  "block.thrivingblocks.neat_old_growth_fern": "Neat Old Growth Fern",
+  "block.thrivingblocks.neat_lush_fern": "Neat Lush Fern",
+  "block.thrivingblocks.neat_large_lush_fern": "Neat Large Lush Fern",
+  "block.thrivingblocks.neat_flaxen_fern": "Neat Flaxen Fern",
+  "block.thrivingblocks.neat_large_flaxen_fern": "Neat Large Flaxen Fern",
 
-  "thrivingblocks.alarm_sound_sub": "Warning!",
+  "thrivingblocks.alarm_sound_sub": "Waaaaoohw!",
 
-  "itemgroup.thrivingblocks": "Thriving Blocks",
+  "itemgroup.thrivingblocks": "Thriving Blocks Main",
+  "itemgroup.thrivingblocksmisc": "Thriving Blocks Misc",
+  "itemgroup.thrivingblocksold": "Thriving Blocks Old Texture Blocks",
   "itemgroup.thrivingblocksnaturespirit": "Thriving Blocks Natures Spirit",
 
   "pack.thrivingblocks.natures_spirit_compat_text": "Thriving Blocks Natures Spirit Compat"

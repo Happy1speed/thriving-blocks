@@ -34,16 +34,27 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SMALL_SHARP_GRASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_OLD_GROWTH_FERN, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_OLD_GROWTH_GRASS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_SMALL_SHARP_GRASS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_TINY_SHARP_GRASS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLOWERING_JUNGLE_LEAVES, RenderLayer.getCutoutMipped());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_GRASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SHORT_GRASS_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLAT_MOSS_CARPET_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DYNAMIC_MOSSY_COBBLESTONE_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DYNAMIC_MOSSY_STONE_BRICKS_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DYNAMIC_CRACKED_MOSSY_STONE_BRICKS_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DRIPLEAF_PAD, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.NEAT_FERN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.NEAT_LARGE_FERN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.NEAT_OLD_GROWTH_FERN, RenderLayer.getCutout());
         if (ThrivingBlocksMod.NaturesSpiritModLoaded) {
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK, RenderLayer.getCutout());
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.GRASSY_SANDY_SOIL_BLOCK, RenderLayer.getCutout());
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK, RenderLayer.getCutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.NEAT_LUSH_FERN, RenderLayer.getCutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.NEAT_LARGE_LUSH_FERN, RenderLayer.getCutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.NEAT_FLAXEN_FERN, RenderLayer.getCutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.NEAT_LARGE_FLAXEN_FERN, RenderLayer.getCutout());
         }
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
@@ -164,6 +175,18 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
             return BiomeColors.getGrassColor(world, pos);
         }, ModBlocks.POTTED_OLD_GROWTH_FERN);
 
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.POTTED_SMALL_SHARP_GRASS.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.POTTED_SMALL_SHARP_GRASS);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.POTTED_TINY_SHARP_GRASS.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.POTTED_TINY_SHARP_GRASS);
+
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.POTTED_OLD_GROWTH_GRASS.asItem());
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
             if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
@@ -199,6 +222,24 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
         }, ModBlocks.DYNAMIC_CRACKED_MOSSY_STONE_BRICKS_BLOCK);
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.DYNAMIC_CRACKED_MOSSY_STONE_BRICKS_BLOCK.asItem());
 
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.NEAT_LARGE_FERN.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.NEAT_LARGE_FERN);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.NEAT_FERN.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.NEAT_FERN);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.NEAT_OLD_GROWTH_FERN.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.NEAT_OLD_GROWTH_FERN);
+
         //------------------------ Register Nature's spirit compat blocks ----------------------------
         if (ThrivingBlocksMod.NaturesSpiritModLoaded) {
             ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), NaturesSpiritModBlocks.GRASSY_SANDY_SOIL_BLOCK.asItem());
@@ -208,7 +249,21 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
                 }
                 return BiomeColors.getGrassColor(world, pos);
             }, NaturesSpiritModBlocks.GRASSY_SANDY_SOIL_BLOCK);
-            ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), NaturesSpiritModBlocks.GRASSY_SANDY_SOIL_BLOCK.asItem());
+            ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), NaturesSpiritModBlocks.NEAT_LUSH_FERN.asItem());
+            ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+                if (world == null || pos == null) {
+                    return GrassColors.getDefaultColor();
+                }
+                return BiomeColors.getGrassColor(world, pos);
+            }, NaturesSpiritModBlocks.NEAT_LUSH_FERN);
+
+            ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), NaturesSpiritModBlocks.NEAT_LARGE_LUSH_FERN.asItem());
+            ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+                if (world == null || pos == null) {
+                    return GrassColors.getDefaultColor();
+                }
+                return BiomeColors.getGrassColor(world, pos);
+            }, NaturesSpiritModBlocks.NEAT_LARGE_LUSH_FERN);
         }
     }
 }

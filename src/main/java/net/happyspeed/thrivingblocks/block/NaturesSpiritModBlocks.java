@@ -6,6 +6,7 @@ import net.happyspeed.thrivingblocks.ThrivingBlocksMod;
 import net.happyspeed.thrivingblocks.block.custom.*;
 import net.happyspeed.thrivingblocks.sound.ModSounds;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -73,6 +74,21 @@ public class NaturesSpiritModBlocks {
 
     public static final Block DIRECTIONAL_TRAVERTINE_TILES = registerBlock("directional_travertine_tiles",
             new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.BRICKS)));
+
+    public static final Block COBBLED_PINK_SANDSTONE = registerBlock("cobbled_pink_sandstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+    public static final Block NEAT_LUSH_FERN = registerBlock("neat_lush_fern",
+            new OldGrowthFernBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block NEAT_LARGE_LUSH_FERN = registerBlock("neat_large_lush_fern",
+            new TallPlantBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block NEAT_FLAXEN_FERN = registerBlock("neat_flaxen_fern",
+            new OldGrowthFernBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block NEAT_LARGE_FLAXEN_FERN = registerBlock("neat_large_flaxen_fern",
+            new TallPlantBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

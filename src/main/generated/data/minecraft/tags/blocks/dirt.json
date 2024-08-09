@@ -28,6 +28,10 @@
     "thrivingblocks:moss_grass_block",
     "thrivingblocks:cracked_stone",
     "thrivingblocks:cracked_directional_deepslate_tiles",
+    "thrivingblocks:cobbled_red_sandstone",
+    "thrivingblocks:cobbled_sandstone",
+    "thrivingblocks:crushed_basalt",
+    "thrivingblocks:crushed_deepslate",
     "thrivingblocks:short_grass_block"
   ]
 }

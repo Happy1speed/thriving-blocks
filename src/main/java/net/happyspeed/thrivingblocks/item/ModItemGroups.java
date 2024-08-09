@@ -17,12 +17,16 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.thrivingblocks"))
                     .icon(() -> new ItemStack(ModBlocks.FULL_GRASS_BLOCK)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.FULL_GRASS_BLOCK);
-                        entries.add(ModBlocks.COBBLED_SANDSTONE);
                         entries.add(ModBlocks.FULL_PODZOL_BLOCK);
-                        entries.add(ModBlocks.OLD_OAK_LEAVES);
+                        entries.add(ModBlocks.COBBLED_SANDSTONE);
+                        entries.add(ModBlocks.COBBLED_RED_SANDSTONE);
                         entries.add(ModBlocks.FLOWERING_JUNGLE_LEAVES);
+                        entries.add(ModItems.DRIPLEAF_PAD);
+                        entries.add(ModBlocks.NEAT_FERN);
+                        entries.add(ModBlocks.NEAT_LARGE_FERN);
                         entries.add(ModBlocks.GRASSY_MOSS_BLOCK);
                         entries.add(ModBlocks.GRASSY_STONE_BLOCK);
+                        entries.add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK);
                         entries.add(ModBlocks.GRASSY_GRANITE_BLOCK);
                         entries.add(ModBlocks.GRASSY_ANDESITE_BLOCK);
                         entries.add(ModBlocks.GRASSY_DIORITE_BLOCK);
@@ -30,21 +34,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRASSY_CLAY_BLOCK);
                         entries.add(ModBlocks.GRASSY_COARSE_DIRT_BLOCK);
                         entries.add(ModBlocks.GRASSY_MUD_BLOCK);
+                        entries.add(ModBlocks.MOSS_GRASS_BLOCK);
                         entries.add(ModBlocks.SHORT_GRASS_BLOCK);
+                        entries.add(ModBlocks.SHORT_DIRT_BLOCK);
                         entries.add(ModBlocks.SAND_PATH_BLOCK);
                         entries.add(ModBlocks.SMOOTH_SAND_BLOCK);
-                        entries.add(ModBlocks.SHORT_DIRT_BLOCK);
-                        entries.add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK);
-                        entries.add(ModBlocks.GRASS_CARPET_BLOCK);
-                        entries.add(ModBlocks.ROUGH_OBSIDIAN);
-                        entries.add(ModBlocks.COARSE_SAND);
-                        entries.add(ModBlocks.OLD_GROWTH_FERN);
-                        entries.add(ModBlocks.OLD_GROWTH_GRASS);
                         entries.add(ModBlocks.STONE_PATH_BLOCK);
                         entries.add(ModBlocks.STONE_PATH_STAIRS);
                         entries.add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
-                        entries.add(ModBlocks.OLD_GLOWSTONE_BLOCK);
-                        entries.add(ModBlocks.ANCIENT_EMERALD_BLOCK);
+                        entries.add(ModBlocks.GRASS_CARPET_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_MOSSY_COBBLESTONE_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_MOSSY_STONE_BRICKS_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_CRACKED_MOSSY_STONE_BRICKS_BLOCK);
@@ -52,10 +50,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRACKED_MOSSY_STONE_BRICKS_SLAB);
                         entries.add(ModBlocks.CRACKED_MOSSY_STONE_BRICKS_STAIRS);
                         entries.add(ModBlocks.CRACKED_MOSSY_STONE_BRICKS_WALL);
-                        entries.add(ModBlocks.AZURE_DIMENSIONAL_STONE_BLOCK);
-                        entries.add(ModBlocks.RED_DIMENSIONAL_STONE_BLOCK);
-                        entries.add(ModBlocks.BLUE_DIMENSIONAL_STONE_BLOCK);
-                        entries.add(ModBlocks.GOLDEN_BUTTON);
                         entries.add(ModBlocks.MESSY_BRICKS_BLOCK);
                         entries.add(ModBlocks.NATURAL_ANDESITE_BLOCK);
                         entries.add(ModBlocks.NATURAL_DIORITE_BLOCK);
@@ -63,13 +57,37 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NATURAL_STONE_BLOCK);
                         entries.add(ModBlocks.CRUSHED_DEEPSLATE_BLOCK);
                         entries.add(ModBlocks.CRUSHED_BASALT_BLOCK);
-                        entries.add(ModBlocks.CRACKED_STONE_BLOCK);
                         entries.add(ModBlocks.MAGMA_STONE_BLOCK);
-                        entries.add(ModBlocks.MOSS_GRASS_BLOCK);
-                        entries.add(ModBlocks.ALERT_BLOCK);
+                        entries.add(ModBlocks.CRACKED_STONE_BLOCK);
                         entries.add(ModBlocks.DIRECTIONAL_DEEPSLATE_TILES);
                         entries.add(ModBlocks.CRACKED_DIRECTIONAL_DEEPSLATE_TILES);
                         entries.add(ModBlocks.DIRECTIONAL_BRICKS);
+                        entries.add(ModBlocks.DIRECTIONAL_QUARTZ_BRICKS);
+                    }).build());
+    public static final ItemGroup THRIVING_BLOCKS_MISC_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ThrivingBlocksMod.MOD_ID, "thrivingblocksmisc"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.thrivingblocksmisc"))
+                    .icon(() -> new ItemStack(ModBlocks.ALERT_BLOCK)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.AZURE_DIMENSIONAL_STONE_BLOCK);
+                        entries.add(ModBlocks.RED_DIMENSIONAL_STONE_BLOCK);
+                        entries.add(ModBlocks.BLUE_DIMENSIONAL_STONE_BLOCK);
+                        entries.add(ModBlocks.ALERT_BLOCK);
+                        entries.add(ModBlocks.GOLDEN_BUTTON);
+                    }).build());
+    public static final ItemGroup THRIVING_BLOCKS_OLD_TEXTURE_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ThrivingBlocksMod.MOD_ID, "thrivingblocksold"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.thrivingblocksold"))
+                    .icon(() -> new ItemStack(ModBlocks.OLD_GLOWSTONE_BLOCK)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ROUGH_OBSIDIAN);
+                        entries.add(ModBlocks.OLD_GLOWSTONE_BLOCK);
+                        entries.add(ModBlocks.COARSE_SAND);
+                        entries.add(ModBlocks.ANCIENT_EMERALD_BLOCK);
+                        entries.add(ModBlocks.OLD_OAK_LEAVES);
+                        entries.add(ModBlocks.OLD_GROWTH_FERN);
+                        entries.add(ModBlocks.NEAT_OLD_GROWTH_FERN);
+                        entries.add(ModBlocks.OLD_GROWTH_GRASS);
+                        entries.add(ModBlocks.SMALL_SHARP_GRASS);
+                        entries.add(ModBlocks.TINY_SHARP_GRASS);
                     }).build());
     public static void registerItemGroups() {
         ThrivingBlocksMod.LOGGER.info("Registering Item Groups for " + ThrivingBlocksMod.MOD_ID);
