@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/azalea_top",
+    "side": "thrivingblocks:block/azalea_bush_block_side"
+  }
+}

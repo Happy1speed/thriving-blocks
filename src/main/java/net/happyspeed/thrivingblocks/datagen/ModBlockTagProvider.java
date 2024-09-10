@@ -26,6 +26,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.COBBLED_SANDSTONE)
+                .add(ModBlocks.CREEPER_GOLD_BLOCK)
+                .add(ModBlocks.CHIPPED_STONE)
+                .add(ModBlocks.PURPUR_JOINT)
                 .add(ModBlocks.GRASSY_STONE_BLOCK)
                 .add(ModBlocks.GRASSY_ANDESITE_BLOCK)
                 .add(ModBlocks.GRASSY_GRANITE_BLOCK)
@@ -108,6 +111,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COBBLED_SANDSTONE)
                 .add(ModBlocks.CRUSHED_BASALT_BLOCK)
                 .add(ModBlocks.CRUSHED_DEEPSLATE_BLOCK)
+                .add(ModBlocks.AZALEA_BUSH_BLOCK)
+                .add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)
@@ -125,6 +130,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_CLAY_BLOCK)
                 .add(ModBlocks.GRASSY_MOSS_BLOCK)
                 .add(ModBlocks.SAND_PATH_BLOCK)
+                .add(ModBlocks.RED_SAND_PATH_BLOCK)
                 .add(ModBlocks.COARSE_SAND)
                 .add(Blocks.CRACKED_DEEPSLATE_BRICKS)
                 .add(Blocks.CRACKED_STONE_BRICKS)
@@ -141,6 +147,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_MOSSY_STONE_BRICKS_BLOCK)
                 .add(ModBlocks.CRACKED_DIRECTIONAL_DEEPSLATE_TILES)
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
+                .add(ModBlocks.AZALEA_BUSH_BLOCK)
+                .add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)
@@ -165,6 +173,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK)
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
+                .add(ModBlocks.AZALEA_BUSH_BLOCK)
+                .add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
 //                .add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
@@ -183,6 +193,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COARSE_SAND)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK)
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
+                .add(ModBlocks.RED_SAND_PATH_BLOCK)
+                .add(ModBlocks.SMOOTH_RED_SAND_BLOCK)
+                .add(ModBlocks.GRAVEL_PATH_BLOCK)
+                .add(ModBlocks.CLAY_PATH_BLOCK)
+                .add(ModBlocks.MUD_PATH_BLOCK)
                 .add(ModBlocks.SHORT_GRASS_BLOCK);
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
@@ -203,6 +218,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRUSHED_DEEPSLATE_BLOCK)
                 .add(ModBlocks.CRUSHED_BASALT_BLOCK)
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
+                .add(ModBlocks.AZALEA_BUSH_BLOCK)
+                .add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
 //                .add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
@@ -231,5 +248,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK)
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
                 .add(ModBlocks.DRIPLEAF_PAD);
+        getOrCreateTagBuilder(BlockTags.CLIMBABLE)
+                .add(ModBlocks.UNDERHANG_VINE);
     }
 }

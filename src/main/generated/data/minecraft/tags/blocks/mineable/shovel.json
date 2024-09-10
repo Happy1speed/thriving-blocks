@@ -12,6 +12,11 @@
     "thrivingblocks:coarse_sand",
     "thrivingblocks:smooth_sand",
     "thrivingblocks:moss_grass_block",
+    "thrivingblocks:red_sand_path",
+    "thrivingblocks:smooth_red_sand",
+    "thrivingblocks:gravel_path",
+    "thrivingblocks:clay_path",
+    "thrivingblocks:mud_path",
     "thrivingblocks:short_grass_block"
   ]
 }

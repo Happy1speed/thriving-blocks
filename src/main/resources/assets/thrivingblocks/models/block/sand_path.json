@@ -1,7 +1,7 @@
 {   "parent": "block/block",
   "textures": {
     "particle": "block/sand",
-    "top": "thrivingblocks:block/sand_path_top",
+    "top": "thrivingblocks:block/smooth_sand",
     "side": "block/sand",
     "bottom": "block/sand"
   },

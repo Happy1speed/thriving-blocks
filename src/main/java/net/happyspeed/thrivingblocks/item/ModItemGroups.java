@@ -22,6 +22,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COBBLED_RED_SANDSTONE);
                         entries.add(ModBlocks.FLOWERING_JUNGLE_LEAVES);
                         entries.add(ModItems.DRIPLEAF_PAD);
+                        entries.add(ModBlocks.AZALEA_DROOP_BLOCK);
+                        entries.add(ModBlocks.FLOWERING_AZALEA_DROOP_BLOCK);
+                        entries.add(ModBlocks.AZALEA_BUSH_BLOCK);
+                        entries.add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK);
+                        entries.add(ModBlocks.UNDERHANG_VINE);
                         entries.add(ModBlocks.NEAT_FERN);
                         entries.add(ModBlocks.NEAT_LARGE_FERN);
                         entries.add(ModBlocks.GRASSY_MOSS_BLOCK);
@@ -39,6 +44,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SHORT_DIRT_BLOCK);
                         entries.add(ModBlocks.SAND_PATH_BLOCK);
                         entries.add(ModBlocks.SMOOTH_SAND_BLOCK);
+                        entries.add(ModBlocks.RED_SAND_PATH_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_RED_SAND_BLOCK);
+                        entries.add(ModBlocks.GRAVEL_PATH_BLOCK);
+                        entries.add(ModBlocks.CLAY_PATH_BLOCK);
+                        entries.add(ModBlocks.MUD_PATH_BLOCK);
                         entries.add(ModBlocks.STONE_PATH_BLOCK);
                         entries.add(ModBlocks.STONE_PATH_STAIRS);
                         entries.add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
@@ -57,12 +67,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NATURAL_STONE_BLOCK);
                         entries.add(ModBlocks.CRUSHED_DEEPSLATE_BLOCK);
                         entries.add(ModBlocks.CRUSHED_BASALT_BLOCK);
+                        entries.add(ModBlocks.CHIPPED_STONE);
                         entries.add(ModBlocks.MAGMA_STONE_BLOCK);
                         entries.add(ModBlocks.CRACKED_STONE_BLOCK);
                         entries.add(ModBlocks.DIRECTIONAL_DEEPSLATE_TILES);
                         entries.add(ModBlocks.CRACKED_DIRECTIONAL_DEEPSLATE_TILES);
                         entries.add(ModBlocks.DIRECTIONAL_BRICKS);
                         entries.add(ModBlocks.DIRECTIONAL_QUARTZ_BRICKS);
+                        entries.add(ModBlocks.PURPUR_JOINT);
                     }).build());
     public static final ItemGroup THRIVING_BLOCKS_MISC_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ThrivingBlocksMod.MOD_ID, "thrivingblocksmisc"),
@@ -73,6 +85,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLUE_DIMENSIONAL_STONE_BLOCK);
                         entries.add(ModBlocks.ALERT_BLOCK);
                         entries.add(ModBlocks.GOLDEN_BUTTON);
+                        entries.add(ModBlocks.CREEPER_GOLD_BLOCK);
                     }).build());
     public static final ItemGroup THRIVING_BLOCKS_OLD_TEXTURE_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ThrivingBlocksMod.MOD_ID, "thrivingblocksold"),

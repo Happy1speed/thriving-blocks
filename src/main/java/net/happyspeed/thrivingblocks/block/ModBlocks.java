@@ -9,9 +9,7 @@ import net.happyspeed.thrivingblocks.sound.ModSounds;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
-import net.minecraft.block.enums.Instrument;
 import net.minecraft.block.piston.PistonBehavior;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -53,7 +51,15 @@ public class ModBlocks {
     public static final Block GRASSY_MUD_BLOCK = registerBlock("grassy_mud",
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(ModSounds.GRASSY_MUD_BLOCK_SOUNDS)));
     public static final Block SAND_PATH_BLOCK = registerBlock("sand_path",
-            new SandPathBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
+            new CustomPathBlock(FabricBlockSettings.copyOf(Blocks.SAND), Blocks.SAND));
+    public static final Block GRAVEL_PATH_BLOCK = registerBlock("gravel_path",
+            new CustomPathBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL), Blocks.GRAVEL));
+    public static final Block RED_SAND_PATH_BLOCK = registerBlock("red_sand_path",
+            new CustomPathBlock(FabricBlockSettings.copyOf(Blocks.RED_SAND), Blocks.RED_SAND));
+    public static final Block CLAY_PATH_BLOCK = registerBlock("clay_path",
+            new CustomPathBlock(FabricBlockSettings.copyOf(Blocks.CLAY), Blocks.CLAY));
+    public static final Block MUD_PATH_BLOCK = registerBlock("mud_path",
+            new CustomPathBlock(FabricBlockSettings.copyOf(Blocks.MUD), Blocks.MUD));
     public static final Block SHORT_DIRT_BLOCK = registerBlock("short_dirt_block",
             new ShortDirtBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL)));
     public static final Block SHORT_GRASS_BLOCK = registerBlock("short_grass_block",
@@ -62,6 +68,8 @@ public class ModBlocks {
             new StonePathBlock(FabricBlockSettings.copyOf(STONE)));
     public static final Block SMOOTH_SAND_BLOCK = registerBlock("smooth_sand",
             new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block SMOOTH_RED_SAND_BLOCK = registerBlock("smooth_red_sand",
+            new FallingBlock(FabricBlockSettings.copyOf(Blocks.RED_SAND)));
     public static final Block GRASSY_MOSSY_COBBLESTONE_BLOCK = registerBlock("grassy_mossy_cobblestone",
             new Block(FabricBlockSettings.copyOf(STONE).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
     public static final Block GRASS_CARPET_BLOCK = registerBlock("grass_carpet",
@@ -185,6 +193,28 @@ public class ModBlocks {
 
     public static final Block NEAT_OLD_GROWTH_FERN = registerBlock("neat_old_growth_fern",
             new OldGrowthFernBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block CHIPPED_STONE = registerBlock("chipped_stone",
+            new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
+    public static final Block CREEPER_GOLD_BLOCK = registerBlock("creeper_gold_block",
+            new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)));
+    public static final Block PURPUR_JOINT = registerBlock("purpur_joint",
+            new Block(FabricBlockSettings.copyOf(Blocks.PURPUR_BLOCK)));
+
+    public static final Block AZALEA_DROOP_BLOCK = registerBlock("azalea_droop",
+            new AzaleaDroopBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).breakInstantly().noCollision()));
+    public static final Block FLOWERING_AZALEA_DROOP_BLOCK = registerBlock("flowering_azalea_droop",
+            new AzaleaDroopBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).breakInstantly().noCollision()));
+
+    public static final Block AZALEA_BUSH_BLOCK = registerBlock("azalea_bush_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.AZALEA)));
+    public static final Block FLOWERING_AZALEA_BUSH_BLOCK = registerBlock("flowering_azalea_bush_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.AZALEA)));
+
+    public static final Block UNDERHANG_VINE = registerBlock("underhang_vine",
+            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE).breakInstantly().replaceable().burnable()));
+
+
 
 
     private static Block registerBlock(String name, Block block) {

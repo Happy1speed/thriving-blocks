@@ -8,6 +8,7 @@
     "thrivingblocks:grassy_clay",
     "thrivingblocks:grassy_moss",
     "thrivingblocks:sand_path",
+    "thrivingblocks:red_sand_path",
     "thrivingblocks:coarse_sand",
     "minecraft:cracked_deepslate_bricks",
     "minecraft:cracked_stone_bricks",
@@ -24,6 +25,8 @@
     "thrivingblocks:cracked_mossy_stone_bricks_block",
     "thrivingblocks:cracked_directional_deepslate_tiles",
     "thrivingblocks:moss_grass_block",
+    "thrivingblocks:azalea_bush_block",
+    "thrivingblocks:flowering_azalea_bush_block",
     "thrivingblocks:smooth_sand"
   ]
 }

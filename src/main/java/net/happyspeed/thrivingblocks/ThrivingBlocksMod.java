@@ -1,6 +1,7 @@
 package net.happyspeed.thrivingblocks;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
@@ -11,6 +12,7 @@ import net.happyspeed.thrivingblocks.item.ModItems;
 import net.happyspeed.thrivingblocks.item.ModItemGroups;
 import net.happyspeed.thrivingblocks.item.NatureModItemGroups;
 import net.happyspeed.thrivingblocks.sound.ModSounds;
+import net.minecraft.block.Blocks;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;

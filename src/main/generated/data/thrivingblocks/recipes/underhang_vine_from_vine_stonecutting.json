@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:vine"
+  },
+  "result": "thrivingblocks:underhang_vine"
+}

@@ -22,13 +22,16 @@ import net.minecraft.world.event.GameEvent;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Unique;
 
-public class SandPathBlock
+public class CustomPathBlock
         extends Block implements Waterloggable {
     protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 14.0, 16.0);
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
-    public SandPathBlock(AbstractBlock.Settings settings) {
+    Block baseBlock;
+
+    public CustomPathBlock(AbstractBlock.Settings settings, Block baseBlock) {
         super(settings);
+        this.baseBlock = baseBlock;
         this.setDefaultState((BlockState) this.stateManager.getDefaultState().with(WATERLOGGED, false));
     }
 
@@ -42,7 +45,7 @@ public class SandPathBlock
         FluidState fluidState = ctx.getWorld().getFluidState(ctx.getBlockPos());
         BlockState blockState = (BlockState) this.getDefaultState().with(WATERLOGGED, fluidState.getFluid() == Fluids.WATER);
         if (!this.getDefaultState().canPlaceAt(ctx.getWorld(), ctx.getBlockPos())) {
-            return Block.pushEntitiesUpBeforeBlockChange(this.getDefaultState(), Blocks.SAND.getDefaultState(), ctx.getWorld(), ctx.getBlockPos());
+            return Block.pushEntitiesUpBeforeBlockChange(this.getDefaultState(), baseBlock.getDefaultState(), ctx.getWorld(), ctx.getBlockPos());
         }
           return super.getPlacementState(ctx);
     }
@@ -61,8 +64,8 @@ public class SandPathBlock
     }
 
     @Unique
-    public static void setToDirt(@Nullable Entity entity, BlockState state, World world, BlockPos pos) {
-        BlockState blockState = FarmlandBlock.pushEntitiesUpBeforeBlockChange(state, Blocks.SAND.getDefaultState(), world, pos);
+    public void setToDirt(@Nullable Entity entity, BlockState state, World world, BlockPos pos) {
+        BlockState blockState = FarmlandBlock.pushEntitiesUpBeforeBlockChange(state, baseBlock.getDefaultState(), world, pos);
         world.setBlockState(pos, blockState);
         world.emitGameEvent(GameEvent.BLOCK_CHANGE, pos, GameEvent.Emitter.of(entity, blockState));
     }

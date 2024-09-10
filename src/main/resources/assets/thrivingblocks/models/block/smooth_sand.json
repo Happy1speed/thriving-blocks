@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "thrivingblocks:block/sand_path_top"
+    "all": "thrivingblocks:block/smooth_sand"
   }
 }
