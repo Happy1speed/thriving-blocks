@@ -1,8 +1,8 @@
-// 1.20.1	2024-09-09T15:30:24.2220255	Thriving Blocks/Tags for minecraft:block
+// 1.20.1	2024-10-04T21:04:54.8511196	Thriving Blocks/Tags for minecraft:block
 7c0f46f3201b280fb501a47938bc8ec4fe30999d data\minecraft\tags\blocks\walls.json
 6820bf329f1e75385b0bb08bc900c60159da0c54 data\minecraft\tags\blocks\dirt.json
 cbfaada213a33210f52e0595dce306b43d898d24 data\minecraft\tags\blocks\bamboo_plantable_on.json
-68e8ad685fb07b30b9c75f2e4965f299b013f454 data\minecraft\tags\blocks\mineable\pickaxe.json
+7580f71ed413463e89b7a5c45de1e02c1633cd62 data\minecraft\tags\blocks\mineable\pickaxe.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\sniffer_diggable_block.json
 91a05e37a428427698c5973bafdde556346dddd0 data\minecraft\tags\blocks\buttons.json
 5da2d7d70fe257758d213180a986300ceb41022a data\minecraft\tags\blocks\mineable\hoe.json

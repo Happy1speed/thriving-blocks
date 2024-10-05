@@ -104,6 +104,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CLAY_PATH_BLOCK, Blocks.CLAY);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MUD_PATH_BLOCK, Blocks.MUD);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_RED_SAND_BLOCK, Blocks.RED_SAND);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLASS_LAYER, Blocks.GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_GLASS_LAYER, Blocks.BLACK_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_GLASS_LAYER, Blocks.WHITE_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_GLASS_LAYER, Blocks.GRAY_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_GLASS_LAYER, Blocks.GREEN_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_GLASS_LAYER, Blocks.YELLOW_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_GLASS_LAYER, Blocks.ORANGE_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_GLASS_LAYER, Blocks.RED_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_GLASS_LAYER, Blocks.BLUE_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_GLASS_LAYER, Blocks.MAGENTA_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GLASS_LAYER, Blocks.PINK_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_GLASS_LAYER, Blocks.PURPLE_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_GLASS_LAYER, Blocks.LIGHT_BLUE_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_GLASS_LAYER, Blocks.LIME_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_GLASS_LAYER, Blocks.LIGHT_GRAY_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_GLASS_LAYER, Blocks.CYAN_STAINED_GLASS_PANE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHAIN_STUB, Blocks.CHAIN);
 
         //Natures spirit compat
 //        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_BLOCK, Blocks.MOSSY_COBBLESTONE);

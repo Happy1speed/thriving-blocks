@@ -214,7 +214,69 @@ public class ModBlocks {
     public static final Block UNDERHANG_VINE = registerBlock("underhang_vine",
             new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE).breakInstantly().replaceable().burnable()));
 
+    public static final Block GLASS_LAYER = registerBlock("glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly().solid()));
 
+
+    public static final Block BLACK_GLASS_LAYER = registerBlock("black_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block WHITE_GLASS_LAYER = registerBlock("white_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block GRAY_GLASS_LAYER = registerBlock("gray_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block GREEN_GLASS_LAYER = registerBlock("green_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block YELLOW_GLASS_LAYER = registerBlock("yellow_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block ORANGE_GLASS_LAYER = registerBlock("orange_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block RED_GLASS_LAYER = registerBlock("red_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block BLUE_GLASS_LAYER = registerBlock("blue_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block MAGENTA_GLASS_LAYER = registerBlock("magenta_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block PINK_GLASS_LAYER = registerBlock("pink_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block PURPLE_GLASS_LAYER = registerBlock("purple_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block BROWN_GLASS_LAYER = registerBlock("brown_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block LIGHT_GRAY_GLASS_LAYER = registerBlock("light_gray_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block LIME_GLASS_LAYER = registerBlock("lime_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block CYAN_GLASS_LAYER = registerBlock("cyan_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block LIGHT_BLUE_GLASS_LAYER = registerBlock("light_blue_glass_layer",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block POTTED_REDSTONE_TORCH = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_redstone_torch"),
+            new FlowerPotBlock(REDSTONE_TORCH, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque().luminance(3)));
+
+    public static final Block POTTED_TORCH = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_torch"),
+            new FlowerPotBlock(TORCH, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque().luminance(8)));
+
+    public static final Block POTTED_SOUL_TORCH = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_soul_torch"),
+            new FlowerPotBlock(SOUL_TORCH, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque().luminance(6)));
+
+    public static final Block CHAIN_STUB = registerBlock("chain_stub",
+            new ChainStubBlock(FabricBlockSettings.copyOf(CHAIN)));
 
 
     private static Block registerBlock(String name, Block block) {

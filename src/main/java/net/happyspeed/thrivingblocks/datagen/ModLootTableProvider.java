@@ -94,6 +94,24 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.AZALEA_DROOP_BLOCK);
         addDrop(ModBlocks.AZALEA_BUSH_BLOCK);
         addDrop(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK);
+        addDrop(ModBlocks.CHAIN_STUB);
+        addDropWithSilkTouch(ModBlocks.GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.BLACK_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.WHITE_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.GRAY_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.GREEN_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.YELLOW_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.ORANGE_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.RED_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.BLUE_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.MAGENTA_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.PINK_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.PURPLE_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.BROWN_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.LIGHT_GRAY_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.LIME_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.LIGHT_BLUE_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.CYAN_GLASS_LAYER);
         this.addDrop(ModBlocks.UNDERHANG_VINE, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
         addDrop(ModBlocks.SMALL_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.TINY_SHARP_GRASS, this::grassDrops);
@@ -107,6 +125,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(ModBlocks.POTTED_OLD_GROWTH_FERN);
         addPottedPlantDrops(ModBlocks.POTTED_TINY_SHARP_GRASS);
         addPottedPlantDrops(ModBlocks.POTTED_SMALL_SHARP_GRASS);
+        addPottedPlantDrops(ModBlocks.POTTED_SOUL_TORCH);
+        addPottedPlantDrops(ModBlocks.POTTED_TORCH);
+        addPottedPlantDrops(ModBlocks.POTTED_REDSTONE_TORCH);
 
 
         //Nature's spirit compat
