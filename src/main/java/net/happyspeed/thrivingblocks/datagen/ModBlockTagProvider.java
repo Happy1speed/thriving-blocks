@@ -131,6 +131,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRUSHED_DEEPSLATE_BLOCK)
                 .add(ModBlocks.AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK)
+                .add(ModBlocks.TOUGH_DIRT_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)
@@ -167,6 +168,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
                 .add(ModBlocks.AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK)
+                .add(ModBlocks.TOUGH_DIRT_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)
@@ -216,6 +218,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRAVEL_PATH_BLOCK)
                 .add(ModBlocks.CLAY_PATH_BLOCK)
                 .add(ModBlocks.MUD_PATH_BLOCK)
+                .add(ModBlocks.TOUGH_DIRT_BLOCK)
                 .add(ModBlocks.SHORT_GRASS_BLOCK);
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
@@ -238,6 +241,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
                 .add(ModBlocks.AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK)
+                .add(ModBlocks.TOUGH_DIRT_BLOCK)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
 //                .add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)

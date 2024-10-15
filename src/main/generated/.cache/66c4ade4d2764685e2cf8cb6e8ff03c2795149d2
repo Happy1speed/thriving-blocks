@@ -1,17 +1,17 @@
-// 1.20.1	2024-10-04T21:04:54.8511196	Thriving Blocks/Tags for minecraft:block
+// 1.20.1	2024-10-14T17:42:48.2539851	Thriving Blocks/Tags for minecraft:block
 7c0f46f3201b280fb501a47938bc8ec4fe30999d data\minecraft\tags\blocks\walls.json
-6820bf329f1e75385b0bb08bc900c60159da0c54 data\minecraft\tags\blocks\dirt.json
-cbfaada213a33210f52e0595dce306b43d898d24 data\minecraft\tags\blocks\bamboo_plantable_on.json
+78e9fc6537f6da193e42f6fe1940424a2e71eb96 data\minecraft\tags\blocks\dirt.json
+16115efe5c232b9fc219ad203dabaf2583cd6fc6 data\minecraft\tags\blocks\bamboo_plantable_on.json
 7580f71ed413463e89b7a5c45de1e02c1633cd62 data\minecraft\tags\blocks\mineable\pickaxe.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\sniffer_diggable_block.json
 91a05e37a428427698c5973bafdde556346dddd0 data\minecraft\tags\blocks\buttons.json
 5da2d7d70fe257758d213180a986300ceb41022a data\minecraft\tags\blocks\mineable\hoe.json
-1e3071b4c1393f8cb19a53fdc2b46ffc680fcc05 data\minecraft\tags\blocks\valid_spawn.json
+3c61580ffa9e4d103b56c61f02035082eee6883a data\minecraft\tags\blocks\valid_spawn.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\lush_ground_replaceable.json
 bfd9e2aea8c16c13f809f460c9359042d5b6f959 data\minecraft\tags\blocks\sand.json
 7b032063670e193a3bc7305d9511743f763cf1c5 data\minecraft\tags\blocks\inside_step_sound_blocks.json
 4b8cbb1fd8e88917e00e9e4fe05977a1d4a512cd data\minecraft\tags\blocks\climbable.json
-a08287d6b9538e99413da8476194e82309788b6f data\minecraft\tags\blocks\leaves.json
 4bed9ede2ba4d4df7c0dad28d20a5bb8aa89fbcc data\minecraft\tags\blocks\animals_spawnable_on.json
+a08287d6b9538e99413da8476194e82309788b6f data\minecraft\tags\blocks\leaves.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\moss_replaceable.json
-50d3a71b5c78fd2852683810665a25e5e0753a9c data\minecraft\tags\blocks\mineable\shovel.json
+4fc412fd08746b29c4a69c6b7a346524bda206e2 data\minecraft\tags\blocks\mineable\shovel.json

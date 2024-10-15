@@ -1,9 +1,9 @@
-// 1.20.1	2024-10-04T21:04:54.8521184	Thriving Blocks/Block Loot Tables
+// 1.20.1	2024-10-14T17:42:48.2549826	Thriving Blocks/Block Loot Tables
 826bcd782b8b797438576dccb4b9a3cc0835bea0 data\thrivingblocks\loot_tables\blocks\cracked_stone.json
 0b6336a01301098eccb095126d502cf746f9f63c data\thrivingblocks\loot_tables\blocks\short_grass_block.json
 d32aa77fde5a7a7d39983064115e2ab26e103e62 data\thrivingblocks\loot_tables\blocks\azalea_droop.json
-729c09d9986167a63c805eda5ffc3dcd04383597 data\thrivingblocks\loot_tables\blocks\dynamic_mossy_cobblestone_block.json
 0048872bad455608f0f55d8c9656347cf757a50c data\thrivingblocks\loot_tables\blocks\mud_path.json
+729c09d9986167a63c805eda5ffc3dcd04383597 data\thrivingblocks\loot_tables\blocks\dynamic_mossy_cobblestone_block.json
 b6109fdbe4630bacb40cb40fc0312bb36de3fc6c data\thrivingblocks\loot_tables\blocks\full_grass_block.json
 4a23e0b9e05b167d9e47293dbef49bffe0d50593 data\thrivingblocks\loot_tables\blocks\directional_deepslate_tiles.json
 750efcf855b647dd3e53a080ac7eaed7b78374f9 data\thrivingblocks\loot_tables\blocks\old_growth_grass.json
