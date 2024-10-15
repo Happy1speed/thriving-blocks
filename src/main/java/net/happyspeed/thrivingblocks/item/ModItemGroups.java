@@ -68,6 +68,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRUSHED_DEEPSLATE_BLOCK);
                         entries.add(ModBlocks.CRUSHED_BASALT_BLOCK);
                         entries.add(ModBlocks.CHIPPED_STONE);
+                        entries.add(ModBlocks.TOUGH_DIRT_BLOCK);
                         entries.add(ModBlocks.MAGMA_STONE_BLOCK);
                         entries.add(ModBlocks.CRACKED_STONE_BLOCK);
                         entries.add(ModBlocks.DIRECTIONAL_DEEPSLATE_TILES);

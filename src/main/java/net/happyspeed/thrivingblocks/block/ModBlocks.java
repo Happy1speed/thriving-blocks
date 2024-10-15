@@ -278,6 +278,9 @@ public class ModBlocks {
     public static final Block CHAIN_STUB = registerBlock("chain_stub",
             new ChainStubBlock(FabricBlockSettings.copyOf(CHAIN)));
 
+    public static final Block TOUGH_DIRT_BLOCK = registerBlock("tough_dirt",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
