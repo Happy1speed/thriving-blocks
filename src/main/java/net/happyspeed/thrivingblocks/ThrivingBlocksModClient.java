@@ -70,6 +70,24 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_GLASS_LAYER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_GLASS_LAYER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_GLASS_LAYER, RenderLayer.getCutout());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CHAIN_STUB, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_LAYER, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_LAYER, RenderLayer.getTranslucent());
@@ -88,6 +106,23 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_GLASS_LAYER, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_GLASS_LAYER, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_GLASS_LAYER, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_GLASS_LAYER_CLEAR, RenderLayer.getTranslucent());
         if (ThrivingBlocksMod.NaturesSpiritModLoaded) {
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK, RenderLayer.getCutout());
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.GRASSY_SANDY_SOIL_BLOCK, RenderLayer.getCutout());

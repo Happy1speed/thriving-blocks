@@ -76,6 +76,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIRECTIONAL_BRICKS);
                         entries.add(ModBlocks.DIRECTIONAL_QUARTZ_BRICKS);
                         entries.add(ModBlocks.PURPUR_JOINT);
+                        entries.add(ModBlocks.BEDROCK_DIAMOND_ORE);
                     }).build());
     public static final ItemGroup THRIVING_BLOCKS_MISC_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ThrivingBlocksMod.MOD_ID, "thrivingblocksmisc"),
@@ -104,6 +105,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LIME_GLASS_LAYER);
                         entries.add(ModBlocks.CYAN_GLASS_LAYER);
                         entries.add(ModBlocks.LIGHT_BLUE_GLASS_LAYER);
+                        entries.add(ModBlocks.GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.BLACK_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.WHITE_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.GRAY_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.GREEN_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.YELLOW_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.ORANGE_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.RED_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.BLUE_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.MAGENTA_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.PINK_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.PURPLE_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.BROWN_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.LIGHT_GRAY_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.LIME_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.CYAN_GLASS_LAYER_CLEAR);
+                        entries.add(ModBlocks.LIGHT_BLUE_GLASS_LAYER_CLEAR);
                         entries.add(ModBlocks.CHAIN_STUB);
                     }).build());
     public static final ItemGroup THRIVING_BLOCKS_OLD_TEXTURE_GROUP = Registry.register(Registries.ITEM_GROUP,

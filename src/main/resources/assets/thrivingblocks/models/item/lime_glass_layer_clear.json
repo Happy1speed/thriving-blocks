@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thrivingblocks:block/lime_glass_layer_clear"
+  }
+}

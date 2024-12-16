@@ -112,6 +112,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDropWithSilkTouch(ModBlocks.LIME_GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.LIGHT_BLUE_GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.CYAN_GLASS_LAYER);
+        addDropWithSilkTouch(ModBlocks.GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.BLACK_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.WHITE_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.GRAY_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.GREEN_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.YELLOW_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.ORANGE_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.RED_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.BLUE_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.MAGENTA_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.PINK_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.PURPLE_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.BROWN_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.LIGHT_GRAY_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.LIME_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.LIGHT_BLUE_GLASS_LAYER_CLEAR);
+        addDropWithSilkTouch(ModBlocks.CYAN_GLASS_LAYER_CLEAR);
         this.addDrop(ModBlocks.UNDERHANG_VINE, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
         addDrop(ModBlocks.SMALL_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.TINY_SHARP_GRASS, this::grassDrops);
@@ -128,6 +145,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(ModBlocks.POTTED_SOUL_TORCH);
         addPottedPlantDrops(ModBlocks.POTTED_TORCH);
         addPottedPlantDrops(ModBlocks.POTTED_REDSTONE_TORCH);
+        this.addDrop(ModBlocks.BEDROCK_DIAMOND_ORE, (Block block) -> this.oreDrops((Block)block, Items.DIAMOND));
 
 
         //Nature's spirit compat

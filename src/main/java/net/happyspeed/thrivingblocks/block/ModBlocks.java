@@ -266,6 +266,57 @@ public class ModBlocks {
     public static final Block LIGHT_BLUE_GLASS_LAYER = registerBlock("light_blue_glass_layer",
             new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
 
+    public static final Block GLASS_LAYER_CLEAR = registerBlock("glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly().solid()));
+
+    public static final Block BLACK_GLASS_LAYER_CLEAR = registerBlock("black_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block WHITE_GLASS_LAYER_CLEAR = registerBlock("white_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block GRAY_GLASS_LAYER_CLEAR = registerBlock("gray_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block GREEN_GLASS_LAYER_CLEAR = registerBlock("green_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block YELLOW_GLASS_LAYER_CLEAR = registerBlock("yellow_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block ORANGE_GLASS_LAYER_CLEAR = registerBlock("orange_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block RED_GLASS_LAYER_CLEAR = registerBlock("red_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block BLUE_GLASS_LAYER_CLEAR = registerBlock("blue_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block MAGENTA_GLASS_LAYER_CLEAR = registerBlock("magenta_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block PINK_GLASS_LAYER_CLEAR = registerBlock("pink_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block PURPLE_GLASS_LAYER_CLEAR = registerBlock("purple_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block BROWN_GLASS_LAYER_CLEAR = registerBlock("brown_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block LIGHT_GRAY_GLASS_LAYER_CLEAR = registerBlock("light_gray_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block LIME_GLASS_LAYER_CLEAR = registerBlock("lime_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block CYAN_GLASS_LAYER_CLEAR = registerBlock("cyan_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
+    public static final Block LIGHT_BLUE_GLASS_LAYER_CLEAR = registerBlock("light_blue_glass_layer_clear",
+            new GlassLayerMultifaceBlock(FabricBlockSettings.copyOf(Blocks.GLASS).breakInstantly()));
+
     public static final Block POTTED_REDSTONE_TORCH = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_redstone_torch"),
             new FlowerPotBlock(REDSTONE_TORCH, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque().luminance(3)));
 
@@ -280,6 +331,9 @@ public class ModBlocks {
 
     public static final Block TOUGH_DIRT_BLOCK = registerBlock("tough_dirt",
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
+
+    public static final Block BEDROCK_DIAMOND_ORE = registerBlock("bedrock_diamond_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
 
 
     private static Block registerBlock(String name, Block block) {
