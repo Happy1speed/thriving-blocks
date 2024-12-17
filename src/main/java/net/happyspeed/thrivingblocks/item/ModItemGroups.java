@@ -18,10 +18,13 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.FULL_GRASS_BLOCK)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.FULL_GRASS_BLOCK);
                         entries.add(ModBlocks.FULL_PODZOL_BLOCK);
+                        entries.add(ModBlocks.FULL_CRIMSON_NYLIUM_BLOCK);
+                        entries.add(ModBlocks.FULL_WARPED_NYLIUM_BLOCK);
                         entries.add(ModBlocks.COBBLED_SANDSTONE);
                         entries.add(ModBlocks.COBBLED_RED_SANDSTONE);
                         entries.add(ModBlocks.FLOWERING_JUNGLE_LEAVES);
                         entries.add(ModItems.DRIPLEAF_PAD);
+                        entries.add(ModBlocks.MANGROVE_ROOT_CLUMP);
                         entries.add(ModBlocks.AZALEA_DROOP_BLOCK);
                         entries.add(ModBlocks.FLOWERING_AZALEA_DROOP_BLOCK);
                         entries.add(ModBlocks.AZALEA_BUSH_BLOCK);
@@ -70,11 +73,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHIPPED_STONE);
                         entries.add(ModBlocks.TOUGH_DIRT_BLOCK);
                         entries.add(ModBlocks.MAGMA_STONE_BLOCK);
+                        entries.add(ModBlocks.MAGMA_BLACKSTONE_BLOCK);
                         entries.add(ModBlocks.CRACKED_STONE_BLOCK);
                         entries.add(ModBlocks.DIRECTIONAL_DEEPSLATE_TILES);
                         entries.add(ModBlocks.CRACKED_DIRECTIONAL_DEEPSLATE_TILES);
                         entries.add(ModBlocks.DIRECTIONAL_BRICKS);
                         entries.add(ModBlocks.DIRECTIONAL_QUARTZ_BRICKS);
+                        entries.add(ModBlocks.DIRECTIONAL_MUD_BRICKS);
                         entries.add(ModBlocks.PURPUR_JOINT);
                         entries.add(ModBlocks.BEDROCK_DIAMOND_ORE);
                     }).build());
@@ -86,6 +91,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_DIMENSIONAL_STONE_BLOCK);
                         entries.add(ModBlocks.BLUE_DIMENSIONAL_STONE_BLOCK);
                         entries.add(ModBlocks.ALERT_BLOCK);
+                        entries.add(ModBlocks.AMBIENT_CLOCK_BLOCK);
                         entries.add(ModBlocks.GOLDEN_BUTTON);
                         entries.add(ModBlocks.CREEPER_GOLD_BLOCK);
                         entries.add(ModBlocks.GLASS_LAYER);

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:mangrove_roots"
+  },
+  "result": "thrivingblocks:mangrove_root_clump"
+}

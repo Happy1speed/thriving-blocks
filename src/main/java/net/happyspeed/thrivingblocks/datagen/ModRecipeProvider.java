@@ -138,6 +138,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_GLASS_LAYER_CLEAR, Blocks.CYAN_STAINED_GLASS_PANE);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHAIN_STUB, Blocks.CHAIN);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TOUGH_DIRT_BLOCK, Blocks.DIRT);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGMA_BLACKSTONE_BLOCK, Blocks.BLACKSTONE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MANGROVE_ROOT_CLUMP, Blocks.MANGROVE_ROOTS);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FULL_WARPED_NYLIUM_BLOCK, Blocks.WARPED_NYLIUM);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FULL_CRIMSON_NYLIUM_BLOCK, Blocks.CRIMSON_NYLIUM);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIRECTIONAL_MUD_BRICKS, Blocks.MUD_BRICKS);
 
         //Natures spirit compat
 //        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_BLOCK, Blocks.MOSSY_COBBLESTONE);

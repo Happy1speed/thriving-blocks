@@ -27,6 +27,8 @@ public class ModSounds {
 
     public static final SoundEvent ALARM_ONE_SOUND = registerSoundEvent("alarm_one_sound");
 
+    public static final SoundEvent CLOCK_TICK_TOCK_SOUND = registerSoundEvent("clock_tick_tock_sound");
+
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(ThrivingBlocksMod.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

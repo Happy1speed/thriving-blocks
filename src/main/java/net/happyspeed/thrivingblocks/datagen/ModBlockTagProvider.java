@@ -97,6 +97,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BROWN_GLASS_LAYER_CLEAR)
                 .add(ModBlocks.CHAIN_STUB)
                 .add(ModBlocks.BEDROCK_DIAMOND_ORE)
+                .add(ModBlocks.MAGMA_BLACKSTONE_BLOCK)
+                .add(ModBlocks.FULL_CRIMSON_NYLIUM_BLOCK)
+                .add(ModBlocks.FULL_WARPED_NYLIUM_BLOCK)
+                .add(ModBlocks.DIRECTIONAL_MUD_BRICKS)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_STAIRS)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_SLAB)
@@ -150,6 +154,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.TOUGH_DIRT_BLOCK)
+                .add(ModBlocks.DIRECTIONAL_MUD_BRICKS)
+                .add(Blocks.MUD_BRICKS)
+                .add(Blocks.PACKED_MUD)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)
@@ -290,5 +297,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DRIPLEAF_PAD);
         getOrCreateTagBuilder(BlockTags.CLIMBABLE)
                 .add(ModBlocks.UNDERHANG_VINE);
+        getOrCreateTagBuilder(BlockTags.INFINIBURN_OVERWORLD)
+                .add(ModBlocks.MAGMA_BLACKSTONE_BLOCK)
+                .add(ModBlocks.MAGMA_STONE_BLOCK);
+        getOrCreateTagBuilder(BlockTags.INFINIBURN_NETHER)
+                .add(ModBlocks.MAGMA_BLACKSTONE_BLOCK)
+                .add(ModBlocks.MAGMA_STONE_BLOCK);
+        getOrCreateTagBuilder(BlockTags.INFINIBURN_END)
+                .add(ModBlocks.MAGMA_BLACKSTONE_BLOCK)
+                .add(ModBlocks.MAGMA_STONE_BLOCK);
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.MANGROVE_ROOT_CLUMP);
+        getOrCreateTagBuilder(BlockTags.NYLIUM)
+                .add(ModBlocks.FULL_CRIMSON_NYLIUM_BLOCK)
+                .add(ModBlocks.FULL_WARPED_NYLIUM_BLOCK);
+        getOrCreateTagBuilder(BlockTags.MUSHROOM_GROW_BLOCK)
+                .add(ModBlocks.FULL_CRIMSON_NYLIUM_BLOCK)
+                .add(ModBlocks.FULL_WARPED_NYLIUM_BLOCK);
     }
 }

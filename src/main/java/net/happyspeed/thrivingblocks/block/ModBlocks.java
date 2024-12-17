@@ -15,6 +15,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 
 import static net.minecraft.block.Blocks.*;
@@ -155,7 +156,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(STONE)));
 
     public static final Block MAGMA_STONE_BLOCK = registerBlock("magma_stone",
-            new MagmaBlock(FabricBlockSettings.copyOf(MAGMA_BLOCK)));
+            new MagmaBlock(FabricBlockSettings.copyOf(MAGMA_BLOCK).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block MAGMA_BLACKSTONE_BLOCK = registerBlock("magma_blackstone",
+            new MagmaBlock(FabricBlockSettings.copyOf(MAGMA_BLOCK).sounds(BlockSoundGroup.STONE)));
 
     public static final Block CRACKED_MOSSY_STONE_BRICKS_STAIRS = registerBlock("cracked_mossy_stone_bricks_stairs",
             new StairsBlock(ModBlocks.CRACKED_MOSSY_STONE_BRICKS_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CRACKED_STONE_BRICKS)));
@@ -170,6 +174,10 @@ public class ModBlocks {
     public static final Block ALERT_BLOCK = registerBlock("alert_block",
             new AlertBlock(FabricBlockSettings.copyOf(Blocks.DIRT).hardness(0.3f).sounds(BlockSoundGroup.NETHERITE)));
     public static final BlockEntityType<AlertBlockEntity> ALERT_BLOCK_ENTITY_BLOCK_ENTITY_TYPE = registerBlockEntity("alarm_block_entity", FabricBlockEntityTypeBuilder.create(AlertBlockEntity::new, ALERT_BLOCK));
+
+    public static final Block AMBIENT_CLOCK_BLOCK = registerBlock("ambient_clock_block",
+            new AmbientClockBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).hardness(0.3f).sounds(BlockSoundGroup.WOOD)));
+    public static final BlockEntityType<AmbientClockBlockEntity> AMBIENT_CLOCK_BLOCK_ENTITY_BLOCK_ENTITY_TYPE = registerBlockEntity("ambient_clock_block_entity", FabricBlockEntityTypeBuilder.create(AmbientClockBlockEntity::new, AMBIENT_CLOCK_BLOCK));
 
     public static final Block DIRECTIONAL_DEEPSLATE_TILES = registerBlock("directional_deepslate_tiles",
             new GlazedTerracottaBlock(FabricBlockSettings.copyOf(DEEPSLATE_TILES)));
@@ -334,6 +342,18 @@ public class ModBlocks {
 
     public static final Block BEDROCK_DIAMOND_ORE = registerBlock("bedrock_diamond_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
+
+    public static final Block MANGROVE_ROOT_CLUMP = registerBlock("mangrove_root_clump",
+            new MangroveRootsBlock(FabricBlockSettings.copyOf(Blocks.MANGROVE_ROOTS)));
+
+    public static final Block FULL_CRIMSON_NYLIUM_BLOCK = registerBlock("full_crimson_nylium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.CRIMSON_NYLIUM)));
+
+    public static final Block FULL_WARPED_NYLIUM_BLOCK = registerBlock("full_warped_nylium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.WARPED_NYLIUM)));
+
+    public static final Block DIRECTIONAL_MUD_BRICKS = registerBlock("directional_mud_bricks",
+            new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.MUD_BRICKS)));
 
 
     private static Block registerBlock(String name, Block block) {

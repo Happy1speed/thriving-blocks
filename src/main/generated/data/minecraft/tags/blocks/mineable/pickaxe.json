@@ -73,6 +73,10 @@
     "thrivingblocks:brown_glass_layer_clear",
     "thrivingblocks:chain_stub",
     "thrivingblocks:bedrock_diamond_ore",
+    "thrivingblocks:magma_blackstone",
+    "thrivingblocks:full_crimson_nylium_block",
+    "thrivingblocks:full_warped_nylium_block",
+    "thrivingblocks:directional_mud_bricks",
     "thrivingblocks:golden_button"
   ]
 }

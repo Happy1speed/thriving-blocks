@@ -35,6 +35,9 @@
     "thrivingblocks:azalea_bush_block",
     "thrivingblocks:flowering_azalea_bush_block",
     "thrivingblocks:tough_dirt",
+    "thrivingblocks:directional_mud_bricks",
+    "minecraft:mud_bricks",
+    "minecraft:packed_mud",
     "thrivingblocks:short_grass_block"
   ]
 }

@@ -31,6 +31,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.FULL_GRASS_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
+        addDrop(ModBlocks.FULL_CRIMSON_NYLIUM_BLOCK, (Block block) -> drops((Block)block, Blocks.NETHERRACK));
+        addDrop(ModBlocks.FULL_WARPED_NYLIUM_BLOCK, (Block block) -> drops((Block)block, Blocks.NETHERRACK));
         addDrop(ModBlocks.GRASSY_MOSS_BLOCK, (Block block) -> drops((Block)block, Blocks.MOSS_BLOCK));
         addDrop(ModBlocks.GRASSY_STONE_BLOCK, (Block block) -> drops((Block)block, Blocks.COBBLESTONE));
         addDrop(ModBlocks.GRASSY_GRANITE_BLOCK, (Block block) -> drops((Block)block, Blocks.GRANITE));
@@ -95,6 +97,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.AZALEA_BUSH_BLOCK);
         addDrop(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK);
         addDrop(ModBlocks.CHAIN_STUB);
+        addDrop(ModBlocks.DIRECTIONAL_MUD_BRICKS);
+        addDrop(ModBlocks.MAGMA_BLACKSTONE_BLOCK);
+        addDrop(ModBlocks.MANGROVE_ROOT_CLUMP);
         addDropWithSilkTouch(ModBlocks.GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.BLACK_GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.WHITE_GLASS_LAYER);

@@ -4,5 +4,11 @@
     "sounds": [
        "thrivingblocks:alarm_sfx"
     ]
+  },
+  "clock_tick_tock_sound": {
+    "subtitle": "thrivingblocks.clock_tick_sound_sub",
+    "sounds": [
+      "thrivingblocks:clock_tick_tock"
+    ]
   }
 }

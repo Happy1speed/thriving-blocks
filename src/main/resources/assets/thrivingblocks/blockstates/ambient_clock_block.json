@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "thrivingblocks:block/ambient_clock_block"
+    }
+  }
+}

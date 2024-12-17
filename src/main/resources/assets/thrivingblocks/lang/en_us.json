@@ -147,8 +147,16 @@
   "block.thrivingblocks.chain_stub": "Chain Stub",
   "block.thrivingblocks.tough_dirt": "Tough Dirt",
   "block.thrivingblocks.bedrock_diamond_ore": "Bedrock Diamond Ore",
+  "block.thrivingblocks.magma_blackstone": "Magma Blackstone",
+  "block.thrivingblocks.mangrove_root_clump": "Mangrove Root Clump",
+  "block.thrivingblocks.full_crimson_nylium_block": "Full Crimson Nylium Block",
+  "block.thrivingblocks.full_warped_nylium_block": "Full Warped Nylium Block",
+  "block.thrivingblocks.directional_mud_bricks": "Directional Mud Bricks",
+  "block.thrivingblocks.ambient_clock_block": "Ambient Clock Block",
 
   "thrivingblocks.alarm_sound_sub": "Waaaaoohw!",
+
+  "thrivingblocks.clock_tick_sound_sub": "clock noises",
 
   "itemgroup.thrivingblocks": "Thriving Blocks Main",
   "itemgroup.thrivingblocksmisc": "Thriving Blocks Misc",
