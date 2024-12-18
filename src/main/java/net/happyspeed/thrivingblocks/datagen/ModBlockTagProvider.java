@@ -101,6 +101,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FULL_CRIMSON_NYLIUM_BLOCK)
                 .add(ModBlocks.FULL_WARPED_NYLIUM_BLOCK)
                 .add(ModBlocks.DIRECTIONAL_MUD_BRICKS)
+                .add(ModBlocks.AMBIENT_CLOCK_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_STAIRS)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_SLAB)
