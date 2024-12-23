@@ -24,6 +24,7 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_CLAY_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_COARSE_DIRT_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_MUD_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_PACKED_MUD_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SAND_PATH_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SHORT_DIRT_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK, RenderLayer.getCutout());
@@ -322,6 +323,12 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
             if (world == null || pos == null) { return FoliageColors.getDefaultColor(); }
             return BiomeColors.getFoliageColor(world, pos);
         }, ModBlocks.UNDERHANG_VINE);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.GRASSY_PACKED_MUD_BLOCK.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.GRASSY_PACKED_MUD_BLOCK);
 
         //------------------------ Register Nature's spirit compat blocks ----------------------------
         if (ThrivingBlocksMod.NaturesSpiritModLoaded) {

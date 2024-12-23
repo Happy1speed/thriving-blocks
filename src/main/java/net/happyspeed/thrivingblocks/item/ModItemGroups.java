@@ -82,6 +82,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIRECTIONAL_MUD_BRICKS);
                         entries.add(ModBlocks.PURPUR_JOINT);
                         entries.add(ModBlocks.BEDROCK_DIAMOND_ORE);
+                        entries.add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
                     }).build());
     public static final ItemGroup THRIVING_BLOCKS_MISC_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ThrivingBlocksMod.MOD_ID, "thrivingblocksmisc"),

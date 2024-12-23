@@ -43,6 +43,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRASSY_CLAY_BLOCK, (Block block) -> drops((Block)block, Blocks.CLAY));
         addDrop(ModBlocks.GRASSY_COARSE_DIRT_BLOCK, (Block block) -> drops((Block)block, Blocks.COARSE_DIRT));
         addDrop(ModBlocks.GRASSY_MUD_BLOCK, (Block block) -> drops((Block)block, Blocks.MUD));
+        addDrop(ModBlocks.GRASSY_PACKED_MUD_BLOCK, (Block block) -> drops((Block)block, Blocks.PACKED_MUD));
         addDrop(ModBlocks.SAND_PATH_BLOCK, (Block block) -> drops((Block)block, Blocks.SAND));
         addDrop(ModBlocks.GRAVEL_PATH_BLOCK, (Block block) -> drops((Block)block, Blocks.GRAVEL));
         addDrop(ModBlocks.CLAY_PATH_BLOCK, (Block block) -> drops((Block)block, Blocks.CLAY));

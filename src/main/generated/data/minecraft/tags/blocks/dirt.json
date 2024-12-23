@@ -38,6 +38,7 @@
     "thrivingblocks:directional_mud_bricks",
     "minecraft:mud_bricks",
     "minecraft:packed_mud",
+    "thrivingblocks:grassy_packed_mud",
     "thrivingblocks:short_grass_block"
   ]
 }

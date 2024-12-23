@@ -355,6 +355,9 @@ public class ModBlocks {
     public static final Block DIRECTIONAL_MUD_BRICKS = registerBlock("directional_mud_bricks",
             new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.MUD_BRICKS)));
 
+    public static final Block GRASSY_PACKED_MUD_BLOCK = registerBlock("grassy_packed_mud",
+            new Block(FabricBlockSettings.copyOf(Blocks.PACKED_MUD).sounds(ModSounds.GRASSY_PACKED_MUD_BLOCK_SOUNDS)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
