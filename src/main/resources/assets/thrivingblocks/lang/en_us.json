@@ -74,6 +74,7 @@
   "block.thrivingblocks.cracked_mossy_stone_bricks_slab": "Cracked Mossy Stone Bricks Slab",
   "block.thrivingblocks.cracked_mossy_stone_bricks_wall": "Cracked Mossy Stone Bricks Wall",
   "block.thrivingblocks.grassy_sandy_soil_block": "Grassy Sandy Soil",
+  "block.thrivingblocks.cobbled_chert": "Cobbled Chert",
   "block.thrivingblocks.alert_block": "Alert Block",
   "block.thrivingblocks.directional_deepslate_tiles": "Directional Deepslate Tiles",
   "block.thrivingblocks.cracked_directional_deepslate_tiles": "Cracked Directional Deepslate Tiles",
@@ -154,6 +155,9 @@
   "block.thrivingblocks.full_warped_nylium_block": "Full Warped Nylium Block",
   "block.thrivingblocks.directional_mud_bricks": "Directional Mud Bricks",
   "block.thrivingblocks.ambient_clock_block": "Ambient Clock Block",
+  "block.thrivingblocks.bush_fern": "Bush Fern",
+  "block.thrivingblocks.neat_bush_fern": "Neat Bush Fern",
+  "block.thrivingblocks.potted_bush_fern": "Potted Bush Fern",
 
   "thrivingblocks.alarm_sound_sub": "Waaaaoohw!",
 

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:green_glass_layer"
+  },
+  "result": "minecraft:green_stained_glass_pane"
+}

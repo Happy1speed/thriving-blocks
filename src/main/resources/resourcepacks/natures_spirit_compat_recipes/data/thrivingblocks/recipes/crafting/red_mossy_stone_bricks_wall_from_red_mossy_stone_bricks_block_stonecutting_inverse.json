@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:red_mossy_stone_bricks_wall"
+  },
+  "result": "thrivingblocks:red_mossy_stone_bricks_block"
+}

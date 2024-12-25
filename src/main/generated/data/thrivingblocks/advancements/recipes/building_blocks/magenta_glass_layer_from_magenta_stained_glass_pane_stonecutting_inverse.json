@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magenta_stained_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_stained_glass_pane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:magenta_glass_layer_from_magenta_stained_glass_pane_stonecutting_inverse"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_magenta_stained_glass_pane",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:magenta_glass_layer_from_magenta_stained_glass_pane_stonecutting_inverse"
+    ]
+  },
+  "sends_telemetry_event": false
+}

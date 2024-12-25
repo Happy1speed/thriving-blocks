@@ -17,7 +17,7 @@ import net.minecraft.world.WorldView;
 
 public class AzaleaDroopBlock
         extends Block {
-    protected static final VoxelShape SHAPE = Block.createCuboidShape(0, 0.0, 0, 16, 1.0, 16);
+    protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0, -1.0, 0.0, 16.0, 0.0, 16.0);
 
     public AzaleaDroopBlock(Settings settings) {
         super(settings);
@@ -25,6 +25,11 @@ public class AzaleaDroopBlock
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+        return SHAPE;
+    }
+
+    @Override
+    public VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return SHAPE;
     }
 

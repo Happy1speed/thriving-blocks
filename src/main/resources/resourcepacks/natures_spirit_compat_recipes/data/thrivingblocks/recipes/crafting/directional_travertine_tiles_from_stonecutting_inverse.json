@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:directional_travertine_tiles"
+  },
+  "result": "natures_spirit:travertine_tiles"
+}

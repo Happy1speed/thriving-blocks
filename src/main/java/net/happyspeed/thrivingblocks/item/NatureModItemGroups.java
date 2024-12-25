@@ -17,6 +17,7 @@ public class NatureModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.thrivingblocksnaturespirit"))
                     .icon(() -> new ItemStack(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)).entries((displayContext, entries) -> {
                         entries.add(NaturesSpiritModBlocks.COBBLED_PINK_SANDSTONE);
+                        entries.add(NaturesSpiritModBlocks.COBBLED_CHERT_BLOCK);
                         entries.add(NaturesSpiritModBlocks.NATURAL_TRAVERTINE_BLOCK);
                         entries.add(NaturesSpiritModBlocks.DIRECTIONAL_TRAVERTINE_TILES);
                         entries.add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK);

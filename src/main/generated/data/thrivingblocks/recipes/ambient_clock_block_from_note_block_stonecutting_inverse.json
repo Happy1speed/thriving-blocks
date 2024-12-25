@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:ambient_clock_block"
+  },
+  "result": "minecraft:note_block"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:rocky_sandy_soil_block"
+  },
+  "result": "natures_spirit:sandy_soil"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:cobbled_chert"
+  },
+  "result": "natures_spirit:chert"
+}

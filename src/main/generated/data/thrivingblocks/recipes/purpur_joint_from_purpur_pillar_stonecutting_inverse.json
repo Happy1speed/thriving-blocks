@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:purpur_joint"
+  },
+  "result": "minecraft:purpur_pillar"
+}

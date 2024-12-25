@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_grass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tiny_sharp_grass_from_grass_stonecutting_inverse"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_grass",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tiny_sharp_grass_from_grass_stonecutting_inverse"
+    ]
+  },
+  "sends_telemetry_event": false
+}

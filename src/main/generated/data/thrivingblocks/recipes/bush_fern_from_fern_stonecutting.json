@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:fern"
+  },
+  "result": "thrivingblocks:bush_fern"
+}

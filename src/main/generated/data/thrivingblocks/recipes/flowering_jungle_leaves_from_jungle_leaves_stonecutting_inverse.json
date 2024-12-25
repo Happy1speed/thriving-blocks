@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:flowering_jungle_leaves"
+  },
+  "result": "minecraft:jungle_leaves"
+}

@@ -32,6 +32,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.UNDERHANG_VINE);
                         entries.add(ModBlocks.NEAT_FERN);
                         entries.add(ModBlocks.NEAT_LARGE_FERN);
+                        entries.add(ModBlocks.BUSH_FERN);
+                        entries.add(ModBlocks.NEAT_BUSH_FERN);
                         entries.add(ModBlocks.GRASSY_MOSS_BLOCK);
                         entries.add(ModBlocks.GRASSY_STONE_BLOCK);
                         entries.add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK);
@@ -41,6 +43,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRASSY_DEEPSLATE_BLOCK);
                         entries.add(ModBlocks.GRASSY_CLAY_BLOCK);
                         entries.add(ModBlocks.GRASSY_COARSE_DIRT_BLOCK);
+                        entries.add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
                         entries.add(ModBlocks.GRASSY_MUD_BLOCK);
                         entries.add(ModBlocks.MOSS_GRASS_BLOCK);
                         entries.add(ModBlocks.SHORT_GRASS_BLOCK);
@@ -82,7 +85,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIRECTIONAL_MUD_BRICKS);
                         entries.add(ModBlocks.PURPUR_JOINT);
                         entries.add(ModBlocks.BEDROCK_DIAMOND_ORE);
-                        entries.add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
                     }).build());
     public static final ItemGroup THRIVING_BLOCKS_MISC_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ThrivingBlocksMod.MOD_ID, "thrivingblocksmisc"),

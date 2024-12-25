@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "thrivingblocks:block/cyan_glass_layer_clear"
+    "layer0": "thrivingblocks:block/cyan_glass_layer_clear",
+    "layer1": "thrivingblocks:block/thriving_blocks_overlay2"
   }
 }

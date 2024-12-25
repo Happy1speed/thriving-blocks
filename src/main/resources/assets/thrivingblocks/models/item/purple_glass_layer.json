@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "block/purple_stained_glass"
+    "layer0": "block/purple_stained_glass",
+    "layer1": "thrivingblocks:block/thriving_blocks_overlay"
   }
 }

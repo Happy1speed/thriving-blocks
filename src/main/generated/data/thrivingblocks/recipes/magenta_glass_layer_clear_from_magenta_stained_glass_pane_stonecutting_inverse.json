@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:magenta_glass_layer_clear"
+  },
+  "result": "minecraft:magenta_stained_glass_pane"
+}

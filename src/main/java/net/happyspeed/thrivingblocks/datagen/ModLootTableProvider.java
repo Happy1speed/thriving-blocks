@@ -143,6 +143,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NEAT_FERN, this::grassDrops);
         addDrop(ModBlocks.NEAT_LARGE_FERN, this::grassDrops);
         addDrop(ModBlocks.NEAT_OLD_GROWTH_FERN, this::grassDrops);
+        addDrop(ModBlocks.BUSH_FERN, this::grassDrops);
+        addDrop(ModBlocks.NEAT_BUSH_FERN, this::grassDrops);
         addPottedPlantDrops(ModBlocks.POTTED_GRASS);
         addPottedPlantDrops(ModBlocks.POTTED_OLD_GROWTH_GRASS);
         addPottedPlantDrops(ModBlocks.POTTED_OLD_GROWTH_FERN);
@@ -151,6 +153,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(ModBlocks.POTTED_SOUL_TORCH);
         addPottedPlantDrops(ModBlocks.POTTED_TORCH);
         addPottedPlantDrops(ModBlocks.POTTED_REDSTONE_TORCH);
+        addPottedPlantDrops(ModBlocks.POTTED_BUSH_FERN);
         this.addDrop(ModBlocks.BEDROCK_DIAMOND_ORE, (Block block) -> this.oreDrops((Block)block, Items.DIAMOND));
 
 

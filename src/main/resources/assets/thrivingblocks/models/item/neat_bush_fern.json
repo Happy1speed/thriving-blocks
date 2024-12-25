@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/large_fern_top",
+    "layer1": "thrivingblocks:block/thriving_blocks_overlay2"
+  }
+}

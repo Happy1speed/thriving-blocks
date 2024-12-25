@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:full_crimson_nylium_block"
+  },
+  "result": "minecraft:crimson_nylium"
+}

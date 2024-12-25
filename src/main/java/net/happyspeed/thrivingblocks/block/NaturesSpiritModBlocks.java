@@ -18,7 +18,7 @@ import static net.minecraft.block.Blocks.*;
 
 public class NaturesSpiritModBlocks {
     public static final Block FLAT_RED_MOSS_CARPET_BLOCK = registerBlock("flat_red_moss_carpet",
-            new FlatMossCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).breakInstantly().noCollision().replaceable()));
+            new FlatMossCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).replaceable().breakInstantly()));
 
     public static final Block NATURAL_TRAVERTINE_BLOCK = registerBlock("natural_travertine_block",
             new Block(FabricBlockSettings.copyOf(STONE)));
@@ -68,6 +68,9 @@ public class NaturesSpiritModBlocks {
 
     public static final Block RED_MOSS_GRASS_BLOCK = registerBlock("red_moss_grass_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+
+    public static final Block COBBLED_CHERT_BLOCK = registerBlock("cobbled_chert",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     public static final Block GRASSY_SANDY_SOIL_BLOCK = registerBlock("grassy_sandy_soil_block",
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(ModSounds.GRASSY_CLAY_BLOCK_SOUNDS)));

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:dynamic_cracked_mossy_stone_bricks_block"
+  },
+  "result": "minecraft:mossy_stone_bricks"
+}

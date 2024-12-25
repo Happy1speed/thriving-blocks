@@ -74,9 +74,9 @@ public class ModBlocks {
     public static final Block GRASSY_MOSSY_COBBLESTONE_BLOCK = registerBlock("grassy_mossy_cobblestone",
             new Block(FabricBlockSettings.copyOf(STONE).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
     public static final Block GRASS_CARPET_BLOCK = registerBlock("grass_carpet",
-            new GrassCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).breakInstantly().noCollision().replaceable()));
+            new GrassCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).replaceable().breakInstantly()));
     public static final Block FLAT_MOSS_CARPET_BLOCK = registerBlock("flat_moss_carpet",
-            new FlatMossCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).breakInstantly().noCollision().replaceable()));
+            new FlatMossCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).replaceable().breakInstantly()));
     public static final Block COARSE_SAND = registerBlock("coarse_sand",
             new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
     public static final Block ROUGH_OBSIDIAN = registerBlock("rough_obsidian",
@@ -357,6 +357,14 @@ public class ModBlocks {
 
     public static final Block GRASSY_PACKED_MUD_BLOCK = registerBlock("grassy_packed_mud",
             new Block(FabricBlockSettings.copyOf(Blocks.PACKED_MUD).sounds(ModSounds.GRASSY_PACKED_MUD_BLOCK_SOUNDS)));
+
+    public static final Block BUSH_FERN = registerBlock("bush_fern",
+            new FernBlock(FabricBlockSettings.copyOf(Blocks.GRASS).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offset(AbstractBlock.OffsetType.XYZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block POTTED_BUSH_FERN = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_bush_fern"),
+            new FlowerPotBlock(BUSH_FERN, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block NEAT_BUSH_FERN = registerBlock("neat_bush_fern",
+            new FernBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
 
 
     private static Block registerBlock(String name, Block block) {

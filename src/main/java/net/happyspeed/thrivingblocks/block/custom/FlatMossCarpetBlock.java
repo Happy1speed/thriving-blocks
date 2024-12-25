@@ -17,7 +17,7 @@ import net.minecraft.world.WorldView;
 
 public class FlatMossCarpetBlock
         extends Block {
-    protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 1.0, 16.0);
+    protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0, -1.0, 0.0, 16.0, 0.0, 16.0);
 
     public FlatMossCarpetBlock(Settings settings) {
         super(settings);
@@ -27,6 +27,13 @@ public class FlatMossCarpetBlock
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return SHAPE;
     }
+
+    @Override
+    public VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+        return SHAPE;
+    }
+
+
 
     protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
         if (ThrivingBlocksMod.NaturesSpiritModLoaded) {
