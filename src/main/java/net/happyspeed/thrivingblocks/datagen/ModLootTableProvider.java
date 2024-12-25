@@ -147,6 +147,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NEAT_OLD_GROWTH_FERN, this::grassDrops);
         addDrop(ModBlocks.BUSH_FERN, this::grassDrops);
         addDrop(ModBlocks.NEAT_BUSH_FERN, this::grassDrops);
+        addDrop(ModBlocks.NEAT_SMALL_DRIPLEAF, (Block block) -> BlockLootTableGenerator.dropsWithShears(block));
         addPottedPlantDrops(ModBlocks.POTTED_GRASS);
         addPottedPlantDrops(ModBlocks.POTTED_OLD_GROWTH_GRASS);
         addPottedPlantDrops(ModBlocks.POTTED_OLD_GROWTH_FERN);

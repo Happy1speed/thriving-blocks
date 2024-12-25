@@ -375,6 +375,9 @@ public class ModBlocks {
     public static final Block POTTED_SMALL_DRIPLEAF = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_small_dripleaf"),
             new FlowerPotBlock(SMALL_DRIPLEAF, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
+    public static final Block NEAT_SMALL_DRIPLEAF = registerBlock("neat_small_dripleaf",
+            new SmallDripleafBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.SMALL_DRIPLEAF).pistonBehavior(PistonBehavior.DESTROY)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

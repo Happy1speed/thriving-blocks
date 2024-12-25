@@ -153,6 +153,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEAT_BUSH_FERN, ModBlocks.BUSH_FERN);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DRIPLEAF_VINE_BLOCK, Blocks.BIG_DRIPLEAF);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRASSY_COBBLESTONE_BLOCK, Blocks.COBBLESTONE);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEAT_SMALL_DRIPLEAF, Blocks.SMALL_DRIPLEAF);
         CookingRecipeJsonBuilder.createSmelting(Ingredient.fromTag(ItemTags.SAPLINGS), RecipeCategory.BUILDING_BLOCKS, Blocks.DEAD_BUSH.asItem(), 0.1f, 50).criterion("dead_bush", VanillaRecipeProvider.conditionsFromTag(ItemTags.SAPLINGS)).offerTo(exporter);
 
         //Natures spirit compat

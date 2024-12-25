@@ -31,6 +31,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.AZALEA_BUSH_BLOCK);
                         entries.add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK);
                         entries.add(ModBlocks.UNDERHANG_VINE);
+                        entries.add(ModBlocks.NEAT_SMALL_DRIPLEAF);
                         entries.add(ModBlocks.NEAT_FERN);
                         entries.add(ModBlocks.NEAT_LARGE_FERN);
                         entries.add(ModBlocks.BUSH_FERN);
