@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "block/big_dripleaf_stem",
+    "layer1": "thrivingblocks:block/thriving_blocks_overlay"
+  }
+}

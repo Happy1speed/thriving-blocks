@@ -73,6 +73,8 @@ public class ModBlocks {
             new FallingBlock(FabricBlockSettings.copyOf(Blocks.RED_SAND)));
     public static final Block GRASSY_MOSSY_COBBLESTONE_BLOCK = registerBlock("grassy_mossy_cobblestone",
             new Block(FabricBlockSettings.copyOf(STONE).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
+    public static final Block GRASSY_COBBLESTONE_BLOCK = registerBlock("grassy_cobblestone",
+            new Block(FabricBlockSettings.copyOf(STONE).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
     public static final Block GRASS_CARPET_BLOCK = registerBlock("grass_carpet",
             new GrassCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).replaceable().breakInstantly()));
     public static final Block FLAT_MOSS_CARPET_BLOCK = registerBlock("flat_moss_carpet",
@@ -170,6 +172,7 @@ public class ModBlocks {
 
     public static final Block MOSS_GRASS_BLOCK = registerBlock("moss_grass_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+
 
     public static final Block ALERT_BLOCK = registerBlock("alert_block",
             new AlertBlock(FabricBlockSettings.copyOf(Blocks.DIRT).hardness(0.3f).sounds(BlockSoundGroup.NETHERITE)));
@@ -366,6 +369,11 @@ public class ModBlocks {
     public static final Block NEAT_BUSH_FERN = registerBlock("neat_bush_fern",
             new FernBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
 
+    public static final Block DRIPLEAF_VINE_BLOCK = registerBlock("dripleaf_vine",
+            new DripleafVineBlock(FabricBlockSettings.copyOf(Blocks.BIG_DRIPLEAF).sounds(BlockSoundGroup.SMALL_DRIPLEAF).hardness(0.1f).collidable(false)));
+
+    public static final Block POTTED_SMALL_DRIPLEAF = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_small_dripleaf"),
+            new FlowerPotBlock(SMALL_DRIPLEAF, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

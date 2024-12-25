@@ -36,6 +36,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_DIORITE_BLOCK)
                 .add(ModBlocks.ROUGH_OBSIDIAN)
                 .add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK)
+                .add(ModBlocks.GRASSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.STONE_PATH_BLOCK)
                 .add(ModBlocks.DYNAMIC_MOSSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.DYNAMIC_MOSSY_STONE_BRICKS_BLOCK)
@@ -134,6 +135,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_MUD_BLOCK)
                 .add(ModBlocks.GRASSY_DIORITE_BLOCK)
                 .add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK)
+                .add(ModBlocks.GRASSY_COBBLESTONE_BLOCK)
                 .add(Blocks.CRACKED_DEEPSLATE_BRICKS)
                 .add(Blocks.CRACKED_STONE_BRICKS)
                 .add(Blocks.CRACKED_NETHER_BRICKS)
@@ -187,6 +189,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)
                 .add(Blocks.MOSSY_COBBLESTONE)
                 .add(Blocks.MOSSY_STONE_BRICKS)
+                .add(ModBlocks.GRASSY_COBBLESTONE_BLOCK)
+                .add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.DYNAMIC_MOSSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.DYNAMIC_MOSSY_STONE_BRICKS_BLOCK)
                 .add(ModBlocks.DYNAMIC_CRACKED_MOSSY_STONE_BRICKS_BLOCK)
@@ -219,6 +223,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_MOSS_BLOCK)
                 .add(ModBlocks.SAND_PATH_BLOCK)
                 .add(ModBlocks.COARSE_SAND)
+                .add(ModBlocks.GRASSY_COBBLESTONE_BLOCK)
+                .add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK)
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
@@ -273,6 +279,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.TOUGH_DIRT_BLOCK)
+                .add(ModBlocks.GRASSY_COBBLESTONE_BLOCK)
+                .add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
 //                .add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK)
@@ -288,6 +296,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COARSE_SAND);
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
+                .add(ModBlocks.DRIPLEAF_VINE_BLOCK)
+                .add(ModBlocks.DRIPLEAF_PAD)
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
                 //.add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK);
         getOrCreateTagBuilder(BlockTags.BUTTONS)
@@ -321,5 +331,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.MUSHROOM_GROW_BLOCK)
                 .add(ModBlocks.FULL_CRIMSON_NYLIUM_BLOCK)
                 .add(ModBlocks.FULL_WARPED_NYLIUM_BLOCK);
+        getOrCreateTagBuilder(BlockTags.SMALL_DRIPLEAF_PLACEABLE)
+                .add(ModBlocks.GRASSY_CLAY_BLOCK)
+                .add(ModBlocks.GRASSY_MUD_BLOCK)
+                .add(Blocks.MUD)
+                .add(Blocks.PACKED_MUD)
+                .add(Blocks.MOSS_BLOCK)
+                .add(ModBlocks.MOSS_GRASS_BLOCK)
+                .add(ModBlocks.GRASSY_MOSS_BLOCK)
+                .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
     }
 }

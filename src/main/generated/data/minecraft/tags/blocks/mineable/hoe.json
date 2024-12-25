@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "thrivingblocks:grass_carpet",
+    "thrivingblocks:dripleaf_vine",
+    "thrivingblocks:dripleaf_pad",
     "thrivingblocks:flat_moss_carpet"
   ]
 }

@@ -53,9 +53,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SHORT_DIRT_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
         addDrop(ModBlocks.MOSS_GRASS_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
         addDrop(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK, (Block block) -> drops((Block)block, Blocks.MOSSY_COBBLESTONE));
+        addDrop(ModBlocks.GRASSY_COBBLESTONE_BLOCK, (Block block) -> drops((Block)block, Blocks.COBBLESTONE));
         addDrop(ModBlocks.OLD_OAK_LEAVES, leavesDrops(ModBlocks.OLD_OAK_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.FLOWERING_JUNGLE_LEAVES, leavesDrops(ModBlocks.FLOWERING_JUNGLE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.COBBLED_SANDSTONE);
+        addDrop(ModBlocks.DRIPLEAF_VINE_BLOCK);
         addDrop(ModBlocks.SMOOTH_SAND_BLOCK);
         addDrop(ModBlocks.SMOOTH_RED_SAND_BLOCK);
         addDrop(ModBlocks.GRASS_CARPET_BLOCK);
@@ -154,6 +156,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(ModBlocks.POTTED_TORCH);
         addPottedPlantDrops(ModBlocks.POTTED_REDSTONE_TORCH);
         addPottedPlantDrops(ModBlocks.POTTED_BUSH_FERN);
+        addPottedPlantDrops(ModBlocks.POTTED_SMALL_DRIPLEAF);
         this.addDrop(ModBlocks.BEDROCK_DIAMOND_ORE, (Block block) -> this.oreDrops((Block)block, Items.DIAMOND));
 
 

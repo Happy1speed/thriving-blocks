@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COBBLED_RED_SANDSTONE);
                         entries.add(ModBlocks.FLOWERING_JUNGLE_LEAVES);
                         entries.add(ModItems.DRIPLEAF_PAD);
+                        entries.add(ModBlocks.DRIPLEAF_VINE_BLOCK);
                         entries.add(ModBlocks.MANGROVE_ROOT_CLUMP);
                         entries.add(ModBlocks.AZALEA_DROOP_BLOCK);
                         entries.add(ModBlocks.FLOWERING_AZALEA_DROOP_BLOCK);
@@ -37,6 +38,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRASSY_MOSS_BLOCK);
                         entries.add(ModBlocks.GRASSY_STONE_BLOCK);
                         entries.add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK);
+                        entries.add(ModBlocks.GRASSY_COBBLESTONE_BLOCK);
                         entries.add(ModBlocks.GRASSY_GRANITE_BLOCK);
                         entries.add(ModBlocks.GRASSY_ANDESITE_BLOCK);
                         entries.add(ModBlocks.GRASSY_DIORITE_BLOCK);
