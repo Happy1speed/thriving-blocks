@@ -167,6 +167,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OLD_COBBLESTONE, Blocks.COBBLESTONE);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OLD_MOSSY_COBBLESTONE, Blocks.MOSSY_COBBLESTONE);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ANCIENT_COBBLESTONE, Blocks.COBBLESTONE);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRASSY_SAND_BLOCK, Blocks.SAND);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRASSY_SANDSTONE_BLOCK, Blocks.SANDSTONE);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRASSY_RED_SAND_BLOCK, Blocks.RED_SAND);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRASSY_RED_SANDSTONE_BLOCK, Blocks.RED_SANDSTONE);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK, ModBlocks.OLD_COBBLESTONE);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DEGRADED_NETHERRACK_BLOCK, Blocks.NETHERRACK);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ANCIENT_SOUL_SAND_BLOCK, Blocks.SOUL_SAND);
 
         //Natures spirit compat
 //        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_BLOCK, Blocks.MOSSY_COBBLESTONE);

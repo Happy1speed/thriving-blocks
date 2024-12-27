@@ -23,6 +23,8 @@ public class NatureModItemGroups {
                         entries.add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK);
                         entries.add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK);
                         entries.add(NaturesSpiritModBlocks.GRASSY_SANDY_SOIL_BLOCK);
+                        entries.add(NaturesSpiritModBlocks.GRASSY_PINK_SAND_BLOCK);
+                        entries.add(NaturesSpiritModBlocks.GRASSY_PINK_SANDSTONE_BLOCK);
                         entries.add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_BLOCK);
                         entries.add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_SLAB);
                         entries.add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_STAIRS);

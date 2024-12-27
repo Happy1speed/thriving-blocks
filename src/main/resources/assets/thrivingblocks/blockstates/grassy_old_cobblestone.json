@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thrivingblocks:block/grassy_old_cobblestone",
+        "y": 180
+      },
+      {
+        "model": "thrivingblocks:block/grassy_old_cobblestone",
+        "y": 90
+      },
+      {
+        "model": "thrivingblocks:block/grassy_old_cobblestone",
+        "y": 270
+      },
+      {
+        "model": "thrivingblocks:block/grassy_old_cobblestone"
+      }
+    ]
+  }
+}

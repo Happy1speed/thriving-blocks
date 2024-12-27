@@ -18,6 +18,11 @@
     "thrivingblocks:flowering_azalea_bush_block",
     "thrivingblocks:grassy_packed_mud",
     "thrivingblocks:coarse_gravel",
+    "thrivingblocks:grassy_sand",
+    "thrivingblocks:grassy_sandstone",
+    "thrivingblocks:grassy_red_sand",
+    "thrivingblocks:grassy_red_sandstone",
+    "thrivingblocks:grassy_old_cobblestone",
     "thrivingblocks:smooth_sand"
   ]
 }

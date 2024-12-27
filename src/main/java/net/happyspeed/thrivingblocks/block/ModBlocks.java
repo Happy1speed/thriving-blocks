@@ -414,6 +414,27 @@ public class ModBlocks {
     public static final Block ANCIENT_COBBLESTONE = registerBlock("ancient_cobblestone",
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
 
+    public static final Block GRASSY_SAND_BLOCK = registerBlock("grassy_sand",
+            new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND).sounds(ModSounds.GRASSY_SAND_BLOCK_SOUNDS)));
+
+    public static final Block GRASSY_SANDSTONE_BLOCK = registerBlock("grassy_sandstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
+
+    public static final Block GRASSY_RED_SAND_BLOCK = registerBlock("grassy_red_sand",
+            new FallingBlock(FabricBlockSettings.copyOf(Blocks.RED_SAND).sounds(ModSounds.GRASSY_SAND_BLOCK_SOUNDS)));
+
+    public static final Block GRASSY_RED_SANDSTONE_BLOCK = registerBlock("grassy_red_sandstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
+
+    public static final Block GRASSY_OLD_COBBLESTONE_BLOCK = registerBlock("grassy_old_cobblestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
+
+    public static final Block ANCIENT_SOUL_SAND_BLOCK = registerBlock("ancient_soul_sand",
+            new SoulSandBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND)));
+
+    public static final Block DEGRADED_NETHERRACK_BLOCK = registerBlock("degraded_netherrack",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHERRACK)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

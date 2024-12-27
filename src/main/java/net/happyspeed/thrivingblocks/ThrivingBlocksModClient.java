@@ -80,6 +80,11 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.NEAT_SMALL_DRIPLEAF, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OLD_DEAD_BUSH_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_OLD_DEAD_BUSH_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_SAND_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_RED_SAND_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_SANDSTONE_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_RED_SANDSTONE_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_LAYER_CLEAR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
@@ -142,6 +147,8 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.NEAT_LARGE_LUSH_FERN, RenderLayer.getCutout());
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.NEAT_FLAXEN_FERN, RenderLayer.getCutout());
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.NEAT_LARGE_FLAXEN_FERN, RenderLayer.getCutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.GRASSY_PINK_SAND_BLOCK, RenderLayer.getCutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.GRASSY_PINK_SANDSTONE_BLOCK, RenderLayer.getCutout());
         }
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
@@ -363,6 +370,36 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
             return BiomeColors.getGrassColor(world, pos);
         }, ModBlocks.GRASSY_COBBLESTONE_BLOCK);
 
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.GRASSY_SAND_BLOCK.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.GRASSY_SAND_BLOCK);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.GRASSY_SANDSTONE_BLOCK.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.GRASSY_SANDSTONE_BLOCK);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.GRASSY_RED_SAND_BLOCK.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.GRASSY_RED_SAND_BLOCK);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.GRASSY_RED_SANDSTONE_BLOCK.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.GRASSY_RED_SANDSTONE_BLOCK);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK);
+
         //------------------------ Register Nature's spirit compat blocks ----------------------------
         if (ThrivingBlocksMod.NaturesSpiritModLoaded) {
             ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), NaturesSpiritModBlocks.GRASSY_SANDY_SOIL_BLOCK.asItem());
@@ -387,6 +424,20 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
                 }
                 return BiomeColors.getGrassColor(world, pos);
             }, NaturesSpiritModBlocks.NEAT_LARGE_LUSH_FERN);
+            ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), NaturesSpiritModBlocks.GRASSY_PINK_SAND_BLOCK.asItem());
+            ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+                if (world == null || pos == null) {
+                    return GrassColors.getDefaultColor();
+                }
+                return BiomeColors.getGrassColor(world, pos);
+            }, NaturesSpiritModBlocks.GRASSY_PINK_SAND_BLOCK);
+            ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), NaturesSpiritModBlocks.GRASSY_PINK_SANDSTONE_BLOCK.asItem());
+            ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+                if (world == null || pos == null) {
+                    return GrassColors.getDefaultColor();
+                }
+                return BiomeColors.getGrassColor(world, pos);
+            }, NaturesSpiritModBlocks.GRASSY_PINK_SANDSTONE_BLOCK);
         }
     }
 }

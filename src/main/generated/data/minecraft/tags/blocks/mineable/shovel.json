@@ -20,6 +20,9 @@
     "thrivingblocks:tough_dirt",
     "thrivingblocks:grassy_packed_mud",
     "thrivingblocks:coarse_gravel",
+    "thrivingblocks:grassy_sand",
+    "thrivingblocks:grassy_red_sand",
+    "thrivingblocks:ancient_soul_sand",
     "thrivingblocks:short_grass_block"
   ]
 }

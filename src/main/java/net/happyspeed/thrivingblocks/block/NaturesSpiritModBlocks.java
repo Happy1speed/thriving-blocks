@@ -93,6 +93,12 @@ public class NaturesSpiritModBlocks {
     public static final Block NEAT_LARGE_FLAXEN_FERN = registerBlock("neat_large_flaxen_fern",
             new TallPlantBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
 
+    public static final Block GRASSY_PINK_SAND_BLOCK = registerBlock("grassy_pink_sand",
+            new FallingBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(ModSounds.GRASSY_SAND_BLOCK_SOUNDS)));
+
+    public static final Block GRASSY_PINK_SANDSTONE_BLOCK = registerBlock("grassy_pink_sandstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

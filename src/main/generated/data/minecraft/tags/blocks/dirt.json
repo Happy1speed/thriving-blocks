@@ -43,6 +43,11 @@
     "thrivingblocks:old_mossy_cobblestone",
     "thrivingblocks:cracked_old_stonebricks",
     "thrivingblocks:old_mossy_stonebricks",
+    "thrivingblocks:grassy_sand",
+    "thrivingblocks:grassy_sandstone",
+    "thrivingblocks:grassy_red_sand",
+    "thrivingblocks:grassy_red_sandstone",
+    "thrivingblocks:grassy_old_cobblestone",
     "thrivingblocks:short_grass_block"
   ]
 }

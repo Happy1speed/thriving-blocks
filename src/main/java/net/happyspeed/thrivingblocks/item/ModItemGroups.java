@@ -45,6 +45,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRASSY_DIORITE_BLOCK);
                         entries.add(ModBlocks.GRASSY_DEEPSLATE_BLOCK);
                         entries.add(ModBlocks.GRASSY_CLAY_BLOCK);
+                        entries.add(ModBlocks.GRASSY_SAND_BLOCK);
+                        entries.add(ModBlocks.GRASSY_SANDSTONE_BLOCK);
+                        entries.add(ModBlocks.GRASSY_RED_SAND_BLOCK);
+                        entries.add(ModBlocks.GRASSY_RED_SANDSTONE_BLOCK);
                         entries.add(ModBlocks.GRASSY_COARSE_DIRT_BLOCK);
                         entries.add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
                         entries.add(ModBlocks.GRASSY_MUD_BLOCK);
@@ -100,7 +104,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ROUGH_STONE);
                         entries.add(ModBlocks.OLD_COBBLESTONE);
                         entries.add(ModBlocks.OLD_MOSSY_COBBLESTONE);
+                        entries.add(ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK);
                         entries.add(ModBlocks.ANCIENT_COBBLESTONE);
+                        entries.add(ModBlocks.DEGRADED_NETHERRACK_BLOCK);
+                        entries.add(ModBlocks.ANCIENT_SOUL_SAND_BLOCK);
                         entries.add(ModBlocks.ANCIENT_EMERALD_BLOCK);
                         entries.add(ModBlocks.OLD_OAK_LEAVES);
                         entries.add(ModBlocks.OLD_DEAD_BUSH_BLOCK);

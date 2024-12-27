@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:mossy_cobblestone"
+  },
+  "result": "thrivingblocks:old_mossy_cobblestone"
+}

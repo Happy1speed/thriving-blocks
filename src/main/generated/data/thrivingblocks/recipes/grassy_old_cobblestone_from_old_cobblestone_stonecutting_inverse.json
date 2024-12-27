@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:grassy_old_cobblestone"
+  },
+  "result": "thrivingblocks:old_cobblestone"
+}

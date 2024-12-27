@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:soul_sand"
+  },
+  "result": "thrivingblocks:ancient_soul_sand"
+}

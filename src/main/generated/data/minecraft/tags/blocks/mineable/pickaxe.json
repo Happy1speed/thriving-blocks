@@ -89,6 +89,10 @@
     "thrivingblocks:old_cobblestone",
     "thrivingblocks:old_mossy_cobblestone",
     "thrivingblocks:ancient_cobblestone",
+    "thrivingblocks:grassy_sandstone",
+    "thrivingblocks:grassy_red_sandstone",
+    "thrivingblocks:grassy_old_cobblestone",
+    "thrivingblocks:degraded_netherrack",
     "thrivingblocks:golden_button"
   ]
 }

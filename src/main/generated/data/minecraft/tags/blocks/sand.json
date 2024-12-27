@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "thrivingblocks:smooth_sand",
-    "thrivingblocks:coarse_sand"
+    "thrivingblocks:coarse_sand",
+    "thrivingblocks:grassy_sand",
+    "thrivingblocks:grassy_red_sand"
   ]
 }
