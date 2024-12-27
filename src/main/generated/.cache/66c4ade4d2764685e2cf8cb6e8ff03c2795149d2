@@ -1,10 +1,10 @@
-// 1.20.1	2024-12-27T12:09:24.2833197	Thriving Blocks/Tags for minecraft:block
-93c42cff1dd8765d7ccc5bd29c55cefd12a0b3f4 data\minecraft\tags\blocks\infiniburn_end.json
+// 1.20.1	2024-12-27T12:30:11.9929586	Thriving Blocks/Tags for minecraft:block
 0cdd7c1abb2b3e2dec8bdc48bf521d5b69f52dd2 data\minecraft\tags\blocks\mineable\pickaxe.json
+93c42cff1dd8765d7ccc5bd29c55cefd12a0b3f4 data\minecraft\tags\blocks\infiniburn_end.json
 dc3e3489d759c2996e02fdc71f81c1c4f4b233d9 data\minecraft\tags\blocks\needs_diamond_tool.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\sniffer_diggable_block.json
 9c6d12ae2d4982c2ed8345022424d2879a6d7664 data\minecraft\tags\blocks\mushroom_grow_block.json
-4b8cbb1fd8e88917e00e9e4fe05977a1d4a512cd data\minecraft\tags\blocks\climbable.json
+0587e8cea0cd5ea3dbbd0ce1260bc4f1ee640414 data\minecraft\tags\blocks\climbable.json
 757e9211d78683ea680a8a72b234d2679a966ac6 data\minecraft\tags\blocks\small_dripleaf_placeable.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\moss_replaceable.json
 b7e42173d3eed43b144870d535ba781869cf4c9e data\minecraft\tags\blocks\mineable\shovel.json
@@ -14,10 +14,10 @@ b7e42173d3eed43b144870d535ba781869cf4c9e data\minecraft\tags\blocks\mineable\sho
 63d790240d88f100383855f9c341f1d870244b91 data\minecraft\tags\blocks\dirt.json
 dd60c440bfd0cc24f7c114a45faa666af1a78a89 data\minecraft\tags\blocks\bamboo_plantable_on.json
 91a05e37a428427698c5973bafdde556346dddd0 data\minecraft\tags\blocks\buttons.json
-6b8e15021d11f6783f76ae6c706bb46320dca115 data\minecraft\tags\blocks\mineable\hoe.json
 75a3c01704d752b4ce0cc5b3e0017438e6c273f7 data\minecraft\tags\blocks\valid_spawn.json
 b4e474bd2bb4b43b8b70c564a881f18837e7120e data\minecraft\tags\blocks\mineable\axe.json
-76ecfb36516c57570c54b8af76a8bf77f7ff06c9 data\minecraft\tags\blocks\sword_efficient.json
+08a7702e6eab21dd7593211dd5af19bc1eb5dc5b data\minecraft\tags\blocks\mineable\hoe.json
+a6d2812a61d3d08013a6dd511876cee7f607f228 data\minecraft\tags\blocks\sword_efficient.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\lush_ground_replaceable.json
 db067494eaf460fcdc3128ff452ca4e765855121 data\minecraft\tags\blocks\sand.json
 7b032063670e193a3bc7305d9511743f763cf1c5 data\minecraft\tags\blocks\inside_step_sound_blocks.json

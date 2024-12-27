@@ -62,6 +62,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRASSY_RED_SANDSTONE_BLOCK, (Block block) -> drops((Block)block, Blocks.RED_SANDSTONE));
         addDrop(ModBlocks.OLD_OAK_LEAVES, leavesDrops(ModBlocks.OLD_OAK_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.FLOWERING_JUNGLE_LEAVES, leavesDrops(ModBlocks.FLOWERING_JUNGLE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
+        addDrop(ModBlocks.BAMBOO_VINES_BLOCK, (Block block) -> BlockLootTableGenerator.dropsWithShears(block));
         addDrop(ModBlocks.COBBLED_SANDSTONE);
         addDrop(ModBlocks.DRIPLEAF_VINE_BLOCK);
         addDrop(ModBlocks.SMOOTH_SAND_BLOCK);

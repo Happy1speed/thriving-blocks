@@ -344,6 +344,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
                 .add(ModBlocks.DRIPLEAF_VINE_BLOCK)
                 .add(ModBlocks.DRIPLEAF_PAD)
+                .add(ModBlocks.UNDERHANG_VINE)
+                .add(ModBlocks.BAMBOO_VINES_BLOCK)
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
                 //.add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK);
         getOrCreateTagBuilder(BlockTags.BUTTONS)
@@ -359,6 +361,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
                 .add(ModBlocks.DRIPLEAF_PAD);
         getOrCreateTagBuilder(BlockTags.CLIMBABLE)
+                .add(ModBlocks.BAMBOO_VINES_BLOCK)
                 .add(ModBlocks.UNDERHANG_VINE);
         getOrCreateTagBuilder(BlockTags.INFINIBURN_OVERWORLD)
                 .add(ModBlocks.MAGMA_BLACKSTONE_BLOCK)
@@ -391,6 +394,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NEAT_SMALL_DRIPLEAF);
         getOrCreateTagBuilder(BlockTags.SWORD_EFFICIENT)
                 .add(ModBlocks.OLD_DEAD_BUSH_BLOCK)
+                .add(ModBlocks.BAMBOO_VINES_BLOCK)
+                .add(ModBlocks.UNDERHANG_VINE)
                 .add(ModBlocks.NEAT_SMALL_DRIPLEAF);
         getOrCreateTagBuilder(BlockTags.DEAD_BUSH_MAY_PLACE_ON)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK)

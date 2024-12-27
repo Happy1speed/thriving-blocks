@@ -435,6 +435,11 @@ public class ModBlocks {
     public static final Block DEGRADED_NETHERRACK_BLOCK = registerBlock("degraded_netherrack",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERRACK)));
 
+    public static final Block BAMBOO_VINES_BLOCK = registerBlock("bamboo_vines",
+            new VineBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
+
+    // todo bamboo vines.
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);
