@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "textures": {
+    "plant": "thrivingblocks:block/old_dead_bush"
+  }
+}

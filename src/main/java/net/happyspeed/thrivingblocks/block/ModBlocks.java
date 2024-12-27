@@ -378,6 +378,15 @@ public class ModBlocks {
     public static final Block NEAT_SMALL_DRIPLEAF = registerBlock("neat_small_dripleaf",
             new SmallDripleafBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.SMALL_DRIPLEAF).pistonBehavior(PistonBehavior.DESTROY)));
 
+    public static final Block GLOWING_OBSIDIAN_BLOCK = registerBlock("glowing_obsidian",
+            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).luminance(state -> 3).postProcess(Blocks::always).emissiveLighting(Blocks::always)));
+
+    public static final Block OLD_DEAD_BUSH_BLOCK = registerBlock("old_dead_bush",
+            new DeadBushBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BUSH)));
+
+    public static final Block POTTED_OLD_DEAD_BUSH_BLOCK = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_old_dead_bush"),
+            new FlowerPotBlock(ModBlocks.OLD_DEAD_BUSH_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

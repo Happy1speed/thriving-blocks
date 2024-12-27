@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thrivingblocks:smooth_sand",
+    "thrivingblocks:smooth_red_sand",
+    "thrivingblocks:coarse_sand",
+    "thrivingblocks:cobbled_red_sandstone",
+    "thrivingblocks:cobbled_sandstone",
+    "thrivingblocks:grassy_mud",
+    "thrivingblocks:smooth_sand"
+  ]
+}

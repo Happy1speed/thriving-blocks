@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thrivingblocks:pure_sandy_soil_block",
+    "thrivingblocks:rocky_sandy_soil_block",
+    "thrivingblocks:grassy_sandy_soil_block",
+    "thrivingblocks:cobbled_pink_sandstone",
+    "thrivingblocks:cobbled_chert"
+  ]
+}

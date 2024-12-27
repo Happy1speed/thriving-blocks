@@ -88,6 +88,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIRECTIONAL_MUD_BRICKS);
                         entries.add(ModBlocks.PURPUR_JOINT);
                         entries.add(ModBlocks.BEDROCK_DIAMOND_ORE);
+                        entries.add(ModBlocks.ROUGH_OBSIDIAN);
+                        entries.add(ModBlocks.GLOWING_OBSIDIAN_BLOCK);
+                        entries.add(ModBlocks.OLD_GLOWSTONE_BLOCK);
+                        entries.add(ModBlocks.COARSE_SAND);
+                        entries.add(ModBlocks.ANCIENT_EMERALD_BLOCK);
+                        entries.add(ModBlocks.OLD_OAK_LEAVES);
+                        entries.add(ModBlocks.OLD_DEAD_BUSH_BLOCK);
+                        entries.add(ModBlocks.OLD_GROWTH_FERN);
+                        entries.add(ModBlocks.NEAT_OLD_GROWTH_FERN);
+                        entries.add(ModBlocks.OLD_GROWTH_GRASS);
+                        entries.add(ModBlocks.SMALL_SHARP_GRASS);
+                        entries.add(ModBlocks.TINY_SHARP_GRASS);
+
                     }).build());
     public static final ItemGroup THRIVING_BLOCKS_MISC_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ThrivingBlocksMod.MOD_ID, "thrivingblocksmisc"),
@@ -135,21 +148,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CYAN_GLASS_LAYER_CLEAR);
                         entries.add(ModBlocks.LIGHT_BLUE_GLASS_LAYER_CLEAR);
                         entries.add(ModBlocks.CHAIN_STUB);
-                    }).build());
-    public static final ItemGroup THRIVING_BLOCKS_OLD_TEXTURE_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(ThrivingBlocksMod.MOD_ID, "thrivingblocksold"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.thrivingblocksold"))
-                    .icon(() -> new ItemStack(ModBlocks.OLD_GLOWSTONE_BLOCK)).entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.ROUGH_OBSIDIAN);
-                        entries.add(ModBlocks.OLD_GLOWSTONE_BLOCK);
-                        entries.add(ModBlocks.COARSE_SAND);
-                        entries.add(ModBlocks.ANCIENT_EMERALD_BLOCK);
-                        entries.add(ModBlocks.OLD_OAK_LEAVES);
-                        entries.add(ModBlocks.OLD_GROWTH_FERN);
-                        entries.add(ModBlocks.NEAT_OLD_GROWTH_FERN);
-                        entries.add(ModBlocks.OLD_GROWTH_GRASS);
-                        entries.add(ModBlocks.SMALL_SHARP_GRASS);
-                        entries.add(ModBlocks.TINY_SHARP_GRASS);
                     }).build());
     public static void registerItemGroups() {
         ThrivingBlocksMod.LOGGER.info("Registering Item Groups for " + ThrivingBlocksMod.MOD_ID);

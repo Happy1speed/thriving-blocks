@@ -2,6 +2,7 @@ package net.happyspeed.thrivingblocks.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.fabricmc.yarn.constants.MiningLevels;
 import net.happyspeed.thrivingblocks.ThrivingBlocksMod;
 import net.happyspeed.thrivingblocks.block.ModBlocks;
 import net.happyspeed.thrivingblocks.block.NaturesSpiritModBlocks;
@@ -341,8 +342,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_MOSS_BLOCK)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.OLD_DEAD_BUSH_BLOCK)
                 .add(ModBlocks.NEAT_SMALL_DRIPLEAF);
         getOrCreateTagBuilder(BlockTags.SWORD_EFFICIENT)
+                .add(ModBlocks.OLD_DEAD_BUSH_BLOCK)
                 .add(ModBlocks.NEAT_SMALL_DRIPLEAF);
+        getOrCreateTagBuilder(BlockTags.DEAD_BUSH_MAY_PLACE_ON)
+                .add(ModBlocks.SMOOTH_SAND_BLOCK)
+                .add(ModBlocks.SMOOTH_RED_SAND_BLOCK)
+                .add(ModBlocks.COARSE_SAND)
+                .add(ModBlocks.COBBLED_RED_SANDSTONE)
+                .add(ModBlocks.COBBLED_SANDSTONE)
+                .add(ModBlocks.GRASSY_MUD_BLOCK)
+                .add(ModBlocks.SMOOTH_SAND_BLOCK);
     }
 }

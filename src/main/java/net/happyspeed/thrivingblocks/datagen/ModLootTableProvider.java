@@ -7,6 +7,7 @@ import net.happyspeed.thrivingblocks.block.NaturesSpiritModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.loottable.BlockLootTableGenerator;
+import net.minecraft.data.server.loottable.vanilla.VanillaBlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
@@ -103,6 +104,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DIRECTIONAL_MUD_BRICKS);
         addDrop(ModBlocks.MAGMA_BLACKSTONE_BLOCK);
         addDrop(ModBlocks.MANGROVE_ROOT_CLUMP);
+        addDrop(ModBlocks.GLOWING_OBSIDIAN_BLOCK);
         addDropWithSilkTouch(ModBlocks.GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.BLACK_GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.WHITE_GLASS_LAYER);
@@ -147,6 +149,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NEAT_OLD_GROWTH_FERN, this::grassDrops);
         addDrop(ModBlocks.BUSH_FERN, this::grassDrops);
         addDrop(ModBlocks.NEAT_BUSH_FERN, this::grassDrops);
+        this.addDrop(ModBlocks.OLD_DEAD_BUSH_BLOCK, (Block block) -> dropsWithShears(block, (LootPoolEntry.Builder)this.applyExplosionDecay((ItemConvertible)block, ItemEntry.builder(Items.STICK).apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 2.0f))))));
         addDrop(ModBlocks.NEAT_SMALL_DRIPLEAF, (Block block) -> BlockLootTableGenerator.dropsWithShears(block));
         addPottedPlantDrops(ModBlocks.POTTED_GRASS);
         addPottedPlantDrops(ModBlocks.POTTED_OLD_GROWTH_GRASS);
@@ -158,6 +161,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(ModBlocks.POTTED_REDSTONE_TORCH);
         addPottedPlantDrops(ModBlocks.POTTED_BUSH_FERN);
         addPottedPlantDrops(ModBlocks.POTTED_SMALL_DRIPLEAF);
+        addPottedPlantDrops(ModBlocks.POTTED_OLD_DEAD_BUSH_BLOCK);
         this.addDrop(ModBlocks.BEDROCK_DIAMOND_ORE, (Block block) -> this.oreDrops((Block)block, Items.DIAMOND));
 
 

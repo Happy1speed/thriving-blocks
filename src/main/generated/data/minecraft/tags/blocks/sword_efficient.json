@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "thrivingblocks:old_dead_bush",
     "thrivingblocks:neat_small_dripleaf"
   ]
 }
