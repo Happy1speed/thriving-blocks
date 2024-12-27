@@ -379,7 +379,7 @@ public class ModBlocks {
             new SmallDripleafBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.SMALL_DRIPLEAF).pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block GLOWING_OBSIDIAN_BLOCK = registerBlock("glowing_obsidian",
-            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).luminance(state -> 3).postProcess(Blocks::always).emissiveLighting(Blocks::always)));
+            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).luminance(state -> 5).postProcess(Blocks::always).emissiveLighting(Blocks::always)));
 
     public static final Block OLD_DEAD_BUSH_BLOCK = registerBlock("old_dead_bush",
             new DeadBushBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BUSH)));
