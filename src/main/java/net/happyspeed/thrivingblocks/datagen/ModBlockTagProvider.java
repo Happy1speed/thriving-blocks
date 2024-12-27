@@ -105,6 +105,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIRECTIONAL_MUD_BRICKS)
                 .add(ModBlocks.AMBIENT_CLOCK_BLOCK)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK)
+                .add(ModBlocks.GLOWING_OBSIDIAN_BLOCK)
+                .add(ModBlocks.ROUGH_STONE)
+                .add(ModBlocks.OLD_STONEBRICKS)
+                .add(ModBlocks.OLD_MOSSY_STONEBRICKS)
+                .add(ModBlocks.CRACKED_OLD_STONEBRICKS)
+                .add(ModBlocks.WORN_BRICKS)
+                .add(ModBlocks.OLD_COBBLESTONE)
+                .add(ModBlocks.OLD_MOSSY_COBBLESTONE)
+                .add(ModBlocks.ANCIENT_COBBLESTONE)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_STAIRS)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_SLAB)
@@ -163,6 +172,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(Blocks.MUD_BRICKS)
                 .add(Blocks.PACKED_MUD)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK)
+                .add(ModBlocks.OLD_MOSSY_COBBLESTONE)
+                .add(ModBlocks.CRACKED_OLD_STONEBRICKS)
+                .add(ModBlocks.OLD_MOSSY_STONEBRICKS)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)
@@ -203,6 +215,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.TOUGH_DIRT_BLOCK)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK)
+                .add(ModBlocks.OLD_MOSSY_COBBLESTONE)
+                .add(ModBlocks.CRACKED_OLD_STONEBRICKS)
+                .add(ModBlocks.OLD_MOSSY_STONEBRICKS)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)
@@ -232,6 +247,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK)
+                .add(ModBlocks.COARSE_GRAVEL)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
 //                .add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
@@ -257,6 +273,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MUD_PATH_BLOCK)
                 .add(ModBlocks.TOUGH_DIRT_BLOCK)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK)
+                .add(ModBlocks.COARSE_GRAVEL)
                 .add(ModBlocks.SHORT_GRASS_BLOCK);
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
@@ -283,6 +300,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK)
+                .add(ModBlocks.COARSE_GRAVEL)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
 //                .add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
@@ -355,5 +373,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COBBLED_SANDSTONE)
                 .add(ModBlocks.GRASSY_MUD_BLOCK)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.ROUGH_OBSIDIAN)
+                .add(ModBlocks.GLOWING_OBSIDIAN_BLOCK);
     }
 }

@@ -387,6 +387,33 @@ public class ModBlocks {
     public static final Block POTTED_OLD_DEAD_BUSH_BLOCK = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_old_dead_bush"),
             new FlowerPotBlock(ModBlocks.OLD_DEAD_BUSH_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
+    public static final Block ROUGH_STONE = registerBlock("rough_stone",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block COARSE_GRAVEL = registerBlock("coarse_gravel",
+            new GravelBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL)));
+
+    public static final Block OLD_STONEBRICKS = registerBlock("old_stonebricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+
+    public static final Block OLD_MOSSY_STONEBRICKS = registerBlock("old_mossy_stonebricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+
+    public static final Block CRACKED_OLD_STONEBRICKS = registerBlock("cracked_old_stonebricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+
+    public static final Block WORN_BRICKS = registerBlock("worn_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS)));
+
+    public static final Block OLD_COBBLESTONE = registerBlock("old_cobblestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
+
+    public static final Block OLD_MOSSY_COBBLESTONE = registerBlock("old_mossy_cobblestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.MOSSY_COBBLESTONE)));
+
+    public static final Block ANCIENT_COBBLESTONE = registerBlock("ancient_cobblestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

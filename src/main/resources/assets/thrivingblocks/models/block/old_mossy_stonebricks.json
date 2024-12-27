@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "thrivingblocks:block/old_mossy_stonebricks"
+  }
+}

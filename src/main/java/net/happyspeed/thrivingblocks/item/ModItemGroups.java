@@ -91,7 +91,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ROUGH_OBSIDIAN);
                         entries.add(ModBlocks.GLOWING_OBSIDIAN_BLOCK);
                         entries.add(ModBlocks.OLD_GLOWSTONE_BLOCK);
+                        entries.add(ModBlocks.WORN_BRICKS);
                         entries.add(ModBlocks.COARSE_SAND);
+                        entries.add(ModBlocks.COARSE_GRAVEL);
+                        entries.add(ModBlocks.OLD_STONEBRICKS);
+                        entries.add(ModBlocks.OLD_MOSSY_STONEBRICKS);
+                        entries.add(ModBlocks.CRACKED_OLD_STONEBRICKS);
+                        entries.add(ModBlocks.ROUGH_STONE);
+                        entries.add(ModBlocks.OLD_COBBLESTONE);
+                        entries.add(ModBlocks.OLD_MOSSY_COBBLESTONE);
+                        entries.add(ModBlocks.ANCIENT_COBBLESTONE);
                         entries.add(ModBlocks.ANCIENT_EMERALD_BLOCK);
                         entries.add(ModBlocks.OLD_OAK_LEAVES);
                         entries.add(ModBlocks.OLD_DEAD_BUSH_BLOCK);

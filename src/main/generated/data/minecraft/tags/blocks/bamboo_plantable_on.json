@@ -31,6 +31,9 @@
     "thrivingblocks:flowering_azalea_bush_block",
     "thrivingblocks:tough_dirt",
     "thrivingblocks:grassy_packed_mud",
+    "thrivingblocks:old_mossy_cobblestone",
+    "thrivingblocks:cracked_old_stonebricks",
+    "thrivingblocks:old_mossy_stonebricks",
     "thrivingblocks:smooth_sand"
   ]
 }

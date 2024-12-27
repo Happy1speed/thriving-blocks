@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thrivingblocks:old_stonebricks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "old_smelt_stonebricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thrivingblocks:old_stonebricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "old_smelt_stonebricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thrivingblocks:old_stonebricks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

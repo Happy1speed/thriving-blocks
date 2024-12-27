@@ -80,6 +80,15 @@
     "thrivingblocks:directional_mud_bricks",
     "thrivingblocks:ambient_clock_block",
     "thrivingblocks:grassy_packed_mud",
+    "thrivingblocks:glowing_obsidian",
+    "thrivingblocks:rough_stone",
+    "thrivingblocks:old_stonebricks",
+    "thrivingblocks:old_mossy_stonebricks",
+    "thrivingblocks:cracked_old_stonebricks",
+    "thrivingblocks:worn_bricks",
+    "thrivingblocks:old_cobblestone",
+    "thrivingblocks:old_mossy_cobblestone",
+    "thrivingblocks:ancient_cobblestone",
     "thrivingblocks:golden_button"
   ]
 }

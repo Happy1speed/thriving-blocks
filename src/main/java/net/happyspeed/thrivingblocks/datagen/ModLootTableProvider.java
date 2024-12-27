@@ -55,6 +55,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MOSS_GRASS_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
         addDrop(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK, (Block block) -> drops((Block)block, Blocks.MOSSY_COBBLESTONE));
         addDrop(ModBlocks.GRASSY_COBBLESTONE_BLOCK, (Block block) -> drops((Block)block, Blocks.COBBLESTONE));
+        addDrop(ModBlocks.ROUGH_STONE, (Block block) -> drops((Block)block, Blocks.COBBLESTONE));
         addDrop(ModBlocks.OLD_OAK_LEAVES, leavesDrops(ModBlocks.OLD_OAK_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.FLOWERING_JUNGLE_LEAVES, leavesDrops(ModBlocks.FLOWERING_JUNGLE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.COBBLED_SANDSTONE);
@@ -105,6 +106,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MAGMA_BLACKSTONE_BLOCK);
         addDrop(ModBlocks.MANGROVE_ROOT_CLUMP);
         addDrop(ModBlocks.GLOWING_OBSIDIAN_BLOCK);
+        addDrop(ModBlocks.COARSE_GRAVEL);
+        addDrop(ModBlocks.OLD_STONEBRICKS);
+        addDrop(ModBlocks.OLD_MOSSY_STONEBRICKS);
+        addDrop(ModBlocks.CRACKED_OLD_STONEBRICKS);
+        addDrop(ModBlocks.WORN_BRICKS);
+        addDrop(ModBlocks.OLD_COBBLESTONE);
+        addDrop(ModBlocks.OLD_MOSSY_COBBLESTONE);
+        addDrop(ModBlocks.ANCIENT_COBBLESTONE);
         addDropWithSilkTouch(ModBlocks.GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.BLACK_GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.WHITE_GLASS_LAYER);
