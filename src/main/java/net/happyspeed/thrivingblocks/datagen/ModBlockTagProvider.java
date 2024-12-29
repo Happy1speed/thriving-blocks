@@ -394,7 +394,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.UNDERHANG_VINE)
                 .add(ModBlocks.BAMBOO_VINES_BLOCK)
                 .add(ModBlocks.MANGROVE_ROOT_CLUMP)
-                .add(ModBlocks.NEAT_SMALL_DRIPLEAF);
+                .add(ModBlocks.NEAT_SMALL_DRIPLEAF)
+                .add(ModBlocks.NEAT_SHORT_SMALL_DRIPLEAF)
+                .add(ModBlocks.SHORT_SMALL_DRIPLEAF);
         getOrCreateTagBuilder(BlockTags.SWORD_EFFICIENT)
                 .add(ModBlocks.OLD_DEAD_BUSH_BLOCK)
                 .add(ModBlocks.BAMBOO_VINES_BLOCK)

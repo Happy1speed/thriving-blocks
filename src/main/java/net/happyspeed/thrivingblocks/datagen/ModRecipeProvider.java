@@ -179,6 +179,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSS_VINES_BLOCK, Blocks.MOSS_BLOCK);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSS_VINES_BLOCK, Blocks.VINE);
         offer2x2CompactingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, Blocks.GRASS_BLOCK, ModBlocks.GRASS_CARPET_BLOCK);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SHORT_SMALL_DRIPLEAF, Blocks.SMALL_DRIPLEAF);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEAT_SHORT_SMALL_DRIPLEAF, Blocks.SMALL_DRIPLEAF);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, Blocks.BIG_DRIPLEAF, Blocks.SMALL_DRIPLEAF);
 
 
         //Natures spirit compat

@@ -170,6 +170,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NEAT_BUSH_FERN, this::grassDrops);
         this.addDrop(ModBlocks.OLD_DEAD_BUSH_BLOCK, (Block block) -> dropsWithShears(block, (LootPoolEntry.Builder)this.applyExplosionDecay((ItemConvertible)block, ItemEntry.builder(Items.STICK).apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 2.0f))))));
         addDrop(ModBlocks.NEAT_SMALL_DRIPLEAF, (Block block) -> BlockLootTableGenerator.dropsWithShears(block));
+        addDrop(ModBlocks.SHORT_SMALL_DRIPLEAF, (Block block) -> BlockLootTableGenerator.dropsWithShears(block));
+        addDrop(ModBlocks.NEAT_SHORT_SMALL_DRIPLEAF, (Block block) -> BlockLootTableGenerator.dropsWithShears(block));
         addPottedPlantDrops(ModBlocks.POTTED_GRASS);
         addPottedPlantDrops(ModBlocks.POTTED_OLD_GROWTH_GRASS);
         addPottedPlantDrops(ModBlocks.POTTED_OLD_GROWTH_FERN);

@@ -34,6 +34,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MOSS_VINES_BLOCK);
                         entries.add(ModBlocks.BAMBOO_VINES_BLOCK);
                         entries.add(ModBlocks.NEAT_SMALL_DRIPLEAF);
+                        entries.add(ModBlocks.SHORT_SMALL_DRIPLEAF);
+                        entries.add(ModBlocks.NEAT_SHORT_SMALL_DRIPLEAF);
                         entries.add(ModBlocks.NEAT_FERN);
                         entries.add(ModBlocks.NEAT_LARGE_FERN);
                         entries.add(ModBlocks.BUSH_FERN);

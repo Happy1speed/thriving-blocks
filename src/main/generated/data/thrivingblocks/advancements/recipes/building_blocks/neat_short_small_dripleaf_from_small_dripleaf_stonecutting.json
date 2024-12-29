@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_small_dripleaf": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:small_dripleaf"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:neat_short_small_dripleaf_from_small_dripleaf_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_small_dripleaf",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:neat_short_small_dripleaf_from_small_dripleaf_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

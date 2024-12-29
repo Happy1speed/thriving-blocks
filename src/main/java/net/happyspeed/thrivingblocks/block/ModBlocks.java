@@ -444,6 +444,12 @@ public class ModBlocks {
     public static final Block MOSS_VINES_BLOCK = registerBlock("moss_vines",
             new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
 
+    public static final Block SHORT_SMALL_DRIPLEAF = registerBlock("short_small_dripleaf",
+            new ShortSmallDripleafBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.SMALL_DRIPLEAF).offset(AbstractBlock.OffsetType.XYZ).pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block NEAT_SHORT_SMALL_DRIPLEAF = registerBlock("neat_short_small_dripleaf",
+            new ShortSmallDripleafBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.SMALL_DRIPLEAF).pistonBehavior(PistonBehavior.DESTROY)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

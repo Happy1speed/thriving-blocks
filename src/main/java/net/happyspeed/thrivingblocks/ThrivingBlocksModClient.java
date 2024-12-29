@@ -87,6 +87,8 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_SANDSTONE_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_RED_SANDSTONE_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SHORT_SMALL_DRIPLEAF, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.NEAT_SHORT_SMALL_DRIPLEAF, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_LAYER_CLEAR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_LAYER_CLEAR, RenderLayer.getCutout());

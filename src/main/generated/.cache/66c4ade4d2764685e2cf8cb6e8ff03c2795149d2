@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-28T15:50:35.7136928	Thriving Blocks/Tags for minecraft:block
+// 1.20.1	2024-12-28T17:05:47.6082647	Thriving Blocks/Tags for minecraft:block
 4551b316d62eaf6e5b4781d3ef2d53dbf8192436 data\minecraft\tags\blocks\mineable\pickaxe.json
 93c42cff1dd8765d7ccc5bd29c55cefd12a0b3f4 data\minecraft\tags\blocks\infiniburn_end.json
 dc3e3489d759c2996e02fdc71f81c1c4f4b233d9 data\minecraft\tags\blocks\needs_diamond_tool.json
@@ -16,7 +16,7 @@ dd60c440bfd0cc24f7c114a45faa666af1a78a89 data\minecraft\tags\blocks\bamboo_plant
 91a05e37a428427698c5973bafdde556346dddd0 data\minecraft\tags\blocks\buttons.json
 f7005d63c72ae1a2fae9ebe8748e9e3eb0865f33 data\minecraft\tags\blocks\mineable\hoe.json
 75a3c01704d752b4ce0cc5b3e0017438e6c273f7 data\minecraft\tags\blocks\valid_spawn.json
-0cfa65c8472ca4f26781e08cd6a400edfc9eacc4 data\minecraft\tags\blocks\mineable\axe.json
+471d99c667b722b7f14facca769977e68efb011e data\minecraft\tags\blocks\mineable\axe.json
 3772086e27b00ecb968749d7e0e87002c109b16c data\minecraft\tags\blocks\sword_efficient.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\lush_ground_replaceable.json
 db067494eaf460fcdc3128ff452ca4e765855121 data\minecraft\tags\blocks\sand.json
