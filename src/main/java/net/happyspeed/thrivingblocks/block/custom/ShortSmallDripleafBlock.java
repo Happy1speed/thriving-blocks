@@ -65,15 +65,6 @@ public class ShortSmallDripleafBlock
         return state;
     }
 
-//    @Override
-//    public void onPlaced(World world, BlockPos pos, BlockState state, LivingEntity placer, ItemStack itemStack) {
-//        if (!world.isClient()) {
-//            BlockPos blockPos = pos.up();
-//            BlockState blockState = withWaterloggedState(world, blockPos, (BlockState)((BlockState)this.getDefaultState()).with(FACING, state.get(FACING)));
-//            world.setBlockState(blockPos, blockState, Block.NOTIFY_ALL);
-//        }
-//    }
-
     @Override
     public FluidState getFluidState(BlockState state) {
         if (state.get(WATERLOGGED).booleanValue()) {
