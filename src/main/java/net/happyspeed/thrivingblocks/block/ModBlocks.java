@@ -435,10 +435,14 @@ public class ModBlocks {
     public static final Block DEGRADED_NETHERRACK_BLOCK = registerBlock("degraded_netherrack",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERRACK)));
 
-    public static final Block BAMBOO_VINES_BLOCK = registerBlock("bamboo_vines",
-            new VineBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
+    public static final Block LIGHTLY_WEATHERED_ANCIENT_COBBLESTONE_BLOCK = registerBlock("lightly_weathered_ancient_cobblestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
 
-    // todo bamboo vines.
+    public static final Block BAMBOO_VINES_BLOCK = registerBlock("bamboo_vines",
+            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
+
+    public static final Block MOSS_VINES_BLOCK = registerBlock("moss_vines",
+            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

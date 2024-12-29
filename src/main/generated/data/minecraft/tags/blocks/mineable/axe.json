@@ -1,8 +1,11 @@
 {
   "replace": false,
   "values": [
-    "thrivingblocks:mangrove_root_clump",
     "thrivingblocks:old_dead_bush",
+    "thrivingblocks:moss_vines",
+    "thrivingblocks:underhang_vine",
+    "thrivingblocks:bamboo_vines",
+    "thrivingblocks:mangrove_root_clump",
     "thrivingblocks:neat_small_dripleaf"
   ]
 }

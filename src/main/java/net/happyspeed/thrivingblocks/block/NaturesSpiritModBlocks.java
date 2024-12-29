@@ -97,7 +97,10 @@ public class NaturesSpiritModBlocks {
             new FallingBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(ModSounds.GRASSY_SAND_BLOCK_SOUNDS)));
 
     public static final Block GRASSY_PINK_SANDSTONE_BLOCK = registerBlock("grassy_pink_sandstone",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
+
+    public static final Block GRASSY_CHERT_BLOCK = registerBlock("grassy_chert",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

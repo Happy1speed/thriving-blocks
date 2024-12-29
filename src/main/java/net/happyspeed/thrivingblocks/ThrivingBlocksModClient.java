@@ -58,6 +58,7 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLOWERING_AZALEA_DROOP_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.UNDERHANG_VINE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BAMBOO_VINES_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOSS_VINES_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_LAYER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_LAYER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_GLASS_LAYER, RenderLayer.getCutout());
@@ -150,6 +151,7 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.NEAT_LARGE_FLAXEN_FERN, RenderLayer.getCutout());
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.GRASSY_PINK_SAND_BLOCK, RenderLayer.getCutout());
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.GRASSY_PINK_SANDSTONE_BLOCK, RenderLayer.getCutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.GRASSY_CHERT_BLOCK, RenderLayer.getCutout());
         }
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
@@ -439,6 +441,13 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
                 }
                 return BiomeColors.getGrassColor(world, pos);
             }, NaturesSpiritModBlocks.GRASSY_PINK_SANDSTONE_BLOCK);
+            ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), NaturesSpiritModBlocks.GRASSY_CHERT_BLOCK.asItem());
+            ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+                if (world == null || pos == null) {
+                    return GrassColors.getDefaultColor();
+                }
+                return BiomeColors.getGrassColor(world, pos);
+            }, NaturesSpiritModBlocks.GRASSY_CHERT_BLOCK);
         }
     }
 }

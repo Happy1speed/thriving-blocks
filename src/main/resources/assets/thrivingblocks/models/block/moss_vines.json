@@ -1,0 +1,16 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "thrivingblocks:block/moss_overlay",
+    "vine": "thrivingblocks:block/moss_overlay"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 0.2 ],
+      "to": [ 16, 16, 0.2 ],
+      "faces": {
+        "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#vine" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#vine" }
+      }
+    }
+  ]
+}

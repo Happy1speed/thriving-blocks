@@ -62,7 +62,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRASSY_RED_SANDSTONE_BLOCK, (Block block) -> drops((Block)block, Blocks.RED_SANDSTONE));
         addDrop(ModBlocks.OLD_OAK_LEAVES, leavesDrops(ModBlocks.OLD_OAK_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.FLOWERING_JUNGLE_LEAVES, leavesDrops(ModBlocks.FLOWERING_JUNGLE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
-        addDrop(ModBlocks.BAMBOO_VINES_BLOCK, (Block block) -> BlockLootTableGenerator.dropsWithShears(block));
         addDrop(ModBlocks.COBBLED_SANDSTONE);
         addDrop(ModBlocks.DRIPLEAF_VINE_BLOCK);
         addDrop(ModBlocks.SMOOTH_SAND_BLOCK);
@@ -119,6 +118,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.OLD_COBBLESTONE);
         addDrop(ModBlocks.OLD_MOSSY_COBBLESTONE);
         addDrop(ModBlocks.ANCIENT_COBBLESTONE);
+        addDrop(ModBlocks.LIGHTLY_WEATHERED_ANCIENT_COBBLESTONE_BLOCK);
         addDrop(ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK);
         addDrop(ModBlocks.ANCIENT_SOUL_SAND_BLOCK);
         addDrop(ModBlocks.DEGRADED_NETHERRACK_BLOCK);
@@ -157,6 +157,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDropWithSilkTouch(ModBlocks.LIGHT_BLUE_GLASS_LAYER_CLEAR);
         addDropWithSilkTouch(ModBlocks.CYAN_GLASS_LAYER_CLEAR);
         this.addDrop(ModBlocks.UNDERHANG_VINE, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
+        this.addDrop(ModBlocks.MOSS_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
+        this.addDrop(ModBlocks.BAMBOO_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
         addDrop(ModBlocks.SMALL_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.TINY_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.OLD_GROWTH_GRASS, this::grassDrops);

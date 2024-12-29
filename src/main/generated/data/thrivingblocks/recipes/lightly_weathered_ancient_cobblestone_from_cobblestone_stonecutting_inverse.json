@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:lightly_weathered_ancient_cobblestone"
+  },
+  "result": "minecraft:cobblestone"
+}

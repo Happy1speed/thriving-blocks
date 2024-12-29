@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "thrivingblocks:bamboo_vines",
     "thrivingblocks:underhang_vine"
   ]
 }

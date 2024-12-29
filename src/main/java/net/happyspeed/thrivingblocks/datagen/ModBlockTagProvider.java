@@ -118,6 +118,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_RED_SANDSTONE_BLOCK)
                 .add(ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK)
                 .add(ModBlocks.DEGRADED_NETHERRACK_BLOCK)
+                .add(ModBlocks.LIGHTLY_WEATHERED_ANCIENT_COBBLESTONE_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_STAIRS)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_SLAB)
@@ -345,6 +346,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DRIPLEAF_VINE_BLOCK)
                 .add(ModBlocks.DRIPLEAF_PAD)
                 .add(ModBlocks.UNDERHANG_VINE)
+                .add(ModBlocks.MOSS_VINES_BLOCK)
                 .add(ModBlocks.BAMBOO_VINES_BLOCK)
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
                 //.add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK);
@@ -361,7 +363,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
                 .add(ModBlocks.DRIPLEAF_PAD);
         getOrCreateTagBuilder(BlockTags.CLIMBABLE)
-                .add(ModBlocks.BAMBOO_VINES_BLOCK)
                 .add(ModBlocks.UNDERHANG_VINE);
         getOrCreateTagBuilder(BlockTags.INFINIBURN_OVERWORLD)
                 .add(ModBlocks.MAGMA_BLACKSTONE_BLOCK)
@@ -372,8 +373,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.INFINIBURN_END)
                 .add(ModBlocks.MAGMA_BLACKSTONE_BLOCK)
                 .add(ModBlocks.MAGMA_STONE_BLOCK);
-        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
-                .add(ModBlocks.MANGROVE_ROOT_CLUMP);
         getOrCreateTagBuilder(BlockTags.NYLIUM)
                 .add(ModBlocks.FULL_CRIMSON_NYLIUM_BLOCK)
                 .add(ModBlocks.FULL_WARPED_NYLIUM_BLOCK);
@@ -391,11 +390,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.OLD_DEAD_BUSH_BLOCK)
+                .add(ModBlocks.MOSS_VINES_BLOCK)
+                .add(ModBlocks.UNDERHANG_VINE)
+                .add(ModBlocks.BAMBOO_VINES_BLOCK)
+                .add(ModBlocks.MANGROVE_ROOT_CLUMP)
                 .add(ModBlocks.NEAT_SMALL_DRIPLEAF);
         getOrCreateTagBuilder(BlockTags.SWORD_EFFICIENT)
                 .add(ModBlocks.OLD_DEAD_BUSH_BLOCK)
                 .add(ModBlocks.BAMBOO_VINES_BLOCK)
                 .add(ModBlocks.UNDERHANG_VINE)
+                .add(ModBlocks.MOSS_VINES_BLOCK)
                 .add(ModBlocks.NEAT_SMALL_DRIPLEAF);
         getOrCreateTagBuilder(BlockTags.DEAD_BUSH_MAY_PLACE_ON)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK)

@@ -22,11 +22,10 @@ import net.minecraft.world.WorldView;
 import java.util.function.ToIntFunction;
 
 public class VineMultifaceBlock
-        extends MultifaceGrowthBlock
+        extends SturdyMultifaceBlock
         implements Fertilizable,
         Waterloggable {
     private static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
-    private final LichenGrower grower = new LichenGrower(this);
 
     public VineMultifaceBlock(AbstractBlock.Settings settings) {
         super(settings);
@@ -54,7 +53,7 @@ public class VineMultifaceBlock
 
     @Override
     public boolean isFertilizable(WorldView world, BlockPos pos, BlockState state, boolean isClient) {
-        return Direction.stream().anyMatch(direction -> this.grower.canGrow(state, world, pos, direction.getOpposite()));
+        return false;
     }
 
     @Override
@@ -64,8 +63,9 @@ public class VineMultifaceBlock
 
     @Override
     public void grow(ServerWorld world, Random random, BlockPos pos, BlockState state) {
-        this.grower.grow(state, (WorldAccess)world, pos, random);
+
     }
+
 
     @Override
     public FluidState getFluidState(BlockState state) {
@@ -78,10 +78,5 @@ public class VineMultifaceBlock
     @Override
     public boolean isTransparent(BlockState state, BlockView world, BlockPos pos) {
         return state.getFluidState().isEmpty();
-    }
-
-    @Override
-    public LichenGrower getGrower() {
-        return this.grower;
     }
 }

@@ -31,6 +31,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.AZALEA_BUSH_BLOCK);
                         entries.add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK);
                         entries.add(ModBlocks.UNDERHANG_VINE);
+                        entries.add(ModBlocks.MOSS_VINES_BLOCK);
                         entries.add(ModBlocks.BAMBOO_VINES_BLOCK);
                         entries.add(ModBlocks.NEAT_SMALL_DRIPLEAF);
                         entries.add(ModBlocks.NEAT_FERN);
@@ -107,6 +108,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.OLD_MOSSY_COBBLESTONE);
                         entries.add(ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK);
                         entries.add(ModBlocks.ANCIENT_COBBLESTONE);
+                        entries.add(ModBlocks.LIGHTLY_WEATHERED_ANCIENT_COBBLESTONE_BLOCK);
                         entries.add(ModBlocks.DEGRADED_NETHERRACK_BLOCK);
                         entries.add(ModBlocks.ANCIENT_SOUL_SAND_BLOCK);
                         entries.add(ModBlocks.ANCIENT_EMERALD_BLOCK);

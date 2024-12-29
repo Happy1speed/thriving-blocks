@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:flat_moss_carpet"
+  },
+  "result": "minecraft:moss_carpet"
+}
