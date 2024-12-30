@@ -119,6 +119,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK)
                 .add(ModBlocks.DEGRADED_NETHERRACK_BLOCK)
                 .add(ModBlocks.LIGHTLY_WEATHERED_ANCIENT_COBBLESTONE_BLOCK)
+                .add(ModBlocks.RUSTIC_REDSTONE_LAMP)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_STAIRS)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_SLAB)
@@ -337,6 +338,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 //                .add(NaturesSpiritModBlocks.GRASSY_SANDY_SOIL_BLOCK);
         getOrCreateTagBuilder(BlockTags.LEAVES)
                 .add(ModBlocks.OLD_OAK_LEAVES)
+                .add(ModBlocks.OLD_JUNGLE_LEAVES)
+                .add(ModBlocks.OLD_SPRUCE_LEAVES)
                 .add(ModBlocks.FLOWERING_JUNGLE_LEAVES);
         getOrCreateTagBuilder(BlockTags.SAND)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK)
@@ -345,6 +348,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
                 .add(ModBlocks.DRIPLEAF_VINE_BLOCK)
                 .add(ModBlocks.DRIPLEAF_PAD)
+                .add(ModBlocks.OLD_JUNGLE_LEAVES)
+                .add(ModBlocks.OLD_OAK_LEAVES)
+                .add(ModBlocks.OLD_SPRUCE_LEAVES)
+                .add(ModBlocks.FLOWERING_JUNGLE_LEAVES)
                 .add(ModBlocks.UNDERHANG_VINE)
                 .add(ModBlocks.MOSS_VINES_BLOCK)
                 .add(ModBlocks.BAMBOO_VINES_BLOCK)

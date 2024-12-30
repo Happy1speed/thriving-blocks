@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "thrivingblocks:old_oak_leaves",
+    "thrivingblocks:old_jungle_leaves",
+    "thrivingblocks:old_spruce_leaves",
     "thrivingblocks:flowering_jungle_leaves"
   ]
 }

@@ -450,6 +450,15 @@ public class ModBlocks {
     public static final Block NEAT_SHORT_SMALL_DRIPLEAF = registerBlock("neat_short_small_dripleaf",
             new ShortSmallDripleafBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.SMALL_DRIPLEAF).pistonBehavior(PistonBehavior.DESTROY)));
 
+    public static final Block OLD_JUNGLE_LEAVES = registerBlock("old_jungle_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.JUNGLE_LEAVES)));
+
+    public static final Block OLD_SPRUCE_LEAVES = registerBlock("old_spruce_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_LEAVES)));
+
+    public static final Block RUSTIC_REDSTONE_LAMP = registerBlock("rustic_redstone_lamp",
+            new RedstoneLampBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_LAMP)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

@@ -189,10 +189,14 @@
   "block.thrivingblocks.grassy_chert": "Grassy Chert",
   "block.thrivingblocks.short_small_dripleaf": "Short Small Dripleaf",
   "block.thrivingblocks.neat_short_small_dripleaf": "Neat Short Small Dripleaf",
+  "block.thrivingblocks.old_spruce_leaves": "Old Spruce Leaves",
+  "block.thrivingblocks.old_jungle_leaves": "Old Jungle Leaves",
+  "block.thrivingblocks.rustic_redstone_lamp": "Rustic Redstone Lamp",
+  "block.thrivingblocks.rustic_redstone_lamp_on": "Rustic Redstone Lamp On",
 
   "thrivingblocks.alarm_sound_sub": "Waaaaoohw!",
 
-  "thrivingblocks.clock_tick_sound_sub": "clock noises",
+  "thrivingblocks.clock_tick_sound_sub": "Clock Noises",
 
   "itemgroup.thrivingblocks": "Thriving Blocks Main",
   "itemgroup.thrivingblocksmisc": "Thriving Blocks Misc",

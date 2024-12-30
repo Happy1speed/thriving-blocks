@@ -61,6 +61,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRASSY_RED_SAND_BLOCK, (Block block) -> drops((Block)block, Blocks.RED_SAND));
         addDrop(ModBlocks.GRASSY_RED_SANDSTONE_BLOCK, (Block block) -> drops((Block)block, Blocks.RED_SANDSTONE));
         addDrop(ModBlocks.OLD_OAK_LEAVES, leavesDrops(ModBlocks.OLD_OAK_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
+        addDrop(ModBlocks.OLD_JUNGLE_LEAVES, leavesDrops(ModBlocks.OLD_JUNGLE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
+        addDrop(ModBlocks.OLD_SPRUCE_LEAVES, leavesDrops(ModBlocks.OLD_SPRUCE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.FLOWERING_JUNGLE_LEAVES, leavesDrops(ModBlocks.FLOWERING_JUNGLE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.COBBLED_SANDSTONE);
         addDrop(ModBlocks.DRIPLEAF_VINE_BLOCK);
@@ -78,6 +80,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.OLD_GLOWSTONE_BLOCK);
         addDrop(ModBlocks.ANCIENT_EMERALD_BLOCK);
         addDrop(ModBlocks.GOLDEN_BUTTON);
+        addDrop(ModBlocks.RUSTIC_REDSTONE_LAMP);
         addDrop(ModBlocks.RED_DIMENSIONAL_STONE_BLOCK);
         addDrop(ModBlocks.BLUE_DIMENSIONAL_STONE_BLOCK);
         addDrop(ModBlocks.AZURE_DIMENSIONAL_STONE_BLOCK);

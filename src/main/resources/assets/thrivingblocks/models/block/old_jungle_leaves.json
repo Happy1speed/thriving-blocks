@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "thrivingblocks:block/old_jungle_leaves"
+  }
+}

@@ -89,6 +89,8 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SHORT_SMALL_DRIPLEAF, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.NEAT_SHORT_SMALL_DRIPLEAF, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OLD_SPRUCE_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OLD_JUNGLE_LEAVES, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_LAYER_CLEAR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
@@ -167,6 +169,18 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
             return BiomeColors.getFoliageColor(world, pos);
         }, ModBlocks.OLD_OAK_LEAVES);
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> FoliageColors.getDefaultColor(), ModBlocks.OLD_OAK_LEAVES.asItem());
+
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return FoliageColors.getDefaultColor(); }
+            return BiomeColors.getFoliageColor(world, pos);
+        }, ModBlocks.OLD_JUNGLE_LEAVES);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> FoliageColors.getDefaultColor(), ModBlocks.OLD_JUNGLE_LEAVES.asItem());
+
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return FoliageColors.getSpruceColor(); }
+            return BiomeColors.getFoliageColor(world, pos);
+        }, ModBlocks.OLD_SPRUCE_LEAVES);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> FoliageColors.getSpruceColor(), ModBlocks.OLD_SPRUCE_LEAVES.asItem());
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
             if (world == null || pos == null) { return FoliageColors.getDefaultColor(); }

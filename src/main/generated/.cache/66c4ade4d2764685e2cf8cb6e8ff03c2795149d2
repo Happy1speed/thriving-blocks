@@ -1,6 +1,6 @@
-// 1.20.1	2024-12-28T17:05:47.6082647	Thriving Blocks/Tags for minecraft:block
-4551b316d62eaf6e5b4781d3ef2d53dbf8192436 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2024-12-30T13:47:59.8459587	Thriving Blocks/Tags for minecraft:block
 93c42cff1dd8765d7ccc5bd29c55cefd12a0b3f4 data\minecraft\tags\blocks\infiniburn_end.json
+dd86e4ab9ddd1b8ac3c84ddee4d0729922b74ae4 data\minecraft\tags\blocks\mineable\pickaxe.json
 dc3e3489d759c2996e02fdc71f81c1c4f4b233d9 data\minecraft\tags\blocks\needs_diamond_tool.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\sniffer_diggable_block.json
 9c6d12ae2d4982c2ed8345022424d2879a6d7664 data\minecraft\tags\blocks\mushroom_grow_block.json
@@ -14,14 +14,14 @@ b7e42173d3eed43b144870d535ba781869cf4c9e data\minecraft\tags\blocks\mineable\sho
 63d790240d88f100383855f9c341f1d870244b91 data\minecraft\tags\blocks\dirt.json
 dd60c440bfd0cc24f7c114a45faa666af1a78a89 data\minecraft\tags\blocks\bamboo_plantable_on.json
 91a05e37a428427698c5973bafdde556346dddd0 data\minecraft\tags\blocks\buttons.json
-f7005d63c72ae1a2fae9ebe8748e9e3eb0865f33 data\minecraft\tags\blocks\mineable\hoe.json
+b404ae69558c53ea1845207a312830eb4e96ada7 data\minecraft\tags\blocks\mineable\hoe.json
 75a3c01704d752b4ce0cc5b3e0017438e6c273f7 data\minecraft\tags\blocks\valid_spawn.json
 471d99c667b722b7f14facca769977e68efb011e data\minecraft\tags\blocks\mineable\axe.json
 3772086e27b00ecb968749d7e0e87002c109b16c data\minecraft\tags\blocks\sword_efficient.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\lush_ground_replaceable.json
 db067494eaf460fcdc3128ff452ca4e765855121 data\minecraft\tags\blocks\sand.json
 7b032063670e193a3bc7305d9511743f763cf1c5 data\minecraft\tags\blocks\inside_step_sound_blocks.json
-a08287d6b9538e99413da8476194e82309788b6f data\minecraft\tags\blocks\leaves.json
+d6337ea90748135c15582f3f7289aa851a74cee9 data\minecraft\tags\blocks\leaves.json
 c9c4ceb543b32bc4f773e3a106a1e989101f17ac data\minecraft\tags\blocks\animals_spawnable_on.json
 93c42cff1dd8765d7ccc5bd29c55cefd12a0b3f4 data\minecraft\tags\blocks\infiniburn_overworld.json
 593af4f20d56d71ce45cddcfbf34e40ab18707e5 data\minecraft\tags\blocks\dead_bush_may_place_on.json

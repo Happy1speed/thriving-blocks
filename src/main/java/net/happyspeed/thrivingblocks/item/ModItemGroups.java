@@ -99,6 +99,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ROUGH_OBSIDIAN);
                         entries.add(ModBlocks.GLOWING_OBSIDIAN_BLOCK);
                         entries.add(ModBlocks.OLD_GLOWSTONE_BLOCK);
+                        entries.add(ModBlocks.RUSTIC_REDSTONE_LAMP);
                         entries.add(ModBlocks.WORN_BRICKS);
                         entries.add(ModBlocks.COARSE_SAND);
                         entries.add(ModBlocks.COARSE_GRAVEL);
@@ -115,6 +116,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANCIENT_SOUL_SAND_BLOCK);
                         entries.add(ModBlocks.ANCIENT_EMERALD_BLOCK);
                         entries.add(ModBlocks.OLD_OAK_LEAVES);
+                        entries.add(ModBlocks.OLD_JUNGLE_LEAVES);
+                        entries.add(ModBlocks.OLD_SPRUCE_LEAVES);
                         entries.add(ModBlocks.OLD_DEAD_BUSH_BLOCK);
                         entries.add(ModBlocks.OLD_GROWTH_FERN);
                         entries.add(ModBlocks.NEAT_OLD_GROWTH_FERN);
