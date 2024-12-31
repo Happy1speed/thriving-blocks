@@ -1,21 +1,19 @@
 {
   "variants": {
-    "": [
-      {
-        "model": "thrivingblocks:block/dripleaf_pad"
-      },
-      {
-        "model": "thrivingblocks:block/dripleaf_pad",
-        "y": 90
-      },
-      {
-        "model": "thrivingblocks:block/dripleaf_pad",
-        "y": 180
-      },
-      {
-        "model": "thrivingblocks:block/dripleaf_pad",
-        "y": 270
-      }
-    ]
+    "facing=east": {
+      "model": "thrivingblocks:block/dripleaf_pad",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "thrivingblocks:block/dripleaf_pad",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "thrivingblocks:block/dripleaf_pad"
+    },
+    "facing=west": {
+      "model": "thrivingblocks:block/dripleaf_pad",
+      "y": 270
+    }
   }
 }

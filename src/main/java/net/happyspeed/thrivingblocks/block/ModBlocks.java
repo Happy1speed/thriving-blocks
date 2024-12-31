@@ -195,7 +195,7 @@ public class ModBlocks {
             new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.QUARTZ_BRICKS)));
 
     public static final Block DRIPLEAF_PAD = registerJustBlock("dripleaf_pad",
-            new LilyPadBlock(FabricBlockSettings.copyOf(LILY_PAD)));
+            new DripleafPadBlock(FabricBlockSettings.copyOf(LILY_PAD)));
 
     public static final Block NEAT_FERN = registerBlock("neat_fern",
             new OldGrowthFernBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
