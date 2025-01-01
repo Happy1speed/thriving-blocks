@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "thrivingblocks:block/alarm_block"
+    "all": "thrivingblocks:block/ambient_clock_block"
   }
 }

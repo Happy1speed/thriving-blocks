@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "thrivingblocks:grassy_clay",
+    "thrivingblocks:grassy_mud",
+    "minecraft:mud",
+    "minecraft:packed_mud",
+    "minecraft:moss_block",
+    "thrivingblocks:moss_grass_block",
+    "thrivingblocks:grassy_moss",
+    "thrivingblocks:neat_short_small_dripleaf",
+    "thrivingblocks:grassy_packed_mud"
+  ]
+}

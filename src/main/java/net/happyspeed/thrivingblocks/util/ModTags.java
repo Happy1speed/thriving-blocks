@@ -9,6 +9,10 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks {
+
+        public static final TagKey<Block> SHORT_SMALL_DRIPLEAF_PLACEABLE =
+                createTag("short_small_dripleaf_placeable");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name));
         }

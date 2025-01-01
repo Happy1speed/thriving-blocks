@@ -395,6 +395,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
                 .add(ModBlocks.GRASSY_MOSS_BLOCK)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
+        getOrCreateTagBuilder(ModTags.Blocks.SHORT_SMALL_DRIPLEAF_PLACEABLE)
+                .add(ModBlocks.GRASSY_CLAY_BLOCK)
+                .add(ModBlocks.GRASSY_MUD_BLOCK)
+                .add(Blocks.MUD)
+                .add(Blocks.PACKED_MUD)
+                .add(Blocks.MOSS_BLOCK)
+                .add(ModBlocks.MOSS_GRASS_BLOCK)
+                .add(ModBlocks.GRASSY_MOSS_BLOCK)
+                .add(ModBlocks.NEAT_SHORT_SMALL_DRIPLEAF)
+                .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.OLD_DEAD_BUSH_BLOCK)
                 .add(ModBlocks.MOSS_VINES_BLOCK)

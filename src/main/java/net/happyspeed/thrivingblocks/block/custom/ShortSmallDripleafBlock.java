@@ -1,5 +1,6 @@
 package net.happyspeed.thrivingblocks.block.custom;
 
+import net.happyspeed.thrivingblocks.util.ModTags;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.DoubleBlockHalf;
 import net.minecraft.entity.LivingEntity;
@@ -45,7 +46,7 @@ public class ShortSmallDripleafBlock
 
     @Override
     protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
-        return floor.isIn(BlockTags.SMALL_DRIPLEAF_PLACEABLE) || world.getFluidState(pos.up()).isEqualAndStill(Fluids.WATER) && super.canPlantOnTop(floor, world, pos);
+        return floor.isIn(ModTags.Blocks.SHORT_SMALL_DRIPLEAF_PLACEABLE) || world.getFluidState(pos.up()).isEqualAndStill(Fluids.WATER) && super.canPlantOnTop(floor, world, pos);
     }
 
     @Override
