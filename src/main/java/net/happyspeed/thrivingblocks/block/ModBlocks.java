@@ -80,7 +80,7 @@ public class ModBlocks {
     public static final Block FLAT_MOSS_CARPET_BLOCK = registerBlock("flat_moss_carpet",
             new FlatMossCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).replaceable().breakInstantly()));
     public static final Block COARSE_SAND = registerBlock("coarse_sand",
-            new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
+            new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND).sounds(BlockSoundGroup.GRAVEL)));
     public static final Block ROUGH_OBSIDIAN = registerBlock("rough_obsidian",
             new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
     public static final Block OLD_GLOWSTONE_BLOCK = registerBlock("old_glowstone_block",
@@ -442,6 +442,9 @@ public class ModBlocks {
             new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
 
     public static final Block MOSS_VINES_BLOCK = registerBlock("moss_vines",
+            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
+
+    public static final Block DYNAMIC_MOSS_VINES_BLOCK = registerBlock("dynamic_moss_vines",
             new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
 
     public static final Block SHORT_SMALL_DRIPLEAF = registerBlock("short_small_dripleaf",

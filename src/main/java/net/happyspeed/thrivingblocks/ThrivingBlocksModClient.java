@@ -91,6 +91,7 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.NEAT_SHORT_SMALL_DRIPLEAF, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OLD_SPRUCE_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OLD_JUNGLE_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_LAYER_CLEAR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
@@ -418,6 +419,12 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
             if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
             return BiomeColors.getGrassColor(world, pos);
         }, ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.DYNAMIC_MOSS_VINES_BLOCK.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.DYNAMIC_MOSS_VINES_BLOCK);
 
         //------------------------ Register Nature's spirit compat blocks ----------------------------
         if (ThrivingBlocksMod.NaturesSpiritModLoaded) {

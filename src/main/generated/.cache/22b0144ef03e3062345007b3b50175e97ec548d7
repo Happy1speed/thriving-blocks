@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-31T16:58:10.7428632	Thriving Blocks/Block Loot Tables
+// 1.20.1	2025-01-01T18:03:04.468102	Thriving Blocks/Block Loot Tables
 6f6416ba03d045c7d1c5ba310afd397752eda38e data\thrivingblocks\loot_tables\blocks\potted_bush_fern.json
 63ac804d9c2e33cf74e319ebd7fdcd2ee881cb57 data\thrivingblocks\loot_tables\blocks\old_mossy_stonebricks.json
 826bcd782b8b797438576dccb4b9a3cc0835bea0 data\thrivingblocks\loot_tables\blocks\cracked_stone.json
@@ -65,6 +65,7 @@ ab09c502e7134bfb1e8b88996de8128eb26c848d data\thrivingblocks\loot_tables\blocks\
 a5f59bb66af61ea9e068704887f4c835b04404d0 data\thrivingblocks\loot_tables\blocks\lime_glass_layer.json
 cdf12e79ec5af2871b9b64082704a735586ed5ad data\thrivingblocks\loot_tables\blocks\magma_blackstone.json
 6b6d17b470100b35e9f62be300266ddcdbc80643 data\thrivingblocks\loot_tables\blocks\blue_dimensional_stone_block.json
+631273ff80793f1b09df00222664b2ead8cd43ed data\thrivingblocks\loot_tables\blocks\dynamic_moss_vines.json
 856b80c3afb73bb8dd437f52fb48952576629901 data\thrivingblocks\loot_tables\blocks\neat_large_fern.json
 40e721f1c307e80610efbe811589726e3cb9eb8c data\thrivingblocks\loot_tables\blocks\ancient_cobblestone.json
 06f362aa5b8188de6b8f2ef8967f997b92924c86 data\thrivingblocks\loot_tables\blocks\black_glass_layer_clear.json

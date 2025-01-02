@@ -126,7 +126,7 @@
   "block.thrivingblocks.white_glass_layer_clear": "White Glass Layer Clear",
   "block.thrivingblocks.gray_glass_layer_clear": "Gray Glass Layer Clear",
   "block.thrivingblocks.green_glass_layer_clear": "Green Glass Layer Clear",
-  "block.thrivingblocks.yellow_glass_layer_clear": "Yellow_Glass Layer Clear",
+  "block.thrivingblocks.yellow_glass_layer_clear": "Yellow Glass Layer Clear",
   "block.thrivingblocks.orange_glass_layer_clear": "Orange Glass Layer Clear",
   "block.thrivingblocks.red_glass_layer_clear": "Red Glass Layer Clear",
   "block.thrivingblocks.blue_glass_layer_clear": "Blue Glass Layer Clear",
@@ -193,6 +193,7 @@
   "block.thrivingblocks.old_jungle_leaves": "Old Jungle Leaves",
   "block.thrivingblocks.rustic_redstone_lamp": "Rustic Redstone Lamp",
   "block.thrivingblocks.rustic_redstone_lamp_on": "Rustic Redstone Lamp On",
+  "block.thrivingblocks.dynamic_moss_vines": "Dynamic Moss Vines",
 
   "thrivingblocks.alarm_sound_sub": "Waaaaoohw!",
 
@@ -200,7 +201,6 @@
 
   "itemgroup.thrivingblocks": "Thriving Blocks Main",
   "itemgroup.thrivingblocksmisc": "Thriving Blocks Misc",
-  "itemgroup.thrivingblocksold": "Thriving Blocks Old Texture Blocks",
   "itemgroup.thrivingblocksnaturespirit": "Thriving Blocks Natures Spirit",
 
   "pack.thrivingblocks.natures_spirit_compat_text": "Thriving Blocks Natures Spirit Compat"

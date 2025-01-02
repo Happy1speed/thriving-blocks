@@ -19,9 +19,9 @@ public class DripleafVineBlock
         extends PillarBlock
         implements Waterloggable {
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
-    protected static final VoxelShape Y_SHAPE = Block.createCuboidShape(4, 0.0, 4, 12, 16.0, 12);
-    protected static final VoxelShape Z_SHAPE = Block.createCuboidShape(4, 4, 0.0, 12, 12, 16.0);
-    protected static final VoxelShape X_SHAPE = Block.createCuboidShape(0.0, 4, 4, 16.0, 12, 12);
+    protected static final VoxelShape Y_SHAPE = Block.createCuboidShape(6, 0.0, 6, 10, 16.0, 10);
+    protected static final VoxelShape Z_SHAPE = Block.createCuboidShape(6, 6, 0.0, 10, 10, 16.0);
+    protected static final VoxelShape X_SHAPE = Block.createCuboidShape(0.0, 6, 6, 16.0, 10, 10);
 
     public DripleafVineBlock(AbstractBlock.Settings settings) {
         super(settings);

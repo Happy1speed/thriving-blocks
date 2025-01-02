@@ -139,6 +139,26 @@
                 "x": 270
             },
                 {
+                    "model": "thrivingblocks:block/bamboo_vines_rotate_90",
+                    "uvlock": true,
+                    "x": 270
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_rotate_270",
+                    "uvlock": true,
+                    "x": 270
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_mirrored_rotate_90",
+                    "uvlock": true,
+                    "x": 270
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_mirrored_rotate_270",
+                    "uvlock": true,
+                    "x": 270
+                },
+                {
                     "model": "thrivingblocks:block/bamboo_vines_mirrored",
                     "uvlock": true,
                     "x": 270
@@ -153,6 +173,26 @@
                 "uvlock": true,
                 "x": 270
             },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_rotate_90",
+                    "uvlock": true,
+                    "x": 270
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_rotate_270",
+                    "uvlock": true,
+                    "x": 270
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_mirrored_rotate_90",
+                    "uvlock": true,
+                    "x": 270
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_mirrored_rotate_270",
+                    "uvlock": true,
+                    "x": 270
+                },
                 {
                     "model": "thrivingblocks:block/bamboo_vines_mirrored",
                     "uvlock": true,
@@ -174,6 +214,26 @@
                 "x": 90
             },
                 {
+                    "model": "thrivingblocks:block/bamboo_vines_rotate_90",
+                    "uvlock": true,
+                    "x": 90
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_rotate_270",
+                    "uvlock": true,
+                    "x": 90
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_mirrored_rotate_90",
+                    "uvlock": true,
+                    "x": 90
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_mirrored_rotate_270",
+                    "uvlock": true,
+                    "x": 90
+                },
+                {
                     "model": "thrivingblocks:block/bamboo_vines_mirrored",
                     "uvlock": true,
                     "x": 90
@@ -189,6 +249,26 @@
                 "uvlock": true,
                 "x": 90
             },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_rotate_90",
+                    "uvlock": true,
+                    "x": 90
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_rotate_270",
+                    "uvlock": true,
+                    "x": 90
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_mirrored_rotate_90",
+                    "uvlock": true,
+                    "x": 90
+                },
+                {
+                    "model": "thrivingblocks:block/bamboo_vines_mirrored_rotate_270",
+                    "uvlock": true,
+                    "x": 90
+                },
                 {
                     "model": "thrivingblocks:block/bamboo_vines_mirrored",
                     "uvlock": true,
