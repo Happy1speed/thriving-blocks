@@ -92,6 +92,10 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OLD_SPRUCE_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OLD_JUNGLE_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_SOUL_SAND_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FULL_DIRT_PATH_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_BEDROCK_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASSY_SOUL_SOIL_BLOCK, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_LAYER_CLEAR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_LAYER_CLEAR, RenderLayer.getCutout());
@@ -425,6 +429,24 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
             if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
             return BiomeColors.getGrassColor(world, pos);
         }, ModBlocks.DYNAMIC_MOSS_VINES_BLOCK);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.GRASSY_BEDROCK_BLOCK.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.GRASSY_BEDROCK_BLOCK);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.GRASSY_SOUL_SAND_BLOCK.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.GRASSY_SOUL_SAND_BLOCK);
+
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.GRASSY_SOUL_SOIL_BLOCK.asItem());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) { return GrassColors.getDefaultColor(); }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.GRASSY_SOUL_SOIL_BLOCK);
 
         //------------------------ Register Nature's spirit compat blocks ----------------------------
         if (ThrivingBlocksMod.NaturesSpiritModLoaded) {

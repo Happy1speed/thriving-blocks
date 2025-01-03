@@ -50,6 +50,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRASSY_DIORITE_BLOCK);
                         entries.add(ModBlocks.GRASSY_DEEPSLATE_BLOCK);
                         entries.add(ModBlocks.GRASSY_CLAY_BLOCK);
+                        entries.add(ModBlocks.GRASSY_SOUL_SAND_BLOCK);
+                        entries.add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK);
                         entries.add(ModBlocks.GRASSY_SAND_BLOCK);
                         entries.add(ModBlocks.GRASSY_SANDSTONE_BLOCK);
                         entries.add(ModBlocks.GRASSY_RED_SAND_BLOCK);
@@ -69,6 +71,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MUD_PATH_BLOCK);
                         entries.add(ModBlocks.STONE_PATH_BLOCK);
                         entries.add(ModBlocks.STONE_PATH_STAIRS);
+                        entries.add(ModBlocks.FULL_DIRT_PATH_BLOCK);
                         entries.add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
                         entries.add(ModBlocks.GRASS_CARPET_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_MOSSY_COBBLESTONE_BLOCK);
@@ -97,6 +100,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIRECTIONAL_MUD_BRICKS);
                         entries.add(ModBlocks.PURPUR_JOINT);
                         entries.add(ModBlocks.BEDROCK_DIAMOND_ORE);
+                        entries.add(ModBlocks.GRASSY_BEDROCK_BLOCK);
                         entries.add(ModBlocks.ROUGH_OBSIDIAN);
                         entries.add(ModBlocks.GLOWING_OBSIDIAN_BLOCK);
                         entries.add(ModBlocks.OLD_GLOWSTONE_BLOCK);

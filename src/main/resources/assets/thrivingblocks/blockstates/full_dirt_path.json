@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thrivingblocks:block/full_dirt_path",
+        "y": 180
+      },
+      {
+        "model": "thrivingblocks:block/full_dirt_path",
+        "y": 90
+      },
+      {
+        "model": "thrivingblocks:block/full_dirt_path",
+        "y": 270
+      },
+      {
+        "model": "thrivingblocks:block/full_dirt_path"
+      }
+    ]
+  }
+}

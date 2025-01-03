@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thrivingblocks:block/grassy_soul_soil",
+        "y": 180
+      },
+      {
+        "model": "thrivingblocks:block/grassy_soul_soil",
+        "y": 90
+      },
+      {
+        "model": "thrivingblocks:block/grassy_soul_soil",
+        "y": 270
+      },
+      {
+        "model": "thrivingblocks:block/grassy_soul_soil"
+      }
+    ]
+  }
+}

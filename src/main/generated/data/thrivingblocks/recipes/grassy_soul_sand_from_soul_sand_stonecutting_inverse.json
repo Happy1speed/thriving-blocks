@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:grassy_soul_sand"
+  },
+  "result": "minecraft:soul_sand"
+}

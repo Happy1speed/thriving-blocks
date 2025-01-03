@@ -33,6 +33,10 @@ public class ModSounds {
             BlockSoundGroup.SAND.getBreakSound(), BlockSoundGroup.GRASS.getStepSound(), BlockSoundGroup.SAND.getPlaceSound(),
             BlockSoundGroup.SAND.getHitSound(), BlockSoundGroup.GRASS.getFallSound());
 
+    public static final BlockSoundGroup GRASSY_SOUL_SAND_BLOCK_SOUNDS = new BlockSoundGroup(1f, 1f,
+            BlockSoundGroup.SOUL_SAND.getBreakSound(), BlockSoundGroup.GRASS.getStepSound(), BlockSoundGroup.SOUL_SAND.getPlaceSound(),
+            BlockSoundGroup.SOUL_SAND.getHitSound(), BlockSoundGroup.GRASS.getFallSound());
+
     public static final SoundEvent ALARM_ONE_SOUND = registerSoundEvent("alarm_one_sound");
 
     public static final SoundEvent CLOCK_TICK_TOCK_SOUND = registerSoundEvent("clock_tick_tock_sound");

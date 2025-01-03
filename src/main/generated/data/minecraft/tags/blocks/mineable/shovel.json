@@ -23,6 +23,9 @@
     "thrivingblocks:grassy_sand",
     "thrivingblocks:grassy_red_sand",
     "thrivingblocks:ancient_soul_sand",
+    "thrivingblocks:full_dirt_path",
+    "thrivingblocks:grassy_soul_sand",
+    "thrivingblocks:grassy_soul_soil",
     "thrivingblocks:short_grass_block"
   ]
 }

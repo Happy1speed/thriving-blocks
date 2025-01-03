@@ -49,6 +49,10 @@
     "thrivingblocks:grassy_red_sand",
     "thrivingblocks:grassy_red_sandstone",
     "thrivingblocks:grassy_old_cobblestone",
+    "thrivingblocks:grassy_bedrock",
+    "thrivingblocks:full_dirt_path",
+    "thrivingblocks:grassy_soul_sand",
+    "thrivingblocks:grassy_soul_soil",
     "thrivingblocks:short_grass_block"
   ]
 }

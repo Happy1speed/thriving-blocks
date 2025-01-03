@@ -187,6 +187,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OLD_JUNGLE_LEAVES, Blocks.JUNGLE_LEAVES);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OLD_SPRUCE_LEAVES, Blocks.SPRUCE_LEAVES);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUSTIC_REDSTONE_LAMP, Blocks.REDSTONE_LAMP);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRASSY_SOUL_SAND_BLOCK, Blocks.SOUL_SAND);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FULL_DIRT_PATH_BLOCK, Blocks.DIRT);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRASSY_SOUL_SOIL_BLOCK, Blocks.SOUL_SOIL);
 
 
         //Natures spirit compat

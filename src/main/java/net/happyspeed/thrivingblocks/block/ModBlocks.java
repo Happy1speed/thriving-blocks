@@ -462,6 +462,18 @@ public class ModBlocks {
     public static final Block RUSTIC_REDSTONE_LAMP = registerBlock("rustic_redstone_lamp",
             new RedstoneLampBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_LAMP)));
 
+    public static final Block GRASSY_SOUL_SAND_BLOCK = registerBlock("grassy_soul_sand",
+            new Block(FabricBlockSettings.copyOf(Blocks.SOUL_SOIL).sounds(ModSounds.GRASSY_SOUL_SAND_BLOCK_SOUNDS)));
+
+    public static final Block GRASSY_SOUL_SOIL_BLOCK = registerBlock("grassy_soul_soil",
+            new Block(FabricBlockSettings.copyOf(Blocks.SOUL_SOIL).sounds(ModSounds.GRASSY_SOUL_SAND_BLOCK_SOUNDS)));
+
+    public static final Block GRASSY_BEDROCK_BLOCK = registerBlock("grassy_bedrock",
+            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
+
+    public static final Block FULL_DIRT_PATH_BLOCK = registerBlock("full_dirt_path",
+            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);
