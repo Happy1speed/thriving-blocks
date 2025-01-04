@@ -69,6 +69,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FLOWERING_JUNGLE_LEAVES, leavesDrops(ModBlocks.FLOWERING_JUNGLE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.COBBLED_SANDSTONE);
         addDrop(ModBlocks.DRIPLEAF_VINE_BLOCK);
+        addDrop(ModBlocks.DEAD_DRIPLEAF_VINE_BLOCK);
+        addDrop(ModBlocks.MUDDY_DRIPLEAF_VINE_BLOCK);
         addDrop(ModBlocks.SMOOTH_SAND_BLOCK);
         addDrop(ModBlocks.SMOOTH_RED_SAND_BLOCK);
         addDrop(ModBlocks.GRASS_CARPET_BLOCK);
@@ -176,6 +178,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BUSH_FERN, this::grassDrops);
         addDrop(ModBlocks.NEAT_BUSH_FERN, this::grassDrops);
         this.addDrop(ModBlocks.OLD_DEAD_BUSH_BLOCK, (Block block) -> dropsWithShears(block, (LootPoolEntry.Builder)this.applyExplosionDecay((ItemConvertible)block, ItemEntry.builder(Items.STICK).apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 2.0f))))));
+        this.addDrop(ModBlocks.MUDDY_DEAD_BUSH_BLOCK, (Block block) -> dropsWithShears(block, (LootPoolEntry.Builder)this.applyExplosionDecay((ItemConvertible)block, ItemEntry.builder(Items.STICK).apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 2.0f))))));
         addDrop(ModBlocks.NEAT_SMALL_DRIPLEAF, (Block block) -> BlockLootTableGenerator.dropsWithShears(block));
         addDrop(ModBlocks.SHORT_SMALL_DRIPLEAF, (Block block) -> BlockLootTableGenerator.dropsWithShears(block));
         addDrop(ModBlocks.NEAT_SHORT_SMALL_DRIPLEAF, (Block block) -> BlockLootTableGenerator.dropsWithShears(block));
@@ -190,6 +193,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(ModBlocks.POTTED_BUSH_FERN);
         addPottedPlantDrops(ModBlocks.POTTED_SMALL_DRIPLEAF);
         addPottedPlantDrops(ModBlocks.POTTED_OLD_DEAD_BUSH_BLOCK);
+        addPottedPlantDrops(ModBlocks.POTTED_MUDDY_DEAD_BUSH_BLOCK);
         this.addDrop(ModBlocks.BEDROCK_DIAMOND_ORE, (Block block) -> this.oreDrops((Block)block, Items.DIAMOND));
 
 

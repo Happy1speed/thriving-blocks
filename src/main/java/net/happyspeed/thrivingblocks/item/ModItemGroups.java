@@ -25,11 +25,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLOWERING_JUNGLE_LEAVES);
                         entries.add(ModItems.DRIPLEAF_PAD);
                         entries.add(ModBlocks.DRIPLEAF_VINE_BLOCK);
+                        entries.add(ModBlocks.DEAD_DRIPLEAF_VINE_BLOCK);
+                        entries.add(ModBlocks.MUDDY_DRIPLEAF_VINE_BLOCK);
                         entries.add(ModBlocks.MANGROVE_ROOT_CLUMP);
                         entries.add(ModBlocks.AZALEA_DROOP_BLOCK);
                         entries.add(ModBlocks.FLOWERING_AZALEA_DROOP_BLOCK);
                         entries.add(ModBlocks.AZALEA_BUSH_BLOCK);
                         entries.add(ModBlocks.FLOWERING_AZALEA_BUSH_BLOCK);
+                        entries.add(ModBlocks.MUDDY_DEAD_BUSH_BLOCK);
                         entries.add(ModBlocks.UNDERHANG_VINE);
                         entries.add(ModBlocks.MOSS_VINES_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK);

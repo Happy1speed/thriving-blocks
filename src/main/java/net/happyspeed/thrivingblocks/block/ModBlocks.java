@@ -474,6 +474,18 @@ public class ModBlocks {
     public static final Block FULL_DIRT_PATH_BLOCK = registerBlock("full_dirt_path",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
 
+    public static final Block MUDDY_DEAD_BUSH_BLOCK = registerBlock("muddy_dead_bush",
+            new DeadBushBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BUSH)));
+
+    public static final Block POTTED_MUDDY_DEAD_BUSH_BLOCK = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_muddy_dead_bush"),
+            new FlowerPotBlock(ModBlocks.MUDDY_DEAD_BUSH_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block DEAD_DRIPLEAF_VINE_BLOCK = registerBlock("dead_dripleaf_vine",
+            new DripleafVineBlock(FabricBlockSettings.copyOf(Blocks.BIG_DRIPLEAF).sounds(BlockSoundGroup.SMALL_DRIPLEAF).hardness(0.1f).collidable(false)));
+
+    public static final Block MUDDY_DRIPLEAF_VINE_BLOCK = registerBlock("muddy_dripleaf_vine",
+            new DripleafVineBlock(FabricBlockSettings.copyOf(Blocks.BIG_DRIPLEAF).sounds(BlockSoundGroup.SMALL_DRIPLEAF).hardness(0.1f).collidable(false)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

@@ -1,0 +1,27 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "stem": "thrivingblocks:block/muddy_big_dripleaf_stem",
+        "particle": "thrivingblocks:block/muddy_big_dripleaf_stem"
+    },
+    "elements": [
+        {   "from": [ 2.8, 0, 8 ],
+            "to": [ 13.2, 16, 8 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true},
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" }
+            }
+        },
+        {   "from": [ 8, 0, 2.8 ],
+            "to": [ 8, 16, 13.2 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true},
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" }
+            }
+        }
+    ]
+}

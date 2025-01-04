@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "thrivingblocks:cobbled_sandstone",
+    "thrivingblocks:cobbled_red_sandstone",
+    "thrivingblocks:full_dirt_path",
+    "thrivingblocks:grassy_packed_mud",
+    "minecraft:packed_mud",
+    "minecraft:decorated_pot"
+  ]
+}

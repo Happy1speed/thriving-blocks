@@ -27,6 +27,9 @@
 			"net.happyspeed.thrivingblocks.ThrivingBlocksModDataGenerator"
 		]
 	},
+	"mixins": [
+		"thrivingblocksmod.mixins.json"
+	],
 	"depends": {
 		"fabricloader": ">=0.15.8",
 		"minecraft": "~1.20.1",

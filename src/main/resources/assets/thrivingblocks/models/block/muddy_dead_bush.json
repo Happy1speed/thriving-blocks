@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"cross": "thrivingblocks:block/muddy_dead_bush"
+	}
+}

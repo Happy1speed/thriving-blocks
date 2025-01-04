@@ -13,6 +13,9 @@ public class ModTags {
         public static final TagKey<Block> SHORT_SMALL_DRIPLEAF_PLACEABLE =
                 createTag("short_small_dripleaf_placeable");
 
+        public static final TagKey<Block> CANCELS_ABOVE_TREE_GROWTH =
+                createTag("cancels_above_tree_growth");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name));
         }

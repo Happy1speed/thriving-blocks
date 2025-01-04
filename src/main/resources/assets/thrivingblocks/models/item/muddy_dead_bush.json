@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "block/big_dripleaf_stem"
+    "layer0": "thrivingblocks:block/muddy_dead_bush"
   }
 }

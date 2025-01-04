@@ -368,6 +368,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
                 .add(ModBlocks.DRIPLEAF_VINE_BLOCK)
+                .add(ModBlocks.DEAD_DRIPLEAF_VINE_BLOCK)
+                .add(ModBlocks.MUDDY_DRIPLEAF_VINE_BLOCK)
                 .add(ModBlocks.DRIPLEAF_PAD)
                 .add(ModBlocks.OLD_JUNGLE_LEAVES)
                 .add(ModBlocks.OLD_OAK_LEAVES)
@@ -431,6 +433,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.OLD_DEAD_BUSH_BLOCK)
+                .add(ModBlocks.MUDDY_DEAD_BUSH_BLOCK)
                 .add(ModBlocks.MOSS_VINES_BLOCK)
                 .add(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK)
                 .add(ModBlocks.UNDERHANG_VINE)
@@ -441,6 +444,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SHORT_SMALL_DRIPLEAF);
         getOrCreateTagBuilder(BlockTags.SWORD_EFFICIENT)
                 .add(ModBlocks.OLD_DEAD_BUSH_BLOCK)
+                .add(ModBlocks.MUDDY_DEAD_BUSH_BLOCK)
                 .add(ModBlocks.BAMBOO_VINES_BLOCK)
                 .add(ModBlocks.UNDERHANG_VINE)
                 .add(ModBlocks.MOSS_VINES_BLOCK)
@@ -453,6 +457,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COBBLED_RED_SANDSTONE)
                 .add(ModBlocks.COBBLED_SANDSTONE)
                 .add(ModBlocks.GRASSY_MUD_BLOCK)
+                .add(ModBlocks.DEAD_DRIPLEAF_VINE_BLOCK)
+                .add(ModBlocks.MUDDY_DRIPLEAF_VINE_BLOCK)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.ROUGH_OBSIDIAN)
@@ -462,5 +468,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_RED_SAND_BLOCK);
         getOrCreateTagBuilder(BlockTags.SOUL_SPEED_BLOCKS)
                 .add(ModBlocks.ANCIENT_SOUL_SAND_BLOCK);
+        getOrCreateTagBuilder(ModTags.Blocks.CANCELS_ABOVE_TREE_GROWTH)
+                .add(ModBlocks.COBBLED_SANDSTONE)
+                .add(ModBlocks.COBBLED_RED_SANDSTONE)
+                .add(ModBlocks.FULL_DIRT_PATH_BLOCK)
+                .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK)
+                .add(Blocks.PACKED_MUD)
+                .add(Blocks.DECORATED_POT);
+        getOrCreateTagBuilder(BlockTags.MUSHROOM_GROW_BLOCK)
+                .add(ModBlocks.FULL_PODZOL_BLOCK);
     }
 }
