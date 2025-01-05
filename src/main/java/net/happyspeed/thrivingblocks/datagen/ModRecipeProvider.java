@@ -193,6 +193,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FULL_DIRT_PATH_BLOCK, Blocks.DIRT);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRASSY_SOUL_SOIL_BLOCK, Blocks.SOUL_SOIL);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MUDDY_DEAD_BUSH_BLOCK, Blocks.DEAD_BUSH);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AZALEA_DROOP_VINES_BLOCK, Blocks.AZALEA);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLOWERING_AZALEA_DROOP_VINES_BLOCK, Blocks.FLOWERING_AZALEA);
 
 
         //Natures spirit compat

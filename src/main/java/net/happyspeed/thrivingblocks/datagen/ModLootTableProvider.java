@@ -168,6 +168,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         this.addDrop(ModBlocks.MOSS_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
         this.addDrop(ModBlocks.BAMBOO_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
         this.addDrop(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
+        this.addDrop(ModBlocks.AZALEA_DROOP_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
+        this.addDrop(ModBlocks.FLOWERING_AZALEA_DROOP_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
         addDrop(ModBlocks.SMALL_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.TINY_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.OLD_GROWTH_GRASS, this::grassDrops);

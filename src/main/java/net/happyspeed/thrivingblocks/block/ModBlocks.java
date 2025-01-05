@@ -486,6 +486,12 @@ public class ModBlocks {
     public static final Block MUDDY_DRIPLEAF_VINE_BLOCK = registerBlock("muddy_dripleaf_vine",
             new DripleafVineBlock(FabricBlockSettings.copyOf(Blocks.BIG_DRIPLEAF).sounds(BlockSoundGroup.SMALL_DRIPLEAF).hardness(0.1f).collidable(false)));
 
+    public static final Block AZALEA_DROOP_VINES_BLOCK = registerBlock("azalea_droop_vines",
+            new VineBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).breakInstantly().noCollision()));
+
+    public static final Block FLOWERING_AZALEA_DROOP_VINES_BLOCK = registerBlock("flowering_azalea_droop_vines",
+            new VineBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).breakInstantly().noCollision()));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

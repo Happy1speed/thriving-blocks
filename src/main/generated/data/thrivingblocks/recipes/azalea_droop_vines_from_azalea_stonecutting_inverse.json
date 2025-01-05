@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:azalea_droop_vines"
+  },
+  "result": "minecraft:azalea"
+}
