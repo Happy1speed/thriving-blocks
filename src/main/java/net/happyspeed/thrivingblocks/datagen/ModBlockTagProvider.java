@@ -367,8 +367,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.LEAVES)
                 .add(ModBlocks.OLD_OAK_LEAVES)
                 .add(ModBlocks.OLD_JUNGLE_LEAVES)
-                .add(ModBlocks.OLD_SPRUCE_LEAVES)
-                .add(ModBlocks.FLOWERING_JUNGLE_LEAVES);
+                .add(ModBlocks.FLOWERING_JUNGLE_LEAVES)
+                .add(ModBlocks.OLD_SPRUCE_LEAVES);
         getOrCreateTagBuilder(BlockTags.SAND)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK)
                 .add(ModBlocks.COARSE_SAND);
@@ -496,5 +496,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
                 .add(ModBlocks.ANCIENT_SOUL_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK);
+        getOrCreateTagBuilder(BlockTags.SOUL_FIRE_BASE_BLOCKS)
+                .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK)
+                .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
+                .add(ModBlocks.ANCIENT_SOUL_SAND_BLOCK);
     }
 }

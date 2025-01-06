@@ -25,8 +25,8 @@
     "overlay": "thrivingblocks:block/flat_red_moss_block_carpet_side"
   },
   "elements": [
-    {   "from": [  0, 0.01,  0 ],
-      "to":   [ 16, 0.01, 16 ],
+    {   "from": [ -0.01, 0.01, -0.01 ],
+      "to":   [ 16.01, 0.01, 16.01 ],
       "faces": {
         "down":  { "uv": [  0, 16, 16,  0 ], "texture": "#top" },
         "up":  { "uv": [  0,  0, 16, 16 ], "texture": "#bottom" }
@@ -39,29 +39,29 @@
         "up":  { "uv": [  0,  0, 16, 16 ], "texture": "#bottom" }
       }
     },
-    {   "from": [0, -16, -0.01],
-      "to": [16, 0.02, -0.01],
+    {   "from": [-0.01, -16, -0.01],
+      "to": [16.01, 0.03, -0.01],
       "faces": {
         "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "north" },
         "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#overlay", "cullface": "south" }
       }
     },
-    {   "from": [0, -16, 16.01],
-      "to": [16, 0.02, 16.01],
+    {   "from": [-0.01, -16, 16.01],
+      "to": [16.01, 0.03, 16.01],
       "faces": {
         "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "south" },
         "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#overlay", "cullface": "north" }
       }
     },
-    {   "from": [-0.01, -16, 0],
-      "to": [-0.01, 0.02, 16],
+    {   "from": [-0.01, -16, -0.01],
+      "to": [-0.01, 0.03, 16.01],
       "faces": {
         "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "west" },
         "east": { "uv": [ 16, 0, 0, 16 ], "texture": "#overlay", "cullface": "east" }
       }
     },
-    {   "from": [16.01, -16, 0],
-      "to": [16.01, 0.02, 16],
+    {   "from": [16.01, -16, -0.01],
+      "to": [16.01, 0.03, 16.01],
       "faces": {
         "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "east" },
         "west": { "uv": [ 16, 0, 0, 16 ], "texture": "#overlay", "cullface": "west" }

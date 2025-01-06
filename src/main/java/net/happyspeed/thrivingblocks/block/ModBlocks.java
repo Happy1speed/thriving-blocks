@@ -32,7 +32,7 @@ public class ModBlocks {
     public static final Block OLD_OAK_LEAVES = registerBlock("old_oak_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
     public static final Block FLOWERING_JUNGLE_LEAVES = registerBlock("flowering_jungle_leaves",
-            new CherryLeavesBlock(FabricBlockSettings.copyOf(Blocks.JUNGLE_LEAVES)));
+            new NoFastGraphicsLeaves(FabricBlockSettings.copyOf(Blocks.JUNGLE_LEAVES)));
     public static final Block GRASSY_MOSS_BLOCK = registerBlock("grassy_moss",
             new Block(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
     public static final Block GRASSY_STONE_BLOCK = registerBlock("grassy_stone",
@@ -439,13 +439,13 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
 
     public static final Block BAMBOO_VINES_BLOCK = registerBlock("bamboo_vines",
-            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
+            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE).breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block MOSS_VINES_BLOCK = registerBlock("moss_vines",
-            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
+            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE).breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block DYNAMIC_MOSS_VINES_BLOCK = registerBlock("dynamic_moss_vines",
-            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
+            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE).breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block SHORT_SMALL_DRIPLEAF = registerBlock("short_small_dripleaf",
             new ShortSmallDripleafBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.SMALL_DRIPLEAF).offset(AbstractBlock.OffsetType.XYZ).pistonBehavior(PistonBehavior.DESTROY)));
@@ -487,10 +487,10 @@ public class ModBlocks {
             new DripleafVineBlock(FabricBlockSettings.copyOf(Blocks.BIG_DRIPLEAF).sounds(BlockSoundGroup.SMALL_DRIPLEAF).hardness(0.1f).collidable(false)));
 
     public static final Block AZALEA_DROOP_VINES_BLOCK = registerBlock("azalea_droop_vines",
-            new VineBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).noCollision()));
+            new VineBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).noCollision().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block FLOWERING_AZALEA_DROOP_VINES_BLOCK = registerBlock("flowering_azalea_droop_vines",
-            new VineBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).noCollision()));
+            new VineBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).noCollision().pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block DYNAMIC_FLAT_MOSS_CARPET_BLOCK = registerBlock("dynamic_flat_moss_carpet",
             new FlatMossCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).replaceable().breakInstantly()));

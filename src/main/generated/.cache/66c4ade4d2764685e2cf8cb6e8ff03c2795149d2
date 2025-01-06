@@ -1,4 +1,4 @@
-// 1.20.1	2025-01-06T00:24:40.4678882	Thriving Blocks/Tags for minecraft:block
+// 1.20.1	2025-01-06T12:49:30.2273881	Thriving Blocks/Tags for minecraft:block
 dd86e4ab9ddd1b8ac3c84ddee4d0729922b74ae4 data\minecraft\tags\blocks\mineable\pickaxe.json
 93c42cff1dd8765d7ccc5bd29c55cefd12a0b3f4 data\minecraft\tags\blocks\infiniburn_end.json
 dc3e3489d759c2996e02fdc71f81c1c4f4b233d9 data\minecraft\tags\blocks\needs_diamond_tool.json
@@ -17,15 +17,16 @@ f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\moss_replace
 7076dc524bbb6a6c118cd880e2746193f53ccdbe data\minecraft\tags\blocks\dirt.json
 e585cf75186118b493b2a83a4297b4a469674477 data\minecraft\tags\blocks\bamboo_plantable_on.json
 91a05e37a428427698c5973bafdde556346dddd0 data\minecraft\tags\blocks\buttons.json
-4a555e3a52838b26d48dd5458b0a07af45763b67 data\minecraft\tags\blocks\valid_spawn.json
 178b91c560e5f8825d04fd3f664ff68c9886ff5a data\minecraft\tags\blocks\mineable\axe.json
+4a555e3a52838b26d48dd5458b0a07af45763b67 data\minecraft\tags\blocks\valid_spawn.json
 1511927bb001bb425cc55c50e5fd88eda67db45c data\minecraft\tags\blocks\mineable\hoe.json
 8987fdf0ac0ec5e4f85f8b81c91a18593f331ecc data\minecraft\tags\blocks\sword_efficient.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\lush_ground_replaceable.json
 db067494eaf460fcdc3128ff452ca4e765855121 data\minecraft\tags\blocks\sand.json
 494bf3005cfd601ca2d1c98a41ab407db925adac data\minecraft\tags\blocks\inside_step_sound_blocks.json
-d6337ea90748135c15582f3f7289aa851a74cee9 data\minecraft\tags\blocks\leaves.json
 7976ba48993fba897f2f74c0fd90be8e025f5de8 data\minecraft\tags\blocks\animals_spawnable_on.json
+5999cd65d41548209addd2fe52944bc133870bb2 data\minecraft\tags\blocks\leaves.json
+b4326929536da50a96bba5c608a528b5ebd21ff0 data\minecraft\tags\blocks\soul_fire_base_blocks.json
 93c42cff1dd8765d7ccc5bd29c55cefd12a0b3f4 data\minecraft\tags\blocks\infiniburn_overworld.json
 e6f6e8d3a89803a6a13a94b492bfc5bb77de9ce3 data\minecraft\tags\blocks\dead_bush_may_place_on.json
 93c42cff1dd8765d7ccc5bd29c55cefd12a0b3f4 data\minecraft\tags\blocks\infiniburn_nether.json
