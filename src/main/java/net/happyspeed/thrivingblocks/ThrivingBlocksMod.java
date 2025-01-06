@@ -12,6 +12,7 @@ import net.happyspeed.thrivingblocks.item.ModItems;
 import net.happyspeed.thrivingblocks.item.ModItemGroups;
 import net.happyspeed.thrivingblocks.item.NatureModItemGroups;
 import net.happyspeed.thrivingblocks.sound.ModSounds;
+import net.happyspeed.thrivingblocks.util.ExtraUtils;
 import net.minecraft.block.Blocks;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
@@ -36,6 +37,7 @@ public class ThrivingBlocksMod implements ModInitializer {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
         ModSounds.registerSounds();
+        ExtraUtils.init();
         if (NaturesSpiritModLoaded) {
             NaturesSpiritModBlocks.registerModBlocks();
             NatureModItemGroups.registerItemGroups();

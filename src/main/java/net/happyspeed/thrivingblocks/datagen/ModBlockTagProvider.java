@@ -387,6 +387,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK)
                 .add(ModBlocks.BAMBOO_VINES_BLOCK)
                 .add(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK)
+                .add(ModBlocks.AZALEA_DROOP_VINES_BLOCK)
+                .add(ModBlocks.FLOWERING_AZALEA_DROOP_VINES_BLOCK)
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
                 //.add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK);
         getOrCreateTagBuilder(BlockTags.BUTTONS)
@@ -450,6 +452,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MANGROVE_ROOT_CLUMP)
                 .add(ModBlocks.NEAT_SMALL_DRIPLEAF)
                 .add(ModBlocks.NEAT_SHORT_SMALL_DRIPLEAF)
+                .add(ModBlocks.AZALEA_DROOP_VINES_BLOCK)
+                .add(ModBlocks.FLOWERING_AZALEA_DROOP_VINES_BLOCK)
                 .add(ModBlocks.SHORT_SMALL_DRIPLEAF);
         getOrCreateTagBuilder(BlockTags.SWORD_EFFICIENT)
                 .add(ModBlocks.OLD_DEAD_BUSH_BLOCK)
@@ -458,6 +462,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.UNDERHANG_VINE)
                 .add(ModBlocks.MOSS_VINES_BLOCK)
                 .add(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK)
+                .add(ModBlocks.AZALEA_DROOP_VINES_BLOCK)
+                .add(ModBlocks.FLOWERING_AZALEA_DROOP_VINES_BLOCK)
                 .add(ModBlocks.NEAT_SMALL_DRIPLEAF);
         getOrCreateTagBuilder(BlockTags.DEAD_BUSH_MAY_PLACE_ON)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK)

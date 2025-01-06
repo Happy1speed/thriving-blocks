@@ -487,10 +487,10 @@ public class ModBlocks {
             new DripleafVineBlock(FabricBlockSettings.copyOf(Blocks.BIG_DRIPLEAF).sounds(BlockSoundGroup.SMALL_DRIPLEAF).hardness(0.1f).collidable(false)));
 
     public static final Block AZALEA_DROOP_VINES_BLOCK = registerBlock("azalea_droop_vines",
-            new VineBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).breakInstantly().noCollision()));
+            new VineBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).noCollision()));
 
     public static final Block FLOWERING_AZALEA_DROOP_VINES_BLOCK = registerBlock("flowering_azalea_droop_vines",
-            new VineBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).breakInstantly().noCollision()));
+            new VineBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).noCollision()));
 
     public static final Block DYNAMIC_FLAT_MOSS_CARPET_BLOCK = registerBlock("dynamic_flat_moss_carpet",
             new FlatMossCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).replaceable().breakInstantly()));
@@ -498,7 +498,8 @@ public class ModBlocks {
     public static final Block DYNAMIC_MOSS_GRASS_BLOCK = registerBlock("dynamic_moss_grass_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
 
-    //todo dym moss grass block
+    public static final Block POTTED_SHORT_SMALL_DRIPLEAF = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_short_small_dripleaf"),
+            new FlowerPotBlock(ModBlocks.SHORT_SMALL_DRIPLEAF, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

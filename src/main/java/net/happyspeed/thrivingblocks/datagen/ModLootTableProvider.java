@@ -4,8 +4,8 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.happyspeed.thrivingblocks.block.ModBlocks;
 import net.happyspeed.thrivingblocks.block.NaturesSpiritModBlocks;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import net.happyspeed.thrivingblocks.util.ExtraUtils;
+import net.minecraft.block.*;
 import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.data.server.loottable.vanilla.VanillaBlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
@@ -14,6 +14,8 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
+import net.minecraft.loot.condition.LootCondition;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
 import net.minecraft.loot.condition.TableBonusLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
@@ -23,6 +25,13 @@ import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.predicate.StatePredicate;
+import net.minecraft.util.Util;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.random.Random;
+
+import java.util.Arrays;
+import java.util.Collection;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public ModLootTableProvider(FabricDataOutput dataOutput) {
@@ -165,12 +174,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDropWithSilkTouch(ModBlocks.LIME_GLASS_LAYER_CLEAR);
         addDropWithSilkTouch(ModBlocks.LIGHT_BLUE_GLASS_LAYER_CLEAR);
         addDropWithSilkTouch(ModBlocks.CYAN_GLASS_LAYER_CLEAR);
-        this.addDrop(ModBlocks.UNDERHANG_VINE, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
-        this.addDrop(ModBlocks.MOSS_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
-        this.addDrop(ModBlocks.BAMBOO_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
-        this.addDrop(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
-        this.addDrop(ModBlocks.AZALEA_DROOP_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
-        this.addDrop(ModBlocks.FLOWERING_AZALEA_DROOP_VINES_BLOCK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SHEARS));
+        addDrop(ModBlocks.UNDERHANG_VINE, (Block block) -> multifaceGrowthDrops(block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.MOSS_VINES_BLOCK, (Block block) -> multifaceGrowthDrops(block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.BAMBOO_VINES_BLOCK, (Block block) -> multifaceGrowthDrops(block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK, (Block block) -> multifaceGrowthDrops(block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.AZALEA_DROOP_VINES_BLOCK, (Block block) -> vineMultifaceGrowthDrops(block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.FLOWERING_AZALEA_DROOP_VINES_BLOCK, (Block block) -> vineMultifaceGrowthDrops(block, WITH_SILK_TOUCH_OR_SHEARS));
         addDrop(ModBlocks.SMALL_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.TINY_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.OLD_GROWTH_GRASS, this::grassDrops);
@@ -197,6 +206,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(ModBlocks.POTTED_SMALL_DRIPLEAF);
         addPottedPlantDrops(ModBlocks.POTTED_OLD_DEAD_BUSH_BLOCK);
         addPottedPlantDrops(ModBlocks.POTTED_MUDDY_DEAD_BUSH_BLOCK);
+        addPottedPlantDrops(ModBlocks.POTTED_SHORT_SMALL_DRIPLEAF);
         this.addDrop(ModBlocks.BEDROCK_DIAMOND_ORE, (Block block) -> this.oreDrops((Block)block, Items.DIAMOND));
 
 
@@ -222,5 +232,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 //        addDrop(NaturesSpiritModBlocks.RED_MOSSY_STONE_BRICKS_BLOCK);
 //        addDrop(NaturesSpiritModBlocks.RED_MOSSY_STONE_BRICKS_STAIRS);
 //        addDrop(NaturesSpiritModBlocks.RED_MOSSY_STONE_BRICKS_WALL);
+    }
+
+
+
+    public LootTable.Builder vineMultifaceGrowthDrops(Block drop, LootCondition.Builder condition) {
+        return LootTable.builder().pool(LootPool.builder().with((LootPoolEntry.Builder)this.applyExplosionDecay(drop, ((LeafEntry.Builder)((LeafEntry.Builder)ItemEntry.builder(drop).conditionally(condition)).apply(ExtraUtils.getHorizontalDirections(), direction -> SetCountLootFunction.builder(ConstantLootNumberProvider.create(1.0f), true).conditionally(BlockStatePropertyLootCondition.builder(drop).properties(StatePredicate.Builder.create().exactMatch(MultifaceGrowthBlock.getProperty((Direction) direction), true))))).apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(-1.0f), true)))));
     }
 }

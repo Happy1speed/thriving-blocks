@@ -8,12 +8,30 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "items": [
-                  "minecraft:shears"
-                ]
-              }
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ],
           "functions": [
@@ -24,7 +42,7 @@
                   "block": "thrivingblocks:flowering_azalea_droop_vines",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "down": "true"
+                    "west": "true"
                   }
                 }
               ],
@@ -38,21 +56,7 @@
                   "block": "thrivingblocks:flowering_azalea_droop_vines",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "up": "true"
-                  }
-                }
-              ],
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": true,
-              "conditions": [
-                {
-                  "block": "thrivingblocks:flowering_azalea_droop_vines",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "north": "true"
+                    "east": "true"
                   }
                 }
               ],
@@ -80,7 +84,7 @@
                   "block": "thrivingblocks:flowering_azalea_droop_vines",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "west": "true"
+                    "north": "true"
                   }
                 }
               ],
@@ -94,7 +98,7 @@
                   "block": "thrivingblocks:flowering_azalea_droop_vines",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "east": "true"
+                    "up": "true"
                   }
                 }
               ],
