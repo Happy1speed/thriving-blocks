@@ -75,6 +75,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_RED_SAND_BLOCK);
         addDrop(ModBlocks.GRASS_CARPET_BLOCK);
         addDrop(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
+        addDrop(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK);
         addDrop(ModBlocks.ROUGH_OBSIDIAN);
         addDrop(ModBlocks.COARSE_SAND);
         addDrop(ModBlocks.DIRECTIONAL_QUARTZ_BRICKS);

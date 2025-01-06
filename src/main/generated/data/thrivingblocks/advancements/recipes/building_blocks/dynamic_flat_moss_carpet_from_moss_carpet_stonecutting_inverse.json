@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_moss_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:moss_carpet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:dynamic_flat_moss_carpet_from_moss_carpet_stonecutting_inverse"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_moss_carpet",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:dynamic_flat_moss_carpet_from_moss_carpet_stonecutting_inverse"
+    ]
+  },
+  "sends_telemetry_event": false
+}

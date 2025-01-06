@@ -1,0 +1,70 @@
+{   "parent": "minecraft:block/thin_block",
+  "display": {
+    "gui": {
+      "rotation": [ 30, 135, 0 ],
+      "translation": [ 0, 2, 0],
+      "scale":[ 0.625, 0.625, 0.625 ]
+    },
+    "head": {
+      "rotation": [ 0, -90, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 75, -135, 0 ],
+      "translation": [ 0, 2.5, 0],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    }
+  },
+  "textures": {
+    "particle": "#bottom",
+    "ambientocclusion": false,
+    "top": "thrivingblocks:block/dynamic_flat_moss_carpet_top",
+    "bottom": "thrivingblocks:block/dynamic_flat_moss_carpet_top",
+    "overlay": "thrivingblocks:block/dynamic_flat_moss_carpet_side"
+  },
+  "elements": [
+    {   "from": [  0, 0.01,  0 ],
+      "to":   [ 16, 0.01, 16 ],
+      "faces": {
+        "down":  { "uv": [  0, 16, 16,  0 ], "texture": "#top", "tintindex": 0  },
+        "up":  { "uv": [  0,  0, 16, 16 ], "texture": "#bottom", "tintindex": 0 }
+      }
+    },
+    {   "from": [  0, 0.25,  0 ],
+      "to":   [ 16, 0.25, 16 ],
+      "faces": {
+        "down":  { "uv": [  0, 16, 16,  0 ], "texture": "#top", "tintindex": 0 },
+        "up":  { "uv": [  0,  0, 16, 16 ], "texture": "#bottom", "tintindex": 0 }
+      }
+    },
+    {   "from": [0, -16, -0.01],
+      "to": [16, 0.02, -0.01],
+      "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "north", "tintindex": 0 },
+        "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#overlay", "cullface": "south", "tintindex": 0 }
+      }
+    },
+    {   "from": [0, -16, 16.01],
+      "to": [16, 0.02, 16.01],
+      "faces": {
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "south", "tintindex": 0 },
+        "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#overlay", "cullface": "north", "tintindex": 0 }
+      }
+    },
+    {   "from": [-0.01, -16, 0],
+      "to": [-0.01, 0.02, 16],
+      "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "west", "tintindex": 0 },
+        "east": { "uv": [ 16, 0, 0, 16 ], "texture": "#overlay", "cullface": "east", "tintindex": 0 }
+      }
+    },
+    {   "from": [16.01, -16, 0],
+      "to": [16.01, 0.02, 16],
+      "faces": {
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "cullface": "east", "tintindex": 0 },
+        "west": { "uv": [ 16, 0, 0, 16 ], "texture": "#overlay", "cullface": "west", "tintindex": 0 }
+      }
+    }
+  ]
+}

@@ -78,6 +78,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STONE_PATH_STAIRS);
                         entries.add(ModBlocks.FULL_DIRT_PATH_BLOCK);
                         entries.add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
+                        entries.add(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK);
+                        entries.add(ModBlocks.DYNAMIC_MOSS_GRASS_BLOCK);
                         entries.add(ModBlocks.GRASS_CARPET_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_MOSSY_COBBLESTONE_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_MOSSY_STONE_BRICKS_BLOCK);

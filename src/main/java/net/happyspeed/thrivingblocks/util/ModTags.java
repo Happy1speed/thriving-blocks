@@ -16,6 +16,9 @@ public class ModTags {
         public static final TagKey<Block> CANCELS_ABOVE_TREE_GROWTH =
                 createTag("cancels_above_tree_growth");
 
+        public static final TagKey<Block> NETHER_WART_PLANTABLE_ON =
+                createTag("nether_wart_plantable_on");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name));
         }

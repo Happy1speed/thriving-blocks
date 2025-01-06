@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "thrivingblocks:flat_moss_carpet",
+    "thrivingblocks:dynamic_flat_moss_carpet",
     "thrivingblocks:grass_carpet",
     "thrivingblocks:dripleaf_pad"
   ]

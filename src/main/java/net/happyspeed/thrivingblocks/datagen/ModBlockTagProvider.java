@@ -188,6 +188,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_RED_SANDSTONE_BLOCK)
                 .add(ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK)
                 .add(ModBlocks.GRASSY_BEDROCK_BLOCK)
+                .add(ModBlocks.DYNAMIC_MOSS_GRASS_BLOCK)
                 .add(ModBlocks.FULL_DIRT_PATH_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
@@ -218,6 +219,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)
                 .add(Blocks.MOSSY_COBBLESTONE)
                 .add(Blocks.MOSSY_STONE_BRICKS)
+                .add(ModBlocks.DYNAMIC_MOSS_GRASS_BLOCK)
                 .add(Blocks.DECORATED_POT)
                 .add(ModBlocks.GRASSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK)
@@ -268,6 +270,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK)
+                .add(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK)
+                .add(ModBlocks.DYNAMIC_MOSS_GRASS_BLOCK)
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
                 .add(ModBlocks.AZALEA_BUSH_BLOCK)
@@ -308,6 +312,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MUD_PATH_BLOCK)
                 .add(ModBlocks.TOUGH_DIRT_BLOCK)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK)
+                .add(ModBlocks.DYNAMIC_MOSS_GRASS_BLOCK)
                 .add(ModBlocks.COARSE_GRAVEL)
                 .add(ModBlocks.GRASSY_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_RED_SAND_BLOCK)
@@ -330,7 +335,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SAND_PATH_BLOCK)
                 .add(ModBlocks.COARSE_SAND)
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
+                .add(ModBlocks.DYNAMIC_MOSS_GRASS_BLOCK)
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK)
+                .add(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK)
                 .add(ModBlocks.CRACKED_STONE_BLOCK)
                 .add(ModBlocks.CRUSHED_DEEPSLATE_BLOCK)
                 .add(ModBlocks.CRUSHED_BASALT_BLOCK)
@@ -379,6 +386,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSS_VINES_BLOCK)
                 .add(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK)
                 .add(ModBlocks.BAMBOO_VINES_BLOCK)
+                .add(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK)
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
                 //.add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK);
         getOrCreateTagBuilder(BlockTags.BUTTONS)
@@ -391,6 +399,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_COBBLED_TRAVERTINE_WALL);
         getOrCreateTagBuilder(BlockTags.INSIDE_STEP_SOUND_BLOCKS)
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK)
+                .add(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK)
                 .add(ModBlocks.GRASS_CARPET_BLOCK)
                 .add(ModBlocks.DRIPLEAF_PAD);
         getOrCreateTagBuilder(BlockTags.CLIMBABLE)
@@ -477,5 +486,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(Blocks.DECORATED_POT);
         getOrCreateTagBuilder(BlockTags.MUSHROOM_GROW_BLOCK)
                 .add(ModBlocks.FULL_PODZOL_BLOCK);
+        getOrCreateTagBuilder(ModTags.Blocks.NETHER_WART_PLANTABLE_ON)
+                .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
+                .add(ModBlocks.ANCIENT_SOUL_SAND_BLOCK)
+                .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK);
     }
 }

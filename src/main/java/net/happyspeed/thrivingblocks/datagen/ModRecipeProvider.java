@@ -57,6 +57,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_PATH_BLOCK,Blocks.STONE);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_PATH_STAIRS,ModBlocks.STONE_PATH_BLOCK);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLAT_MOSS_CARPET_BLOCK,Blocks.MOSS_CARPET);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK,Blocks.MOSS_CARPET);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DYNAMIC_MOSSY_COBBLESTONE_BLOCK,Blocks.MOSSY_COBBLESTONE);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DYNAMIC_MOSSY_STONE_BRICKS_BLOCK,Blocks.MOSSY_STONE_BRICKS);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_MOSSY_STONE_BRICKS_BLOCK,Blocks.MOSSY_STONE_BRICKS);
@@ -195,6 +196,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MUDDY_DEAD_BUSH_BLOCK, Blocks.DEAD_BUSH);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AZALEA_DROOP_VINES_BLOCK, Blocks.AZALEA);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLOWERING_AZALEA_DROOP_VINES_BLOCK, Blocks.FLOWERING_AZALEA);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DYNAMIC_MOSS_GRASS_BLOCK, Blocks.MOSS_BLOCK);
 
 
         //Natures spirit compat

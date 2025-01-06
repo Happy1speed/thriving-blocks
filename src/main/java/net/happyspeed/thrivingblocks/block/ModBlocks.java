@@ -492,6 +492,14 @@ public class ModBlocks {
     public static final Block FLOWERING_AZALEA_DROOP_VINES_BLOCK = registerBlock("flowering_azalea_droop_vines",
             new VineBlock(FabricBlockSettings.copyOf(Blocks.AZALEA).breakInstantly().noCollision()));
 
+    public static final Block DYNAMIC_FLAT_MOSS_CARPET_BLOCK = registerBlock("dynamic_flat_moss_carpet",
+            new FlatMossCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).replaceable().breakInstantly()));
+
+    public static final Block DYNAMIC_MOSS_GRASS_BLOCK = registerBlock("dynamic_moss_grass_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+
+    //todo dym moss grass block
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

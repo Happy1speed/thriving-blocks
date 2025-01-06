@@ -3,7 +3,8 @@
   "package": "net.happyspeed.thrivingblocks.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "GrowingBlockMixin"
+    "GrowingBlockMixin",
+    "NetherWartBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1
