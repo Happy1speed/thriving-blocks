@@ -10,8 +10,8 @@
 		"Ark"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/thriving-blocks",
+		"sources": "https://github.com/Happy1speed/thriving-blocks"
 	},
 	"license": "MIT",
 	"icon": "assets/thrivingblocks/icon.png",
