@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thrivingblocks:block/small_dripleaf_vine",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "thrivingblocks:block/small_dripleaf_vine"
+    },
+    "axis=z": {
+      "model": "thrivingblocks:block/small_dripleaf_vine",
+      "x": 90
+    }
+  }
+}

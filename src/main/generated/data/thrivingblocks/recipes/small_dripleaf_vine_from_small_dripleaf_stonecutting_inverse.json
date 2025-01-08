@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:small_dripleaf_vine"
+  },
+  "result": "minecraft:small_dripleaf"
+}

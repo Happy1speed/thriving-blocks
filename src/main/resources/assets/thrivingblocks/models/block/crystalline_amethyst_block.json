@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "thrivingblocks:block/crystalline_amethyst_block"
+  }
+}

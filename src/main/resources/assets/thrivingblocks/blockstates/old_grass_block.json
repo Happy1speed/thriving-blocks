@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thrivingblocks:block/old_grass_block"
+      }
+    ]
+  }
+}

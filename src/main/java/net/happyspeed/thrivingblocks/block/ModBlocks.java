@@ -501,6 +501,20 @@ public class ModBlocks {
     public static final Block POTTED_SHORT_SMALL_DRIPLEAF = Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, "potted_short_small_dripleaf"),
             new FlowerPotBlock(ModBlocks.SHORT_SMALL_DRIPLEAF, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
+    public static final Block SMOOTH_STONE_STAIRS_BLOCK = registerBlock("smooth_stone_stairs",
+            new StairsBlock(SMOOTH_STONE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.SMOOTH_STONE)));
+
+    public static final Block SMALL_DRIPLEAF_VINE_BLOCK = registerBlock("small_dripleaf_vine",
+            new SmallDripleafVineBlock(FabricBlockSettings.copyOf(Blocks.BIG_DRIPLEAF).sounds(BlockSoundGroup.SMALL_DRIPLEAF).hardness(0.1f).collidable(false)));
+
+    public static final Block CRYSTALLINE_AMETHYST_BLOCK = registerBlock("crystalline_amethyst_block",
+            new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block OLD_GRASS_BLOCK = registerBlock("old_grass_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+
+    //todo old grass block
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:crystalline_amethyst_block"
+  },
+  "result": "minecraft:amethyst_block"
+}

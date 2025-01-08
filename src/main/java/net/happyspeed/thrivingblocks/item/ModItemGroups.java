@@ -25,6 +25,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLOWERING_JUNGLE_LEAVES);
                         entries.add(ModItems.DRIPLEAF_PAD);
                         entries.add(ModBlocks.DRIPLEAF_VINE_BLOCK);
+                        entries.add(ModBlocks.SMALL_DRIPLEAF_VINE_BLOCK);
                         entries.add(ModBlocks.DEAD_DRIPLEAF_VINE_BLOCK);
                         entries.add(ModBlocks.MUDDY_DRIPLEAF_VINE_BLOCK);
                         entries.add(ModBlocks.MANGROVE_ROOT_CLUMP);
@@ -76,6 +77,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MUD_PATH_BLOCK);
                         entries.add(ModBlocks.STONE_PATH_BLOCK);
                         entries.add(ModBlocks.STONE_PATH_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_STONE_STAIRS_BLOCK);
                         entries.add(ModBlocks.FULL_DIRT_PATH_BLOCK);
                         entries.add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK);
@@ -96,6 +98,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRUSHED_DEEPSLATE_BLOCK);
                         entries.add(ModBlocks.CRUSHED_BASALT_BLOCK);
                         entries.add(ModBlocks.CHIPPED_STONE);
+                        entries.add(ModBlocks.CRYSTALLINE_AMETHYST_BLOCK);
                         entries.add(ModBlocks.TOUGH_DIRT_BLOCK);
                         entries.add(ModBlocks.MAGMA_STONE_BLOCK);
                         entries.add(ModBlocks.MAGMA_BLACKSTONE_BLOCK);
@@ -127,6 +130,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEGRADED_NETHERRACK_BLOCK);
                         entries.add(ModBlocks.ANCIENT_SOUL_SAND_BLOCK);
                         entries.add(ModBlocks.ANCIENT_EMERALD_BLOCK);
+                        entries.add(ModBlocks.OLD_GRASS_BLOCK);
                         entries.add(ModBlocks.OLD_OAK_LEAVES);
                         entries.add(ModBlocks.OLD_JUNGLE_LEAVES);
                         entries.add(ModBlocks.OLD_SPRUCE_LEAVES);

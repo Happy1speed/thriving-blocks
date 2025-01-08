@@ -72,6 +72,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRASSY_SOUL_SAND_BLOCK, (Block block) -> drops((Block)block, Blocks.SOUL_SAND));
         addDrop(ModBlocks.GRASSY_SOUL_SOIL_BLOCK, (Block block) -> drops((Block)block, Blocks.SOUL_SOIL));
         addDrop(ModBlocks.FULL_DIRT_PATH_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
+        addDrop(ModBlocks.OLD_GRASS_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
         addDrop(ModBlocks.OLD_OAK_LEAVES, leavesDrops(ModBlocks.OLD_OAK_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.OLD_JUNGLE_LEAVES, leavesDrops(ModBlocks.OLD_JUNGLE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.OLD_SPRUCE_LEAVES, leavesDrops(ModBlocks.OLD_SPRUCE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
@@ -80,6 +81,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DRIPLEAF_VINE_BLOCK);
         addDrop(ModBlocks.DEAD_DRIPLEAF_VINE_BLOCK);
         addDrop(ModBlocks.MUDDY_DRIPLEAF_VINE_BLOCK);
+        addDrop(ModBlocks.SMALL_DRIPLEAF_VINE_BLOCK);
         addDrop(ModBlocks.SMOOTH_SAND_BLOCK);
         addDrop(ModBlocks.SMOOTH_RED_SAND_BLOCK);
         addDrop(ModBlocks.GRASS_CARPET_BLOCK);
@@ -106,6 +108,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NATURAL_GRANITE_BLOCK);
         addDrop(ModBlocks.NATURAL_STONE_BLOCK);
         addDrop(ModBlocks.MESSY_BRICKS_BLOCK);
+        addDrop(ModBlocks.CRYSTALLINE_AMETHYST_BLOCK);
         addDrop(ModBlocks.CRUSHED_BASALT_BLOCK);
         addDrop(ModBlocks.CRUSHED_DEEPSLATE_BLOCK);
         addDrop(ModBlocks.CRACKED_STONE_BLOCK);
@@ -140,6 +143,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRASSY_OLD_COBBLESTONE_BLOCK);
         addDrop(ModBlocks.ANCIENT_SOUL_SAND_BLOCK);
         addDrop(ModBlocks.DEGRADED_NETHERRACK_BLOCK);
+        addDrop(ModBlocks.SMOOTH_STONE_STAIRS_BLOCK);
         addDropWithSilkTouch(ModBlocks.GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.BLACK_GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.WHITE_GLASS_LAYER);
