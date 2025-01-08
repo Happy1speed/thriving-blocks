@@ -513,8 +513,6 @@ public class ModBlocks {
     public static final Block OLD_GRASS_BLOCK = registerBlock("old_grass_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
 
-    //todo old grass block
-
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);
