@@ -97,6 +97,8 @@
     "thrivingblocks:rustic_redstone_lamp",
     "thrivingblocks:smooth_stone_stairs",
     "thrivingblocks:crystalline_amethyst_block",
+    "thrivingblocks:end_stone_slab",
+    "thrivingblocks:end_stone_stairs",
     "thrivingblocks:golden_button"
   ]
 }

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cobblestone": {
+    "has_end_stone": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cobblestone"
+              "minecraft:end_stone"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:chipped_stone_from_cobblestone_stonecutting"
+        "recipe": "minecraft:end_stone_stairs_from_end_stone_stonecutting_inverse"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cobblestone",
+      "has_end_stone",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:chipped_stone_from_cobblestone_stonecutting"
+      "minecraft:end_stone_stairs_from_end_stone_stonecutting_inverse"
     ]
   },
   "sends_telemetry_event": false

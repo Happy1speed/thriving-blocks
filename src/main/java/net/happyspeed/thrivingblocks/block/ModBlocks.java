@@ -502,7 +502,7 @@ public class ModBlocks {
             new FlowerPotBlock(ModBlocks.SHORT_SMALL_DRIPLEAF, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     public static final Block SMOOTH_STONE_STAIRS_BLOCK = registerBlock("smooth_stone_stairs",
-            new StairsBlock(SMOOTH_STONE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.SMOOTH_STONE)));
+            new StairsBlock(Blocks.SMOOTH_STONE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.SMOOTH_STONE)));
 
     public static final Block SMALL_DRIPLEAF_VINE_BLOCK = registerBlock("small_dripleaf_vine",
             new SmallDripleafVineBlock(FabricBlockSettings.copyOf(Blocks.BIG_DRIPLEAF).sounds(BlockSoundGroup.SMALL_DRIPLEAF).hardness(0.1f).collidable(false)));
@@ -512,6 +512,12 @@ public class ModBlocks {
 
     public static final Block OLD_GRASS_BLOCK = registerBlock("old_grass_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+
+    public static final Block END_STONE_SLAB = registerBlock("end_stone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+    public static final Block END_STONE_STAIRS_BLOCK = registerBlock("end_stone_stairs",
+            new StairsBlock(Blocks.END_STONE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

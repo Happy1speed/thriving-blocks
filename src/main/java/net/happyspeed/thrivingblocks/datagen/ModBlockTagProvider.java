@@ -122,6 +122,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUSTIC_REDSTONE_LAMP)
                 .add(ModBlocks.SMOOTH_STONE_STAIRS_BLOCK)
                 .add(ModBlocks.CRYSTALLINE_AMETHYST_BLOCK)
+                .add(ModBlocks.END_STONE_SLAB)
+                .add(ModBlocks.END_STONE_STAIRS_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_STAIRS)
 //                .add(NaturesSpiritModBlocks.RED_MOSSY_TRAVERTINE_BRICKS_SLAB)

@@ -103,6 +103,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAGMA_STONE_BLOCK);
                         entries.add(ModBlocks.MAGMA_BLACKSTONE_BLOCK);
                         entries.add(ModBlocks.CRACKED_STONE_BLOCK);
+                        entries.add(ModBlocks.END_STONE_SLAB);
+                        entries.add(ModBlocks.END_STONE_STAIRS_BLOCK);
                         entries.add(ModBlocks.DIRECTIONAL_DEEPSLATE_TILES);
                         entries.add(ModBlocks.CRACKED_DIRECTIONAL_DEEPSLATE_TILES);
                         entries.add(ModBlocks.DIRECTIONAL_BRICKS);

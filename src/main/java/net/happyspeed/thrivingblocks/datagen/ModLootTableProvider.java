@@ -144,6 +144,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ANCIENT_SOUL_SAND_BLOCK);
         addDrop(ModBlocks.DEGRADED_NETHERRACK_BLOCK);
         addDrop(ModBlocks.SMOOTH_STONE_STAIRS_BLOCK);
+        slabDrops(ModBlocks.END_STONE_SLAB);
+        addDrop(ModBlocks.END_STONE_STAIRS_BLOCK);
         addDropWithSilkTouch(ModBlocks.GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.BLACK_GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.WHITE_GLASS_LAYER);

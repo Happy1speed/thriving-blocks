@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "thrivingblocks:chipped_stone"
-  },
-  "result": "minecraft:cobblestone"
-}

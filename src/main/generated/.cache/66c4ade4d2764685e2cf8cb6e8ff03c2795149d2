@@ -1,6 +1,6 @@
-// 1.20.1	2025-01-08T14:09:59.0954128	Thriving Blocks/Tags for minecraft:block
-d0d05fe3c42382f301cc19607f7ad1f8546124c9 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2025-01-12T10:51:32.0866468	Thriving Blocks/Tags for minecraft:block
 93c42cff1dd8765d7ccc5bd29c55cefd12a0b3f4 data\minecraft\tags\blocks\infiniburn_end.json
+e977066f33ce47c8ecc220e62cbd520e07a08b56 data\minecraft\tags\blocks\mineable\pickaxe.json
 dc3e3489d759c2996e02fdc71f81c1c4f4b233d9 data\minecraft\tags\blocks\needs_diamond_tool.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\sniffer_diggable_block.json
 b8c20f1cfdbba4e56c1b5e59710cd4b083c20a60 data\thrivingblocks\tags\blocks\nether_wart_plantable_on.json
