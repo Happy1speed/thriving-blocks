@@ -83,6 +83,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_MOSS_GRASS_BLOCK);
                         entries.add(ModBlocks.GRASS_CARPET_BLOCK);
+                        entries.add(ModBlocks.RAGGED_GRASS_VINES_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_MOSSY_COBBLESTONE_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_MOSSY_STONE_BRICKS_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_CRACKED_MOSSY_STONE_BRICKS_BLOCK);
@@ -133,6 +134,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANCIENT_SOUL_SAND_BLOCK);
                         entries.add(ModBlocks.ANCIENT_EMERALD_BLOCK);
                         entries.add(ModBlocks.OLD_GRASS_BLOCK);
+                        entries.add(ModBlocks.OLD_GRASS_CARPET_BLOCK);
+                        entries.add(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK);
                         entries.add(ModBlocks.OLD_OAK_LEAVES);
                         entries.add(ModBlocks.OLD_JUNGLE_LEAVES);
                         entries.add(ModBlocks.OLD_SPRUCE_LEAVES);

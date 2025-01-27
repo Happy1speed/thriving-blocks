@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thrivingblocks:directional_old_grass_block"
+  },
+  "result": "minecraft:grass_block"
+}

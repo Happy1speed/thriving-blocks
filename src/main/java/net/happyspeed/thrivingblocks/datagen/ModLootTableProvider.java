@@ -73,6 +73,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRASSY_SOUL_SOIL_BLOCK, (Block block) -> drops((Block)block, Blocks.SOUL_SOIL));
         addDrop(ModBlocks.FULL_DIRT_PATH_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
         addDrop(ModBlocks.OLD_GRASS_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
+        addDrop(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
         addDrop(ModBlocks.OLD_OAK_LEAVES, leavesDrops(ModBlocks.OLD_OAK_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.OLD_JUNGLE_LEAVES, leavesDrops(ModBlocks.OLD_JUNGLE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.OLD_SPRUCE_LEAVES, leavesDrops(ModBlocks.OLD_SPRUCE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
@@ -146,6 +147,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_STONE_STAIRS_BLOCK);
         slabDrops(ModBlocks.END_STONE_SLAB);
         addDrop(ModBlocks.END_STONE_STAIRS_BLOCK);
+        addDrop(ModBlocks.OLD_GRASS_CARPET_BLOCK);
         addDropWithSilkTouch(ModBlocks.GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.BLACK_GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.WHITE_GLASS_LAYER);
@@ -186,6 +188,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK, (Block block) -> multifaceGrowthDrops(block, WITH_SILK_TOUCH_OR_SHEARS));
         addDrop(ModBlocks.AZALEA_DROOP_VINES_BLOCK, (Block block) -> vineMultifaceGrowthDrops(block, WITH_SILK_TOUCH_OR_SHEARS));
         addDrop(ModBlocks.FLOWERING_AZALEA_DROOP_VINES_BLOCK, (Block block) -> vineMultifaceGrowthDrops(block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.RAGGED_GRASS_VINES_BLOCK, (Block block) -> vineMultifaceGrowthDrops(block, WITH_SILK_TOUCH_OR_SHEARS));
         addDrop(ModBlocks.SMALL_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.TINY_SHARP_GRASS, this::grassDrops);
         addDrop(ModBlocks.OLD_GROWTH_GRASS, this::grassDrops);

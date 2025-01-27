@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "thrivingblocks:block/directional_old_grass_block",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "thrivingblocks:block/directional_old_grass_block",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "thrivingblocks:block/directional_old_grass_block"
+    },
+    "facing=west": {
+      "model": "thrivingblocks:block/directional_old_grass_block",
+      "y": 90
+    }
+  }
+}

@@ -513,11 +513,20 @@ public class ModBlocks {
     public static final Block OLD_GRASS_BLOCK = registerBlock("old_grass_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
 
+    public static final Block DIRECTIONAL_OLD_GRASS_BLOCK = registerBlock("directional_old_grass_block",
+            new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+
     public static final Block END_STONE_SLAB = registerBlock("end_stone_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
+    public static final Block OLD_GRASS_CARPET_BLOCK = registerBlock("old_grass_carpet",
+            new GrassCarpetBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.MOSS_BLOCK).replaceable().breakInstantly()));
+
     public static final Block END_STONE_STAIRS_BLOCK = registerBlock("end_stone_stairs",
             new StairsBlock(Blocks.END_STONE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+    public static final Block RAGGED_GRASS_VINES_BLOCK = registerBlock("ragged_grass_vines",
+            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE).breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

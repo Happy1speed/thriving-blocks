@@ -26,7 +26,7 @@ import org.spongepowered.asm.mixin.Unique;
 
 public class GrassCarpetBlock
         extends Block {
-    protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0, -1.0, 0.0, 16.0, 0.0, 16.0);
+    protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0, -1.0, 0.0, 16.0, 0.4, 16.0);
 
     public GrassCarpetBlock(AbstractBlock.Settings settings) {
         super(settings);
@@ -42,7 +42,7 @@ public class GrassCarpetBlock
         return SHAPE;
     }
     protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
-        return !floor.isOf(ModBlocks.GRASS_CARPET_BLOCK) && !floor.isOf(ModBlocks.FLAT_MOSS_CARPET_BLOCK) && !floor.isOf(Blocks.AIR);
+        return !floor.isOf(ModBlocks.GRASS_CARPET_BLOCK) && !floor.isOf(ModBlocks.FLAT_MOSS_CARPET_BLOCK) && !floor.isOf(Blocks.AIR) && !floor.isOf(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK);
     }
 
     @Override

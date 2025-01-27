@@ -201,8 +201,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTALLINE_AMETHYST_BLOCK, Blocks.AMETHYST_BLOCK);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.END_STONE_SLAB, Blocks.END_STONE, 2);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OLD_GRASS_BLOCK, Blocks.GRASS_BLOCK);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK, Blocks.GRASS_BLOCK);
         offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.END_STONE_STAIRS_BLOCK, Blocks.END_STONE);
-
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OLD_GRASS_CARPET_BLOCK, ModBlocks.OLD_GRASS_BLOCK, 4);
+        offer2x2CompactingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OLD_GRASS_BLOCK, ModBlocks.OLD_GRASS_CARPET_BLOCK);
+        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAGGED_GRASS_VINES_BLOCK, Blocks.VINE);
 
         //Natures spirit compat
 //        offerTwoWayStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_BLOCK, Blocks.MOSSY_COBBLESTONE);

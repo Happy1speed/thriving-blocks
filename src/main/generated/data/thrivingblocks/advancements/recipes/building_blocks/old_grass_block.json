@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_old_grass_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thrivingblocks:old_grass_carpet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thrivingblocks:old_grass_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_old_grass_carpet",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thrivingblocks:old_grass_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

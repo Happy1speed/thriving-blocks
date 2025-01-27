@@ -157,6 +157,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_MOSSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.GRASSY_COBBLESTONE_BLOCK)
                 .add(ModBlocks.OLD_GRASS_BLOCK)
+                .add(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK)
                 .add(Blocks.CRACKED_DEEPSLATE_BRICKS)
                 .add(Blocks.CRACKED_STONE_BRICKS)
                 .add(Blocks.CRACKED_NETHER_BRICKS)
@@ -252,6 +253,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FULL_DIRT_PATH_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
+                .add(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)
@@ -294,6 +296,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FULL_DIRT_PATH_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
+                .add(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
 //                .add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
@@ -328,6 +331,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FULL_DIRT_PATH_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
+                .add(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK)
                 .add(ModBlocks.SHORT_GRASS_BLOCK);
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
@@ -367,6 +371,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FULL_DIRT_PATH_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
+                .add(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
 //                .add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
