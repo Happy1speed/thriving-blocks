@@ -198,6 +198,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FULL_DIRT_PATH_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
+                .add(ModBlocks.DYNAMIC_MOSS_BLOCK)
+                .add(ModBlocks.GRASSY_DYNAMIC_MOSS_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)
@@ -254,6 +256,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
                 .add(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK)
+                .add(ModBlocks.GRASSY_DYNAMIC_MOSS_BLOCK)
+                .add(ModBlocks.DYNAMIC_MOSS_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK)
@@ -297,6 +301,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
                 .add(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK)
+                .add(ModBlocks.DYNAMIC_MOSS_BLOCK)
+                .add(ModBlocks.GRASSY_DYNAMIC_MOSS_BLOCK)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
 //                .add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK)
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
@@ -332,6 +338,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
                 .add(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK)
+                .add(ModBlocks.GRASSY_DYNAMIC_MOSS_BLOCK)
                 .add(ModBlocks.SHORT_GRASS_BLOCK);
 //                .add(NaturesSpiritModBlocks.PURE_SANDY_SOIL_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
@@ -372,6 +379,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRASSY_SOUL_SAND_BLOCK)
                 .add(ModBlocks.GRASSY_SOUL_SOIL_BLOCK)
                 .add(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK)
+                .add(ModBlocks.DYNAMIC_MOSS_BLOCK)
+                .add(ModBlocks.GRASSY_DYNAMIC_MOSS_BLOCK)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK);
 //                .add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK)
 //                .add(NaturesSpiritModBlocks.ROCKY_SANDY_SOIL_BLOCK)
@@ -404,6 +413,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK)
                 .add(ModBlocks.AZALEA_DROOP_VINES_BLOCK)
                 .add(ModBlocks.FLOWERING_AZALEA_DROOP_VINES_BLOCK)
+                .add(ModBlocks.DYNAMIC_MOSS_BLOCK)
+                .add(ModBlocks.GRASSY_DYNAMIC_MOSS_BLOCK)
                 .add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
                 //.add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK);
         getOrCreateTagBuilder(BlockTags.BUTTONS)
@@ -445,6 +456,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(Blocks.DECORATED_POT)
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
                 .add(ModBlocks.GRASSY_MOSS_BLOCK)
+                .add(ModBlocks.DYNAMIC_MOSS_BLOCK)
+                .add(ModBlocks.GRASSY_DYNAMIC_MOSS_BLOCK)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
         getOrCreateTagBuilder(ModTags.Blocks.SHORT_SMALL_DRIPLEAF_PLACEABLE)
                 .add(ModBlocks.GRASSY_CLAY_BLOCK)
@@ -456,6 +469,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSS_GRASS_BLOCK)
                 .add(ModBlocks.GRASSY_MOSS_BLOCK)
                 .add(ModBlocks.NEAT_SHORT_SMALL_DRIPLEAF)
+                .add(ModBlocks.DYNAMIC_MOSS_BLOCK)
+                .add(ModBlocks.GRASSY_DYNAMIC_MOSS_BLOCK)
                 .add(ModBlocks.GRASSY_PACKED_MUD_BLOCK);
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.OLD_DEAD_BUSH_BLOCK)
@@ -479,6 +494,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DYNAMIC_MOSS_VINES_BLOCK)
                 .add(ModBlocks.AZALEA_DROOP_VINES_BLOCK)
                 .add(ModBlocks.FLOWERING_AZALEA_DROOP_VINES_BLOCK)
+                .add(ModBlocks.DYNAMIC_MOSS_BLOCK)
+                .add(ModBlocks.GRASSY_DYNAMIC_MOSS_BLOCK)
                 .add(ModBlocks.NEAT_SMALL_DRIPLEAF);
         getOrCreateTagBuilder(BlockTags.DEAD_BUSH_MAY_PLACE_ON)
                 .add(ModBlocks.SMOOTH_SAND_BLOCK)

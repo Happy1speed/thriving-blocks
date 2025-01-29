@@ -525,8 +525,14 @@ public class ModBlocks {
     public static final Block END_STONE_STAIRS_BLOCK = registerBlock("end_stone_stairs",
             new StairsBlock(Blocks.END_STONE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
+    public static final Block DYNAMIC_MOSS_BLOCK = registerBlock("dynamic_moss_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
+
     public static final Block RAGGED_GRASS_VINES_BLOCK = registerBlock("ragged_grass_vines",
             new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE).breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block GRASSY_DYNAMIC_MOSS_BLOCK = registerBlock("grassy_dynamic_moss_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

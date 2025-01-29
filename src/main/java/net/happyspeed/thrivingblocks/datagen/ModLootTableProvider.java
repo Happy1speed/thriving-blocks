@@ -73,6 +73,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRASSY_SOUL_SOIL_BLOCK, (Block block) -> drops((Block)block, Blocks.SOUL_SOIL));
         addDrop(ModBlocks.FULL_DIRT_PATH_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
         addDrop(ModBlocks.OLD_GRASS_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
+        addDrop(ModBlocks.GRASSY_DYNAMIC_MOSS_BLOCK, (Block block) -> drops((Block)block, ModBlocks.DYNAMIC_MOSS_BLOCK));
         addDrop(ModBlocks.DIRECTIONAL_OLD_GRASS_BLOCK, (Block block) -> drops((Block)block, Blocks.DIRT));
         addDrop(ModBlocks.OLD_OAK_LEAVES, leavesDrops(ModBlocks.OLD_OAK_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
         addDrop(ModBlocks.OLD_JUNGLE_LEAVES, leavesDrops(ModBlocks.OLD_JUNGLE_LEAVES, Block.getBlockFromItem(Items.STICK), 0.05f));
@@ -148,6 +149,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         slabDrops(ModBlocks.END_STONE_SLAB);
         addDrop(ModBlocks.END_STONE_STAIRS_BLOCK);
         addDrop(ModBlocks.OLD_GRASS_CARPET_BLOCK);
+        addDrop(ModBlocks.DYNAMIC_MOSS_BLOCK);
         addDropWithSilkTouch(ModBlocks.GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.BLACK_GLASS_LAYER);
         addDropWithSilkTouch(ModBlocks.WHITE_GLASS_LAYER);

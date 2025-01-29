@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thrivingblocks:block/grassy_dynamic_moss_block",
+        "y": 180
+      },
+      {
+        "model": "thrivingblocks:block/grassy_dynamic_moss_block",
+        "y": 90
+      },
+      {
+        "model": "thrivingblocks:block/grassy_dynamic_moss_block",
+        "y": 270
+      },
+      {
+        "model": "thrivingblocks:block/grassy_dynamic_moss_block"
+      }
+    ]
+  }
+}

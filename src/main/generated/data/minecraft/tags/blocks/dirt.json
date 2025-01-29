@@ -56,6 +56,8 @@
     "thrivingblocks:full_dirt_path",
     "thrivingblocks:grassy_soul_sand",
     "thrivingblocks:grassy_soul_soil",
+    "thrivingblocks:dynamic_moss_block",
+    "thrivingblocks:grassy_dynamic_moss_block",
     "thrivingblocks:short_grass_block"
   ]
 }

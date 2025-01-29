@@ -82,6 +82,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLAT_MOSS_CARPET_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_FLAT_MOSS_CARPET_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_MOSS_GRASS_BLOCK);
+                        entries.add(ModBlocks.DYNAMIC_MOSS_BLOCK);
+                        entries.add(ModBlocks.GRASSY_DYNAMIC_MOSS_BLOCK);
                         entries.add(ModBlocks.GRASS_CARPET_BLOCK);
                         entries.add(ModBlocks.RAGGED_GRASS_VINES_BLOCK);
                         entries.add(ModBlocks.DYNAMIC_MOSSY_COBBLESTONE_BLOCK);

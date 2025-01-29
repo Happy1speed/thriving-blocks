@@ -5,8 +5,8 @@
     "vine": "thrivingblocks:block/grass_top_ragged"
   },
   "elements": [
-    {   "from": [ 0, 0, 0.2 ],
-      "to": [ 16, 16, 0.2 ],
+    {   "from": [ 0, 0, 0.05 ],
+      "to": [ 16, 16, 0.05 ],
       "faces": {
         "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#vine", "rotation": 270, "tintindex": 0 },
         "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#vine", "rotation": 270, "tintindex": 0 }
