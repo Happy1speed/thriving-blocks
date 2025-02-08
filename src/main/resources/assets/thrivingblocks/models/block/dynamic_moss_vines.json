@@ -1,5 +1,5 @@
 {
-  "ambientocclusion": false,
+  "ambientocclusion": true,
   "textures": {
     "particle": "thrivingblocks:block/dynamic_moss_overlay",
     "vine": "thrivingblocks:block/dynamic_moss_overlay"

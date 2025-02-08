@@ -10,6 +10,7 @@ import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.client.render.block.entity.BlockEntityRenderer;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -533,6 +534,10 @@ public class ModBlocks {
 
     public static final Block GRASSY_DYNAMIC_MOSS_BLOCK = registerBlock("grassy_dynamic_moss_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+
+    public static final Block PHANTOM_CUBE_BLOCK = registerBlock("phantom_cube",
+            new PhantomCube(AbstractBlock.Settings.create().replaceable().noCollision().noBlockBreakParticles().pistonBehavior(PistonBehavior.DESTROY).breakInstantly()));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

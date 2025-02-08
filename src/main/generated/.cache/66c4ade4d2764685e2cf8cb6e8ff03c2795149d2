@@ -1,4 +1,4 @@
-// 1.20.1	2025-01-28T18:27:29.7150636	Thriving Blocks/Tags for minecraft:block
+// 1.20.1	2025-02-06T22:49:21.0148897	Thriving Blocks/Tags for minecraft:block
 e977066f33ce47c8ecc220e62cbd520e07a08b56 data\minecraft\tags\blocks\mineable\pickaxe.json
 93c42cff1dd8765d7ccc5bd29c55cefd12a0b3f4 data\minecraft\tags\blocks\infiniburn_end.json
 dc3e3489d759c2996e02fdc71f81c1c4f4b233d9 data\minecraft\tags\blocks\needs_diamond_tool.json
@@ -6,8 +6,8 @@ f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\sniffer_digg
 b8c20f1cfdbba4e56c1b5e59710cd4b083c20a60 data\thrivingblocks\tags\blocks\nether_wart_plantable_on.json
 f384bd03a25b7a132fff8767add5d5c61d116bb2 data\minecraft\tags\blocks\mushroom_grow_block.json
 679912697daa5ad3acd22813da5fb45995adaac2 data\thrivingblocks\tags\blocks\short_small_dripleaf_placeable.json
-d566537716387dc5e894446595e04ce671e4adfa data\thrivingblocks\tags\blocks\cancels_above_tree_growth.json
 4b8cbb1fd8e88917e00e9e4fe05977a1d4a512cd data\minecraft\tags\blocks\climbable.json
+d566537716387dc5e894446595e04ce671e4adfa data\thrivingblocks\tags\blocks\cancels_above_tree_growth.json
 8af269549ac78b43ed31867f4d1f430d0ba5571b data\minecraft\tags\blocks\small_dripleaf_placeable.json
 9f02510859bf94ac9a53f5076726fccbdcbc3ab3 data\minecraft\tags\blocks\stairs.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\moss_replaceable.json
@@ -18,9 +18,9 @@ f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\moss_replace
 21cf52c4a53853cffe249cc7265dcc969742f7b9 data\minecraft\tags\blocks\dirt.json
 077d90494c3f81507bfe196a091f893a00bca54f data\minecraft\tags\blocks\bamboo_plantable_on.json
 91a05e37a428427698c5973bafdde556346dddd0 data\minecraft\tags\blocks\buttons.json
-178b91c560e5f8825d04fd3f664ff68c9886ff5a data\minecraft\tags\blocks\mineable\axe.json
 c375170f0437b6de501c4f004f8d7a480f449bab data\minecraft\tags\blocks\valid_spawn.json
 26d269eaa4e51567fe4077a216be1b3630cac436 data\minecraft\tags\blocks\mineable\hoe.json
+178b91c560e5f8825d04fd3f664ff68c9886ff5a data\minecraft\tags\blocks\mineable\axe.json
 9732d5fe5a7a598b92a92d8f027bc6f7399c7b24 data\minecraft\tags\blocks\sword_efficient.json
 f70027a894c29c6f4418737f64c1e6275230e194 data\minecraft\tags\blocks\lush_ground_replaceable.json
 db067494eaf460fcdc3128ff452ca4e765855121 data\minecraft\tags\blocks\sand.json

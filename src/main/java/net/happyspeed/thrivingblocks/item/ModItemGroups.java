@@ -147,6 +147,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.OLD_GROWTH_GRASS);
                         entries.add(ModBlocks.SMALL_SHARP_GRASS);
                         entries.add(ModBlocks.TINY_SHARP_GRASS);
+                        entries.add(ModBlocks.PHANTOM_CUBE_BLOCK);
 
                     }).build());
     public static final ItemGroup THRIVING_BLOCKS_MISC_GROUP = Registry.register(Registries.ITEM_GROUP,

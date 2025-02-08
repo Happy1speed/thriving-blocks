@@ -94,6 +94,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DIRECTIONAL_QUARTZ_BRICKS);
         addDrop(ModBlocks.STONE_PATH_BLOCK);
         addDrop(ModBlocks.STONE_PATH_STAIRS);
+        addDrop(ModBlocks.PHANTOM_CUBE_BLOCK);
         addDrop(ModBlocks.DYNAMIC_MOSSY_STONE_BRICKS_BLOCK);
         addDrop(ModBlocks.DYNAMIC_MOSSY_COBBLESTONE_BLOCK);
         addDrop(ModBlocks.OLD_GLOWSTONE_BLOCK);

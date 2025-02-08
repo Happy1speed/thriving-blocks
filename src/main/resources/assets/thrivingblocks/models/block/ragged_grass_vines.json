@@ -1,5 +1,5 @@
 {
-  "ambientocclusion": false,
+  "ambientocclusion": true,
   "textures": {
     "particle": "thrivingblocks:block/grass_top_ragged",
     "vine": "thrivingblocks:block/grass_top_ragged"
