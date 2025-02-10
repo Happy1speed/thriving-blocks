@@ -52,15 +52,15 @@ public class PhantomCube extends Block {
         return super.hasDynamicBounds();
     }
 
-    @Override
-    public boolean isTransparent(BlockState state, BlockView world, BlockPos pos) {
-        return true;
-    }
+//    @Override
+//    public boolean isTransparent(BlockState state, BlockView world, BlockPos pos) {
+//        return true;
+//    }
 
-    @Override
-    public float getAmbientOcclusionLightLevel(BlockState state, BlockView world, BlockPos pos) {
-        return 1.0f;
-    }
+//    @Override
+//    public float getAmbientOcclusionLightLevel(BlockState state, BlockView world, BlockPos pos) {
+//        return 1.0f;
+//    }
 
     @Override
     public boolean isSideInvisible(BlockState state, BlockState stateFrom, Direction direction) {

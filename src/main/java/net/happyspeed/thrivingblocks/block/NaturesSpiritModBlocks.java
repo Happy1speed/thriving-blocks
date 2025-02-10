@@ -102,6 +102,9 @@ public class NaturesSpiritModBlocks {
     public static final Block GRASSY_CHERT_BLOCK = registerBlock("grassy_chert",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(ModSounds.GRASSY_STONE_BLOCK_SOUNDS)));
 
+    public static final Block RED_MOSS_VINES_BLOCK = registerBlock("red_moss_vines",
+            new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE).breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

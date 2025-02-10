@@ -181,6 +181,7 @@ public class ThrivingBlocksModClient implements ClientModInitializer {
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.GRASSY_PINK_SAND_BLOCK, RenderLayer.getCutout());
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.GRASSY_PINK_SANDSTONE_BLOCK, RenderLayer.getCutout());
             BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.GRASSY_CHERT_BLOCK, RenderLayer.getCutout());
+            BlockRenderLayerMap.INSTANCE.putBlock(NaturesSpiritModBlocks.RED_MOSS_VINES_BLOCK, RenderLayer.getCutout());
         }
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {

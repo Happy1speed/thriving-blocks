@@ -36,6 +36,7 @@ public class NatureModItemGroups {
                         entries.add(NaturesSpiritModBlocks.RED_MOSSY_COBBLED_TRAVERTINE_WALL);
                         entries.add(NaturesSpiritModBlocks.FLAT_RED_MOSS_CARPET_BLOCK);
                         entries.add(NaturesSpiritModBlocks.RED_MOSS_GRASS_BLOCK);
+                        entries.add(NaturesSpiritModBlocks.RED_MOSS_VINES_BLOCK);
                         entries.add(NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_BLOCK);
                         entries.add(NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_SLAB);
                         entries.add(NaturesSpiritModBlocks.RED_MOSSY_COBBLESTONE_STAIRS);
