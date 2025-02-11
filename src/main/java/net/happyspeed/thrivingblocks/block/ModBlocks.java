@@ -536,7 +536,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
 
     public static final Block PHANTOM_CUBE_BLOCK = registerBlock("phantom_cube",
-            new PhantomCube(AbstractBlock.Settings.create().replaceable().noCollision().noBlockBreakParticles().pistonBehavior(PistonBehavior.DESTROY).breakInstantly().suffocates(Blocks::never).blockVision(Blocks::never)));
+            new PhantomCube(AbstractBlock.Settings.create().replaceable().noCollision().noBlockBreakParticles().pistonBehavior(PistonBehavior.BLOCK).sounds(BlockSoundGroup.AMETHYST_CLUSTER)));
 
 
     private static Block registerBlock(String name, Block block) {

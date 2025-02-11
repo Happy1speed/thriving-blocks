@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "natures_spirit:item/tall_sedge_grass",
+    "layer1": "thrivingblocks:block/thriving_blocks_overlay4"
+  }
+}

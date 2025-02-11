@@ -105,6 +105,12 @@ public class NaturesSpiritModBlocks {
     public static final Block RED_MOSS_VINES_BLOCK = registerBlock("red_moss_vines",
             new VineMultifaceBlock(FabricBlockSettings.copyOf(Blocks.VINE).breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
 
+    public static final Block NEAT_SEDGE_GRASS = registerBlock("neat_sedge_grass",
+            new WaterloggableGrass(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block NEAT_TALL_SEDGE_GRASS = registerBlock("neat_tall_sedge_grass",
+            new WaterloggableTallGrass(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ThrivingBlocksMod.MOD_ID, name), block);

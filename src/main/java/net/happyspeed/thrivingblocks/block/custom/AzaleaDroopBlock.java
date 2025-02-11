@@ -17,7 +17,7 @@ import net.minecraft.world.WorldView;
 
 public class AzaleaDroopBlock
         extends Block {
-    protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0, -1.0, 0.0, 16.0, 0.0, 16.0);
+    protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0, -1.0, 0.0, 16.0, 0.4, 16.0);
 
     public AzaleaDroopBlock(Settings settings) {
         super(settings);

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "natures_spirit:sedge_grass"
+  },
+  "result": "thrivingblocks:neat_sedge_grass"
+}

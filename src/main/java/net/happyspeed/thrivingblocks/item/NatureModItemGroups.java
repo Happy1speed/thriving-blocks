@@ -49,6 +49,8 @@ public class NatureModItemGroups {
                         entries.add(NaturesSpiritModBlocks.NEAT_LARGE_LUSH_FERN);
                         entries.add(NaturesSpiritModBlocks.NEAT_FLAXEN_FERN);
                         entries.add(NaturesSpiritModBlocks.NEAT_LARGE_FLAXEN_FERN);
+                        entries.add(NaturesSpiritModBlocks.NEAT_SEDGE_GRASS);
+                        entries.add(NaturesSpiritModBlocks.NEAT_TALL_SEDGE_GRASS);
                     }).build());
     public static void registerItemGroups() {
         ThrivingBlocksMod.LOGGER.info("Registering Item Groups for " + ThrivingBlocksMod.MOD_ID);
